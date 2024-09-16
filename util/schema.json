@@ -1,0 +1,107 @@
+{
+  "schema1": {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "https://qrcode-custom.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://qrcode-custom.com/searchresults?q=${search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  },
+  "schema2": {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "@id": "kg:/g/11vcl7mn3f",
+    "url": "https://qrcode-custom.com/",
+    "mainentityofpage":
+      "https://www.google.com/search?q=qrcode-custom&kponly=&kgmid=/g/11vcl7mn3f",
+    "alternatename": [
+      "qrcode-custom",
+      "qrcode generator",
+      "qrcode",
+      "qrcode custom generator",
+      "qrcode",
+      "qrcode card",
+      "qrcode phone",
+      "qrcode location",
+      "qrcode event",
+      "qrcode url",
+      "qrcode text"
+    ],
+    "actionableFeedbackPolicy": "https://qrcode-custom.com/dieu-khoan-su-dung",
+    "award":
+      "Free QR Code Generator - Create QR codes custom with logo",
+    "disambiguatingdescription":
+      "Free QR Code Generator for URL, vCard, location, event .... Add logo, custom colors, frames, and download in high print quality. Get your free QR Codes now!",
+    "slogan": "Free QR Code Generator for URL, vCard, location, event ... Get your free QR Codes now! ",
+    "foundingDate": "2024-06-01",
+    "numberOfEmployees": {
+      "@type": "QuantitativeValue",
+      "minvalue": "50",
+      "maxvalue": "300",
+      "value": "140"
+    },
+    "foundingLocation": {
+      "@type": "place",
+      "name": "Hồ Chí Minh",
+      "url": "https://www.wikidata.org/wiki/Q1854",
+      "address": "122/7/2 đường số 11, phường Trường Thọ, Thành phố Thủ Đức"
+    },
+    "additionaltype": [
+      "https://en.wikipedia.org/wiki/Real_estate",
+      "https://en.wikipedia.org/wiki/Boarding_house"
+    ],
+    "logo": "https://qrcode-custom.com/logo.png",
+    "email": "qrcodecustomgenerator@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Thủ Đức",
+      "addressCountry": "Việt Nam",
+      "addressRegion": "Hồ Chí Minh",
+      "postalCode": "72100",
+      "streetAddress": "122/7/2 đường số 11, phường Trường Thọ, Thành phố Thủ Đức"
+    },
+    "description":
+      "Free QR Code Generator for URL, vCard, location, event .... Add logo, custom colors, frames, and download in high print quality. Get your free QR Codes now!",
+    "name": "qrcode-custom",
+    "telephone": "",
+    "potentialAction": {
+      "@type": "SubscribeAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://qrcode-custom.com/about",
+        "inLanguage": "vn",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/IOSPlatform",
+          "http://schema.org/AndroidPlatform"
+        ]
+      },
+      "result": {
+        "@type": "Thing",
+        "name": "Mailing List"
+      }
+    },
+    "sameAs": [
+      "https://www.producthunt.com/@custom_qrcode",
+      "https://www.beatstars.com/qrcodecustomgenerator",
+      "https://qiita.com/qrcodecustomgenerator",
+      "https://www.behance.net/customqrcode",
+      "https://www.deviantart.com/qrcodecustom",
+      "https://x.com/QrcodeCustom",
+      "https://muckrack.com/qrcode-custom",
+      "https://www.twitch.tv/qrcodecustom",
+      "https://pantip.com/profile/8226011#topics",
+      "https://www.wattpad.com/user/qrcodecustom",
+      "https://about.me/qrcodecustom",
+      "https://www.instapaper.com/p/qrcodecustom",
+      "https://www.blogger.com/u/5/profile/16473933470655689105",
+      "https://www.reverbnation.com/qrcodecustom",
+      "https://www.reddit.com/user/Prudent_Sir1091/",
+      "https://giphy.com/channel/qrcodecustom",
+      "https://www.goodreads.com/user/show/179029977-qrcodecustom",
+      "https://qrcodecustom.livejournal.com/profile/"
+    ]
+  }
+}
