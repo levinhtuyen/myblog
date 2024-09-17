@@ -28,7 +28,6 @@ export default defineNuxtConfig({
     }
   },
   ssr: true,
-
   components: true,
   typescript: {
     strict: true,
@@ -66,7 +65,8 @@ export default defineNuxtConfig({
     '@nuxtjs/critters',
     '@nuxtjs/web-vitals',
     '@nuxt/devtools',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    '@nuxt/image'
   ],
   gtag: {
     id: ''

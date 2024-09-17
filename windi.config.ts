@@ -6,6 +6,10 @@ export default defineConfig({
   shortcuts: {
     'text-primary': 'text-[#00DC82]'
   },
+  extract: {
+    include: ['**/*.{vue,html,jsx,tsx}'],
+    exclude: ['node_modules', '.git']
+  },
   theme: {
     extend: {
       screens: {

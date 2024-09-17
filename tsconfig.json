@@ -6,12 +6,7 @@
     "skipLibCheck": true,
     "ignoreDeprecations": "5.0",
     "esModuleInterop": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "types": [
-      "nuxt-windicss",
-      "@pinia/nuxt",
-      "@nuxt/types"
-    ]
+    "types": ["nuxt-windicss", "@pinia/nuxt", "@nuxt/types"]
   },
   "ts-node": {
     "esm": true

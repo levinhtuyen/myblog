@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="pagetop"  class="fixed hidden cursor-pointer bottom-8 right-12"  @click="toTop">
-      <img style="" src="@/assets/svg/backtotop.svg" alt="Free QR Code Generator - Create QR codes custom with logo"/>
+      <!-- <img style="" src="@/assets/svg/backtotop.svg" alt="Free QR Code Generator - Create QR codes custom with logo"/> -->
     </div>
   </div>
 </template>
@@ -39,3 +39,7 @@ onMounted(() => {
   }
 }
 </style>
+
+function onMounted(arg0: () => void) {
+  throw new Error("Function not implemented.")
+}
