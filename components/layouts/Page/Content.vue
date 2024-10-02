@@ -18,37 +18,13 @@
           <a
             href="/post/anh-quen-roi"
             class="group block relative rounded-lg bg-white border border-gray-200 overflow-hidden dark:bg-slate-800 dark:border-slate-800"
-            ><img
-              onerror="this.setAttribute('data-error', 1)"
+          >
+            <NuxtImg
               width="600"
               height="300"
-              alt="Chuyện trời mưa"
-              data-nuxt-img=""
-              srcset="https://kytosai.com/s_600x300/images/post-4.png 1x"
-              style="
-                pointer-events: none;
-                position: absolute;
-                top: 0px;
-                left: 0px;
-                width: 100%;
-                height: 100%;
-                max-width: 100%;
-                max-height: 100%;
-                z-index: -1;
-              "
-              src="https://kytosai.com/s_600x300/images/post-4.png"
-              class="pdp-lcp" /><img
-              onerror="this.setAttribute('data-error', 1)"
-              width="600"
-              height="300"
-              alt="Anh quen rồi"
-              loading="lazy"
-              data-nuxt-img=""
-              src="https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/fef8654d-67c6-415a-85ea-b8f1d39aefb2.jpg"
-              srcset="
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/fef8654d-67c6-415a-85ea-b8f1d39aefb2.jpg  1x,
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/fef8654d-67c6-415a-85ea-b8f1d39aefb2.jpg 2x
-              " />
+              alt="lChuyện trời mưa"
+              class=""
+              src="/images/logo-icon.svg" />
             <div
               class="bg-black/10 absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-200 transition-all group-hover:opacity-100"
             ></div
@@ -88,17 +64,16 @@
           <a
             href="/post/ky-uc"
             class="group block relative rounded-lg bg-white border border-gray-200 overflow-hidden dark:bg-slate-800 dark:border-slate-800"
-            ><!----><img
-              onerror="this.setAttribute('data-error', 1)"
+            ><!----><NuxtImg
               width="600"
               height="300"
               alt="Ký ức"
               loading="lazy"
               data-nuxt-img=""
-              src="https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/c68bec8b-3e8f-414d-a01c-489ba7d82b97.jpg"
+              src="/images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/c68bec8b-3e8f-414d-a01c-489ba7d82b97.jpg"
               srcset="
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/c68bec8b-3e8f-414d-a01c-489ba7d82b97.jpg  1x,
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/c68bec8b-3e8f-414d-a01c-489ba7d82b97.jpg 2x
+                /images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/c68bec8b-3e8f-414d-a01c-489ba7d82b97.jpg  1x,
+                /images/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/c68bec8b-3e8f-414d-a01c-489ba7d82b97.jpg 2x
               " />
             <div
               class="bg-black/10 absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-200 transition-all group-hover:opacity-100"
@@ -134,17 +109,16 @@
           <a
             href="/post/am-ap-la-khi"
             class="group block relative rounded-lg bg-white border border-gray-200 overflow-hidden dark:bg-slate-800 dark:border-slate-800"
-            ><!----><img
-              onerror="this.setAttribute('data-error', 1)"
+            ><!----><NuxtImg
               width="600"
               height="300"
               alt="Ấm áp là khi..."
               loading="lazy"
               data-nuxt-img=""
-              src="https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/9a7e2295-6cdb-4e15-b878-754c0ec3bfae.jpg"
+              src="/images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/9a7e2295-6cdb-4e15-b878-754c0ec3bfae.jpg"
               srcset="
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/9a7e2295-6cdb-4e15-b878-754c0ec3bfae.jpg  1x,
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/9a7e2295-6cdb-4e15-b878-754c0ec3bfae.jpg 2x
+                /images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/9a7e2295-6cdb-4e15-b878-754c0ec3bfae.jpg  1x,
+                /images/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/9a7e2295-6cdb-4e15-b878-754c0ec3bfae.jpg 2x
               " />
             <div
               class="bg-black/10 absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-200 transition-all group-hover:opacity-100"
@@ -182,17 +156,16 @@
           <a
             href="/post/ngay-em-gian-toi"
             class="group block relative rounded-lg bg-white border border-gray-200 overflow-hidden dark:bg-slate-800 dark:border-slate-800"
-            ><!----><img
-              onerror="this.setAttribute('data-error', 1)"
+            ><!----><NuxtImg
               width="600"
               height="300"
               alt="Ngày em giận tôi!"
               loading="lazy"
               data-nuxt-img=""
-              src="https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/975dc6ab-6a31-498b-88d2-d0db6c8795c3.jpg"
+              src="/images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/975dc6ab-6a31-498b-88d2-d0db6c8795c3.jpg"
               srcset="
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/975dc6ab-6a31-498b-88d2-d0db6c8795c3.jpg  1x,
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/975dc6ab-6a31-498b-88d2-d0db6c8795c3.jpg 2x
+                /images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/975dc6ab-6a31-498b-88d2-d0db6c8795c3.jpg  1x,
+                /images/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/975dc6ab-6a31-498b-88d2-d0db6c8795c3.jpg 2x
               " />
             <div
               class="bg-black/10 absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-200 transition-all group-hover:opacity-100"
@@ -231,17 +204,16 @@
           <a
             href="/post/tram"
             class="group block relative rounded-lg bg-white border border-gray-200 overflow-hidden dark:bg-slate-800 dark:border-slate-800"
-            ><!----><img
-              onerror="this.setAttribute('data-error', 1)"
+            ><!----><NuxtImg
               width="600"
               height="300"
               alt="Trầm"
               loading="lazy"
               data-nuxt-img=""
-              src="https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/382f4598-4c00-4a16-a662-f15733903598.jpg"
+              src="/images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/382f4598-4c00-4a16-a662-f15733903598.jpg"
               srcset="
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/382f4598-4c00-4a16-a662-f15733903598.jpg  1x,
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/382f4598-4c00-4a16-a662-f15733903598.jpg 2x
+                /images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/382f4598-4c00-4a16-a662-f15733903598.jpg  1x,
+                /images/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/382f4598-4c00-4a16-a662-f15733903598.jpg 2x
               " />
             <div
               class="bg-black/10 absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-200 transition-all group-hover:opacity-100"
@@ -279,17 +251,16 @@
           <a
             href="/post/bat-dau-tu-mot-ket-thuc"
             class="group block relative rounded-lg bg-white border border-gray-200 overflow-hidden dark:bg-slate-800 dark:border-slate-800"
-            ><!----><img
-              onerror="this.setAttribute('data-error', 1)"
+            ><!----><NuxtImg
               width="600"
               height="300"
               alt="Bắt đầu từ một kết thúc"
               loading="lazy"
               data-nuxt-img=""
-              src="https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/ae768092-1f1e-47a4-addb-aa707e78b439.jpg"
+              src="/images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/ae768092-1f1e-47a4-addb-aa707e78b439.jpg"
               srcset="
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/ae768092-1f1e-47a4-addb-aa707e78b439.jpg  1x,
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/ae768092-1f1e-47a4-addb-aa707e78b439.jpg 2x
+                /images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/ae768092-1f1e-47a4-addb-aa707e78b439.jpg  1x,
+                /images/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/ae768092-1f1e-47a4-addb-aa707e78b439.jpg 2x
               " />
             <div
               class="bg-black/10 absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-200 transition-all group-hover:opacity-100"
@@ -325,17 +296,16 @@
           <a
             href="/post/so-khi-thich-mot-ai-do"
             class="group block relative rounded-lg bg-white border border-gray-200 overflow-hidden dark:bg-slate-800 dark:border-slate-800"
-            ><!----><img
-              onerror="this.setAttribute('data-error', 1)"
+            ><!----><NuxtImg
               width="600"
               height="300"
               alt="Sợ khi thích một ai đó"
               loading="lazy"
               data-nuxt-img=""
-              src="https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/a69612b0-5dae-40ac-8dcc-e1cb2c23afa9.jpg"
+              src="/images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/a69612b0-5dae-40ac-8dcc-e1cb2c23afa9.jpg"
               srcset="
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/a69612b0-5dae-40ac-8dcc-e1cb2c23afa9.jpg  1x,
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/a69612b0-5dae-40ac-8dcc-e1cb2c23afa9.jpg 2x
+                /images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/a69612b0-5dae-40ac-8dcc-e1cb2c23afa9.jpg  1x,
+                /images/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/a69612b0-5dae-40ac-8dcc-e1cb2c23afa9.jpg 2x
               " />
             <div
               class="bg-black/10 absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-200 transition-all group-hover:opacity-100"
@@ -372,17 +342,16 @@
           <a
             href="/post/nho-va-han"
             class="group block relative rounded-lg bg-white border border-gray-200 overflow-hidden dark:bg-slate-800 dark:border-slate-800"
-            ><!----><img
-              onerror="this.setAttribute('data-error', 1)"
+            ><!----><NuxtImg
               width="600"
               height="300"
               alt="Nhỏ và hắn"
               loading="lazy"
               data-nuxt-img=""
-              src="https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/b8949794-1e84-4010-b84d-2bff475977d5.jpg"
+              src="/images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/b8949794-1e84-4010-b84d-2bff475977d5.jpg"
               srcset="
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/b8949794-1e84-4010-b84d-2bff475977d5.jpg  1x,
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/b8949794-1e84-4010-b84d-2bff475977d5.jpg 2x
+                /images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/b8949794-1e84-4010-b84d-2bff475977d5.jpg  1x,
+                /images/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/b8949794-1e84-4010-b84d-2bff475977d5.jpg 2x
               " />
             <div
               class="bg-black/10 absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-200 transition-all group-hover:opacity-100"
@@ -420,17 +389,16 @@
           <a
             href="/post/dau-mua"
             class="group block relative rounded-lg bg-white border border-gray-200 overflow-hidden dark:bg-slate-800 dark:border-slate-800"
-            ><!----><img
-              onerror="this.setAttribute('data-error', 1)"
+            ><!----><NuxtImg
               width="600"
               height="300"
               alt="Dấu mưa"
               loading="lazy"
               data-nuxt-img=""
-              src="https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/c81ed49d-b24a-4820-a623-37b8a7b9c4ed.jpg"
+              src="/images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/c81ed49d-b24a-4820-a623-37b8a7b9c4ed.jpg"
               srcset="
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/c81ed49d-b24a-4820-a623-37b8a7b9c4ed.jpg  1x,
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/c81ed49d-b24a-4820-a623-37b8a7b9c4ed.jpg 2x
+                /images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/c81ed49d-b24a-4820-a623-37b8a7b9c4ed.jpg  1x,
+                /images/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/c81ed49d-b24a-4820-a623-37b8a7b9c4ed.jpg 2x
               " />
             <div
               class="bg-black/10 absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-200 transition-all group-hover:opacity-100"
@@ -467,17 +435,16 @@
           <a
             href="/post/lang-le"
             class="group block relative rounded-lg bg-white border border-gray-200 overflow-hidden dark:bg-slate-800 dark:border-slate-800"
-            ><!----><img
-              onerror="this.setAttribute('data-error', 1)"
+            ><!----><NuxtImg
               width="600"
               height="300"
               alt="Lặng lẽ"
               loading="lazy"
               data-nuxt-img=""
-              src="https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/e7657f6d-03fe-4f0f-a095-b45931bcc1e7.jpg"
+              src="/images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/e7657f6d-03fe-4f0f-a095-b45931bcc1e7.jpg"
               srcset="
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_600x300/https://api.kytosai.com/assets/e7657f6d-03fe-4f0f-a095-b45931bcc1e7.jpg  1x,
-                https://kytosai.com/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/e7657f6d-03fe-4f0f-a095-b45931bcc1e7.jpg 2x
+                /images/f_webp&amp;fit_cover&amp;https://api.kytosai.com/assets/e7657f6d-03fe-4f0f-a095-b45931bcc1e7.jpg  1x,
+                /images/f_webp&amp;fit_cover&amp;s_1200x600/https://api.kytosai.com/assets/e7657f6d-03fe-4f0f-a095-b45931bcc1e7.jpg 2x
               " />
             <div
               class="bg-black/10 absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-200 transition-all group-hover:opacity-100"
