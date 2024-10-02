@@ -9,16 +9,17 @@
             aria-current="page"
             href="/"
             class="router-link-active router-link-exact-active group hover:text-slate-900 flex items-center transition-all duration-200 dark:hover:text-slate-100"
-            ><div class="mr-2 -mb-1">
-              <span class="dark:hidden"
-                ><NuxtImg
+          >
+            <div class="mr-2 -mb-1">
+              <span class="dark:hidden">
+                <NuxtImg
                   width="24"
                   height="24"
                   alt="logo-icon"
                   class=""
                   src="/images/logo-icon.svg" /></span
-              ><span class="hidden dark:inline"
-                ><NuxtImg
+              ><span class="hidden dark:inline">
+                <NuxtImg
                   width="24"
                   height="24"
                   alt="logo-icon-dark-mode"
@@ -33,8 +34,8 @@
                 class="group-hover:text-amber-500 text-slate-300 text-sm transition-all duration-200 dark:text-slate-600"
                 >'s page</span
               >
-            </div></a
-          >
+            </div>
+          </a>
         </div>
         <div class="menu-col ml-auto flex items-center">
           <div class="desk-menu hidden md:flex items-center">
@@ -60,7 +61,7 @@
           ></div>
           <div class="relative">
             <button
-            @click="isDropdown = !isDropdown"
+              @click="isDropdown = !isDropdown"
               id="change-color-mode-btn"
               type="button"
               aria-haspopup="listbox"
@@ -69,7 +70,7 @@
               class="w-8 h-8 flex items-center justify-center outline-none hover:text-sky-600"
               aria-label="Chuyển đổi chế độ màu"
             >
-              <span class="dark:hidden"
+              <span class="dark:hidden" v-if="!isTheme"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -85,7 +86,7 @@
                     stroke-linejoin="round"
                     d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
                   ></path></svg></span
-              ><span class="hidden dark:inline"
+              ><span class="hidden dark:inline" v-else
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -103,7 +104,8 @@
                   ></path></svg
               ></span>
             </button>
-            <ul v-if="isDropdown"
+            <ul
+              v-if="isDropdown"
               id="headlessui-listbox-options-1"
               aria-labelledby="change-color-mode-btn"
               aria-orientation="vertical"
@@ -113,7 +115,9 @@
               class="absolute z-20 top-full -right-1 mt-5 bg-white rounded-lg ring-1 ring-slate-900/10 shadow-lg overflow-hidden w-36 py-1 text-sm outline-none dark:bg-slate-800 dark:ring-slate-700/90"
             >
               <li
+                @click="isTheme = 0"
                 class="text-sm py-1.5 px-3 flex items-center cursor-pointer"
+                :class="isTheme === 0 ? 'text-sky-600' : ''"
                 id="headlessui-listbox-option-14"
               >
                 <svg
@@ -124,6 +128,7 @@
                   stroke="currentColor"
                   aria-hidden="true"
                   data-slot="icon"
+                  :class="isTheme === 0 ? 'text-sky-600' : ''"
                   class="w-4 h-4 mr-2 text-slate-400 dark:text-slate-500"
                 >
                   <path
@@ -134,8 +139,9 @@
                 ><span>Sáng</span>
               </li>
               <li
-                class="text-sm py-1.5 px-3 flex items-center cursor-pointer "
-                :class="isTheme === 1 ? 'text-sky-600': ''"
+                @click="changeColor()"
+                class="text-sm py-1.5 px-3 flex items-center cursor-pointer"
+                :class="isTheme === 1 ? 'text-sky-600' : ''"
                 id="headlessui-listbox-option-15"
               >
                 <svg
@@ -146,8 +152,8 @@
                   stroke="currentColor"
                   aria-hidden="true"
                   data-slot="icon"
-                  :class="isTheme === 1 ? 'text-sky-600': ''"
-                  class="w-4 h-4 mr-2 text-sky-600 dark:text-sky-600"
+                  :class="isTheme === 1 ? 'text-sky-600' : ''"
+                  class="w-4 h-4 mr-2 dark:text-sky-600"
                 >
                   <path
                     stroke-linecap="round"
@@ -157,6 +163,7 @@
                 ><span>Tối</span>
               </li>
               <li
+                @click="changeColor()"
                 class="text-sm py-1.5 px-3 flex items-center cursor-pointer"
               >
                 <svg
@@ -237,14 +244,32 @@
     </div>
   </div>
 </template>
-<script lang="ts" setup>
-import { ref, reactive } from 'vue'
-import { useI18n } from 'vue-i18n'
-const isDropdown = ref<boolean>(false)
-const colorMode = useColorMode();
-const changeColor = () => (colorMode.preference = (colorMode.value === 'light' ? 'dark' : 'light'))
 
+<script lang="ts" setup>
+import { ref } from 'vue'
+// import { useI18n } from 'vue-i18n'
+
+const isDropdown = ref<boolean>(false)
+const colorMode = useColorMode()
+const isTheme = ref<number>(0)
+console.log('colorMode :>> ', colorMode)
+const changeColor = () => {
+  colorMode.preference = colorMode.value === 'light' ? 'dark' : 'light'
+  console.log('colorMode :>> ', colorMode)
+  switch (colorMode.value) {
+    case 'light':
+      isTheme.value = 0
+      break
+    case 'dark':
+      isTheme.value = 1
+      break
+    default:
+      isTheme.value = 0
+      break
+  }
+}
 </script>
+
 <style lang="scss" scoped>
 .style-header {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

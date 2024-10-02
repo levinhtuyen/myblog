@@ -1,104 +1,124 @@
-import { defineNuxtConfig } from 'nuxt/config'
+import { createResolver } from '@nuxt/kit'
+const { resolve } = createResolver(import.meta.url)
 
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: {
-    enabled: true,
-    vscode: {
-      reuseExistingServer: true
-    }
+  // exp
+  experimental: {
+    localLayerAliases: true,
   },
+
+  // app config
   app: {
-    head: {
-      title: 'qrcode-custom.com',
-      link: [
-        {
-          rel: 'icon',
-          type: 'image/x-icon'
-          // href: 'https://qrcode-custom.com/favicon.ico'
-        }
-      ],
-      htmlAttrs: {
-        lang: 'vi'
-      },
-      script: [
-        {
-          src: ''
-        }
-      ]
-    }
+    // global transition
+    pageTransition: { name: 'page', mode: 'out-in' },
+    layoutTransition: { name: 'layout', mode: 'out-in' },
   },
-  ssr: true,
-  components: true,
-  typescript: {
-    strict: true,
-    shim: false
-  },
-  nitro: {
-    compressPublicAssets: {
-      gzip: true,
-      brotli: false
-    },
-    publicAssets: [
-      {
-        baseURL: 'public',
-        dir: 'public',
-        maxAge: 60 * 60 * 24 * 30 // 30 days
-      },
-      {
-        baseURL: 'images',
-        dir: 'public/images',
-        maxAge: 60 * 60 * 24 * 30 // 30 days
-      },
-      {
-        baseURL: 'fonts',
-        dir: 'public/fonts',
-        maxAge: 60 * 60 * 24 * 30 // 30 days
-      }
-    ],
-    minify: true
-  },
+
+  // typescripts
+  // todo: feat/strict-type-check
+  // typescript: {
+  //   strict: true,
+  //   typeCheck: true,
+  // },
+
+  // modules
   modules: [
-    'nuxt-windicss',
+    // chore
+    '@nuxtjs/eslint-module',
+    // styling & ui
+    '@nuxtjs/tailwindcss',
+    'nuxt-headlessui',
+    'nuxt-icon',
+    '@nuxtjs/color-mode',
+    // management
+    '@pinia/nuxt',
     '@vueuse/nuxt',
+    // contents,
+    '@nuxt/content',
     'nuxt-gtag',
     'nuxt-delay-hydration',
     '@nuxtjs/critters',
     '@nuxtjs/web-vitals',
-    '@nuxt/devtools',
-    '@nuxtjs/i18n',
-    '@nuxt/image'
+    '@nuxt/image',
+    // todo: feat/localization
+    // '@nuxtjs/i18n'
   ],
-  gtag: {
-    id: ''
+
+  css: [
+    resolve('./assets/scss/_variables.scss'),
+    resolve('./assets/scss/app.scss'),
+  ],
+
+  components: [
+    {
+      prefix: 'Layout',
+      path: resolve('./components/layouts'),
+      global: true,
+    },
+    {
+      prefix: 'Awesome',
+      path: resolve('./components/awesome'),
+      global: true,
+    },
+  ],
+
+  imports: {
+    dirs: [resolve('./stores'), '~/stores'],
   },
-  webVitals: {
-    provider: 'log',
-    debug: true, // debug enable metrics reporting on dev environments
-    disabled: false
+
+  // module::pinia
+  pinia: {
+    storesDirs: ['~/stores/**', '#/stores/**', '@/stores/**'],
   },
-  critters: {
-    // Options passed directly to critters: https://github.com/GoogleChromeLabs/critters#critters-2
-    config: {
-      preload: 'swap'
-    }
+
+  // module::headlessui
+  headlessui: {
+    prefix: 'Headless',
   },
-  i18n: {
-    vueI18n: './i18n.config.ts' // if you are using custom path, default
+
+  // module::color-mode
+  colorMode: {
+    classSuffix: '',
   },
-  delayHydration: {
-    // enables nuxt-delay-hydration in dev mode for testing
-    mode: 'init',
-    replayClick: true,
-    include: ['/']
+
+  // module::content
+  content: {
+    markdown: {
+      mdc: true,
+    },
+    highlight: {
+      theme: 'github-dark',
+    },
   },
-  plugins: [],
-  vueuse: {
-    ssrHandlers: true
-  },
-  build: {
-    transpile: []
-  },
-  vite: {
-    plugins: []
-  }
+
+  // todo: feat/localization
+  // module::i18n
+  // i18n: {
+  //   strategy: 'no_prefix',
+  //   defaultLocale: 'en',
+  //   langDir: 'locales',
+  //   vueI18n: {
+  //     fallbackLocale: 'en',
+  //   },
+  //   detectBrowserLanguage: {
+  //     useCookie: true,
+  //     fallbackLocale: 'en',
+  //     redirectOn: 'root',
+  //   },
+  //   locales: [
+  //     {
+  //       code: 'en', // English
+  //       iso: 'en-US',
+  //       name: 'English',
+  //       file: 'en.yml',
+  //     },
+  //     {
+  //       code: 'id', // Indonesia
+  //       iso: 'id-ID',
+  //       name: 'Indonesia',
+  //       file: 'id.yml',
+  //     }
+  //   ]
+  // },
 })

@@ -1,7 +1,8 @@
 {
   "recommendations": [
-    "johnsoncodehk.volar",
-    "antfu.iconify",
-    "voorjaar.windicss-intellisense",
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin",
+    "Nuxt.mdc",
+    "bradlc.vscode-tailwindcss",
   ]
 }

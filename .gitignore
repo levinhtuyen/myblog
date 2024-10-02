@@ -1,8 +1,9 @@
 node_modules
-*.log
+*.log*
 .nuxt
-nuxt.d.ts
+.nitro
+.cache
 .output
-yarn.lock
-.github
-
+.env
+dist
+.DS_Store
