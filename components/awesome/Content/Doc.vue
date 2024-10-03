@@ -17,7 +17,9 @@ const props = defineProps({
       <div class="max-w-3xl px-4 mx-auto my-10">
         <NuxtImg fit="cover" :alt="doc.title" :src="doc.image" />
       </div>
-      <LayoutPageSection class="max-w-3xl px-4 mx-auto custom-content-blog">
+      <LayoutPageSection
+        class="max-w-3xl px-4 mx-auto custom-content-blog pb-5"
+      >
         <p>
           <i class="text-[18px] font-[500]">"{{ doc.description }}"</i>
         </p>

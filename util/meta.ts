@@ -1,22 +1,22 @@
 // @ts-ignore
 
 import { reactive, computed } from 'vue'
-export const  useMetaSeoIndex = () => {
+export const useMetaSeoIndex = () => {
   const siteData = reactive({
-    title: 'Free QR Code Generator - Create QR codes custom with logo',
+    title: "Lê Vĩnh Tuyến - Blog's của tôi",
     description:
-      'Free QR Code Generator for URL, vCard, location, event .... Add logo, custom colors, frames, and download in high print quality. Get your free QR Codes now!',
-    content: 'Free QR Code Generator - Create QR codes custom with logo',
-    ogTitle: 'Free QR Code Generator - Create QR codes custom with logo',
+      "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
+    content: "Lê Vĩnh Tuyến - Blog's của tôi",
+    ogTitle: "Lê Vĩnh Tuyến - Blog's của tôi",
     ogDescription:
-      'Free QR Code Generator for URL, vCard, location, event .... Add logo, custom colors, frames, and download in high print quality. Get your free QR Codes now!',
+      "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
     ogImage: 'https://qrcode-custom.com/logo.png',
     ogType: 'article',
     ogLink: 'https://qrcode-custom.com/',
     robots: 'index, follow',
     ogImageWidth: '1200',
     ogSideName: 'qrcode-custom.com',
-    ogImageHeight: '628'
+    ogImageHeight: '628',
   })
 
   useHead({
@@ -26,55 +26,55 @@ export const  useMetaSeoIndex = () => {
       {
         name: 'description',
         content:
-          'Free QR Code Generator for URL, vCard, location, event .... Add logo, custom colors, frames, and download in high print quality. Get your free QR Codes now!'
+          "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
       },
       {
         property: 'og:title',
-        content: 'Free QR Code Generator - Create QR codes custom with logo'
+        content: "Lê Vĩnh Tuyến - Blog's của tôi",
       },
       {
         property: 'og:url',
-        content: computed(() => siteData.ogLink)
+        content: computed(() => siteData.ogLink),
       },
       {
         property: 'og:type',
-        content: computed(() => 'website')
+        content: computed(() => 'website'),
       },
       {
         property: 'og:description',
         content:
-          'Free QR Code Generator for URL, vCard, location, event .... Add logo, custom colors, frames, and download in high print quality. Get your free QR Codes now!'
+          "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
       },
 
       {
         property: 'og:image',
-        content: 'https://qrcode-custom.com/logo.png'
+        content: 'https://qrcode-custom.com/logo.png',
       },
       {
         name: 'robots',
-        content: computed(() => siteData.robots)
+        content: computed(() => siteData.robots),
       },
       {
         property: 'og:image:width',
-        content: '1200'
+        content: '1200',
       },
       {
         property: 'og:site_name',
-        content: computed(() => 'website')
+        content: computed(() => 'website'),
       },
       {
         property: 'og:image:height',
-        content: computed(() => siteData.ogImageHeight)
+        content: computed(() => siteData.ogImageHeight),
       },
       {
         property: 'msvalidate.01',
-        content: computed(() => '11B70B71EB4BE19284312ADFF0011957')
-      }
+        content: computed(() => '11B70B71EB4BE19284312ADFF0011957'),
+      },
     ],
 
     link: [
-      { rel: 'canonical', href: 'https://qrcode-custom.com', id: 'canonical' }
-    ]
+      { rel: 'canonical', href: 'https://qrcode-custom.com', id: 'canonical' },
+    ],
   })
   return useHead
 }

@@ -21,7 +21,7 @@ const query: QueryBuilderParams = { path: '/feel' }
                 <AwesomeLink
                   :to="feel._path"
                   class="uppercase text-slate-500 text-[10px] hover:text-sky-600 dark:hover:text-sky-500"
-                  >{{ feel.title }}</AwesomeLink
+                  >Chuyện của tôi</AwesomeLink
                 >
               </div>
               <AwesomeLink

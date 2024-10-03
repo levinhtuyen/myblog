@@ -77,12 +77,12 @@ declare module '@nuxt/schema' {
 
 export default defineAppConfig({
   awesome: {
-    name: 'Nuxt 3 Awesome Starter',
+    name: `Lê Vĩnh Tuyến - Blog's của tôi`,
     description:
-      'a starter template for Nuxt 3 with minimalist themes design, built in components, drawer & menus, and more.',
+      'Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...',
     project: {
       links: {
-        github: 'https://github.com/viandwi24/nuxt3-awesome-starter',
+        github: 'https://github.com/levinhtuyen/myblog',
       },
     },
     layout: {
@@ -103,15 +103,14 @@ export default defineAppConfig({
         },
         secondaryActionButton: {
           title: 'Github',
-          to: 'https://github.com/viandwi24/nuxt3-awesome-starter',
+          to: 'https://github.com/levinhtuyen/myblog',
         },
       },
     },
     author: {
-      name: 'viandwi24',
+      name: 'TuyenLew',
       links: {
-        github: 'https://github.com/viandwi24',
-        medium: 'https://viandwi24.medium.com',
+        github: 'https://github.com/levinhtuyen/myblog',
         website: 'https://viandwi24.site',
       },
     },
