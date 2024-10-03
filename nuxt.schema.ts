@@ -3,7 +3,7 @@ import { NuxtAwesomeAppConfig } from './app.config'
 export default defineNuxtSchema({
   appConfig: {
     awesome: {
-      name: 'Nuxt 3 Awesome Starter',
+      name: `Lê Vĩnh Tuyến - Blog's của tôi`,
       description:
         'a starter template for Nuxt 3 with minimalist themes design, built in components, drawer & menus, and more.',
       project: {
@@ -21,7 +21,7 @@ export default defineNuxtSchema({
           year: 2023,
         },
         welcome: {
-          title: 'Nuxt&nbsp;3 Awesome Starter',
+          title: `Lê Vĩnh Tuyến - Blog's của tôi`,
           disableInfoReplaceIndexInWelcomePage: true,
         },
       },
