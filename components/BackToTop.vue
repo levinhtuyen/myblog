@@ -1,12 +1,16 @@
 <template>
   <div>
-    <div id="pagetop"  class="fixed hidden cursor-pointer bottom-8 right-12"  @click="toTop">
+    <div
+      id="pagetop"
+      class="fixed hidden cursor-pointer bottom-8 right-12"
+      @click="toTop"
+    >
       <!-- <img style="" src="@/assets/svg/backtotop.svg" alt="Free QR Code Generator - Create QR codes custom with logo"/> -->
     </div>
   </div>
 </template>
 <script setup lang="ts">
-  const nuxtApp = useNuxtApp()
+const nuxtApp = useNuxtApp()
 const toTop = () => {
   window.scrollTo({
     top: 0,
@@ -19,7 +23,7 @@ const toTop = () => {
 }
 onMounted(() => {
   document.addEventListener('wheel', (event) => {
-  let mybutton = document.getElementById('pagetop')
+    let mybutton = document.getElementById('pagetop')
 
     var prev = event.pageY
     if (prev > 300) {

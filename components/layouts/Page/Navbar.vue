@@ -50,27 +50,32 @@ const isOpenMenu = () => {
       <div class="container w-full mx-auto">
         <div class="container-inner h-14 flex items-center px-4">
           <div class="logo-col">
-            <a
+            <NuxtLink
               aria-current="page"
-              href="/"
+              tag="a"
+              to="/"
               class="router-link-active router-link-exact-active group hover:text-slate-900 flex items-center transition-all duration-200 dark:hover:text-slate-100"
-              ><div class="mr-2 -mb-1">
-                <span class="dark:hidden">
-                  <NuxtImg
-                    width="24"
-                    height="24"
-                    alt="logo-icon"
-                    class=""
-                    src="/images/logo-icon.svg" /></span
-                ><span class="hidden dark:inline">
-                  <NuxtImg
-                    width="24"
-                    height="24"
-                    alt="logo-icon-dark-mode"
-                    class=""
-                    src="/images/logo-icon-dark-mode.svg"
-                /></span>
-              </div>
+            >
+              <slot>
+                <div class="mr-2 -mb-1">
+                  <span class="dark:hidden">
+                    <NuxtImg
+                      width="24"
+                      height="24"
+                      alt="logo-icon"
+                      class=""
+                      src="/images/logo-icon.svg" /></span
+                  ><span class="hidden dark:inline">
+                    <NuxtImg
+                      width="24"
+                      height="24"
+                      alt="logo-icon-dark-mode"
+                      class=""
+                      src="/images/logo-icon-dark-mode.svg"
+                  /></span>
+                </div>
+              </slot>
+
               <div
                 class="drop-shadow-sm group-hover:drop-shadow-md transition-all duration-200"
               >
@@ -92,22 +97,32 @@ const isOpenMenu = () => {
                     's&nbsp;Blog</span
                   ></span
                 >
-              </div></a
+              </div></NuxtLink
             >
           </div>
           <div class="menu-col ml-auto flex items-center">
-            <div class="desk-menu hidden md:flex items-center">
+            <div class="desk-menu hidden md:block items-center">
               <ul class="flex items-center">
                 <!--[-->
                 <li class="ml-8">
-                  <a href="/feel" class="block text-sm hover:text-sky-600"
-                    >Chuyện của tôi</a
+                  <NuxtLink
+                    aria-current="page"
+                    tag="a"
+                    to="/feel"
+                    class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300"
                   >
+                    <slot> Chuyện của tôi 1</slot>
+                  </NuxtLink>
                 </li>
                 <li class="ml-8">
-                  <a href="/post" class="block text-sm hover:text-sky-600"
-                    >Blog</a
+                  <NuxtLink
+                    aria-current="page"
+                    tag="a"
+                    to="/post"
+                    class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300"
                   >
+                    <slot>Blog</slot>
+                  </NuxtLink>
                 </li>
                 <!--]-->
               </ul>
@@ -116,49 +131,51 @@ const isOpenMenu = () => {
               class="hidden md:block h-6 border-l border-gray-300 ml-6 mr-4 dark:border-slate-700/80"
             ></div>
             <LayoutPageNavbarDropdownThemeSwitcher />
-            <div
-              v-if="!isOpen"
-              class="h-8 w-8 ml-2 -mr-2 flex items-center justify-center group cursor-pointer"
-              @click="isOpenMenu"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-                data-slot="icon"
-                class="h-5 w-5"
+            <div class="block md:hidden">
+              <div
+                v-if="!isOpen"
+                class="h-8 w-8 ml-2 -mr-2 flex items-center justify-center group cursor-pointer"
+                @click="isOpenMenu"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                ></path>
-              </svg>
-            </div>
-            <div
-              v-else
-              class="h-8 w-8 ml-2 -mr-2 flex justify-center items-center md:hidden"
-              @click="isOpenMenu"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-                data-slot="icon"
-                class="h-5 w-5"
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  data-slot="icon"
+                  class="h-5 w-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  ></path>
+                </svg>
+              </div>
+              <div
+                v-else
+                class="h-8 w-8 ml-2 -mr-2 flex justify-center items-center md:hidden"
+                @click="isOpenMenu"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6 18 18 6M6 6l12 12"
-                ></path>
-              </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  data-slot="icon"
+                  class="h-5 w-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18 18 6M6 6l12 12"
+                  ></path>
+                </svg>
+              </div>
             </div>
           </div>
         </div>
@@ -167,12 +184,10 @@ const isOpenMenu = () => {
         <ul>
           <!--[-->
           <li class="border-t border-t-gray-100 dark:border-t-slate-800">
-            <a href="/cat/chuyen-troi-mua" class="block py-3 text-sm"
-              >Chuyện của tôi</a
-            >
+            <a href="/feel" class="block py-3 text-sm">Chuyện của tôi 2</a>
           </li>
           <li class="border-t border-t-gray-100 dark:border-t-slate-800">
-            <a href="/cat/blog" class="block py-3 text-sm">Blog</a>
+            <a href="/blog" class="block py-3 text-sm">Blog</a>
           </li>
           <!--]-->
         </ul>
