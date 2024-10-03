@@ -47,7 +47,7 @@ const isOpenMenu = () => {
     <div
       class="fixed top-0 left-0 right-0 bg-white/90 border-b-[1px] border-gray-900/10 backdrop-blur-sm z-10 dark:bg-slate-900/90 dark:border-slate-50/10 px-4"
     >
-      <div class="container w-full mx-auto">
+      <div class="max-w-6xl m-auto">
         <div class="container-inner h-14 flex items-center px-4">
           <div class="logo-col">
             <NuxtLink
@@ -111,7 +111,7 @@ const isOpenMenu = () => {
                     to="/feel"
                     class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300"
                   >
-                    <slot> Chuyện của tôi 1</slot>
+                    <slot> Chuyện của tôi</slot>
                   </NuxtLink>
                 </li>
                 <li class="ml-8">

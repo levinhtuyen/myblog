@@ -17,7 +17,7 @@ const query: QueryBuilderParams = { path: '/feel' }
         <template #default="{ list }">
           <div class="grid my-10 grid-cols-1 gap-x-14 gap-y-10 md:grid-cols-2">
             <article v-for="feel in list" :key="feel._path">
-              <div class="leading-none mb-2 md:mx-2">
+              <div class="leading-none mb-2 md:mb-2">
                 <AwesomeLink
                   :to="feel._path"
                   class="uppercase text-slate-500 text-[10px] hover:text-sky-600 dark:hover:text-sky-500"
@@ -37,7 +37,7 @@ const query: QueryBuilderParams = { path: '/feel' }
                   class="bg-black/10 absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-200 transition-all group-hover:opacity-100"
                 ></div
               ></AwesomeLink>
-              <div class="mt-3 md:mx-2">
+              <div class="mt-3 md:mr-2">
                 <div>
                   <AwesomeLink
                     class="text-xl font-title hover:text-sky-600 dark:hover:text-sky-500"
