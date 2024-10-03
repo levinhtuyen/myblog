@@ -11,10 +11,16 @@ const props = defineProps({
 <template>
   <ContentDoc>
     <template #default="{ doc }">
-      <LayoutPageHeader>
+      <LayoutPageHeader class="max-w-3xl px-4 mx-auto">
         <LayoutPageTitle :text="doc.title" />
       </LayoutPageHeader>
-      <LayoutPageSection>
+      <div class="max-w-3xl px-4 mx-auto my-10">
+        <NuxtImg fit="cover" :alt="doc.title" :src="doc.image" />
+      </div>
+      <LayoutPageSection class="max-w-3xl px-4 mx-auto custom-content-blog">
+        <p>
+          <i class="text-[18px] font-[500]">"{{ doc.description }}"</i>
+        </p>
         <ContentRenderer :value="doc" />
       </LayoutPageSection>
     </template>

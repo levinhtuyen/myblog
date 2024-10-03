@@ -11,7 +11,7 @@ const props = defineProps({
 })
 
 const { data } = await useAsyncData(props.path, () =>
-  queryContent(props.path).findOne(),
+  queryContent(props.path).findOne()
 )
 if (!data) abortNavigation('404')
 </script>

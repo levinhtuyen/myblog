@@ -45,7 +45,7 @@ const isOpenMenu = () => {
 <template>
   <header>
     <div
-      class="fixed top-0 left-0 right-0 bg-white/90 border-b-[1px] border-gray-900/10 backdrop-blur-sm z-10 dark:bg-slate-900/90 dark:border-slate-50/10 px-4"
+      class="fixed top-0 left-0 right-0 bg-white/90 border-b-[1px] border-gray-900/10 backdrop-blur-sm z-10 dark:bg-slate-900/90 dark:border-slate-50/10"
     >
       <div class="max-w-6xl m-auto">
         <div class="container-inner h-14 flex items-center px-4">

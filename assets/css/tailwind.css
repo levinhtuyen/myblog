@@ -8,3 +8,9 @@
     background-color: rgb(59 166 118 / var(--tw-bg-opacity)) /* #3ba676 */;
   }
 }
+@layer base {
+}
+@layer components {
+}
+@layer utilities {
+}
