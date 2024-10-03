@@ -36,9 +36,10 @@
                   ><span
                     class="mb-4 block text-[2.5rem] font-[1000] leading-none md:mb-6 md:text-7xl"
                     style="opacity: 1; transform: none"
-                    >I'm<!-- -->
-                    <strong class="text-accent-600 dark:text-accent-500"
-                      >Lê</strong
+                    >I'm
+                    <!-- -->
+                    <strong class="text-accent-600 dark:text-accent-500">
+                      Lê</strong
                     >
                     Vĩnh Tuyến
                   </span>
@@ -47,8 +48,7 @@
                     style="opacity: 1; transform: none"
                   >
                     <span>A </span>
-                    <strong
-                      class="font-bold lowercase text-slate-700 dark:text-slate-300"
+                    <strong class="font-bold text-slate-700 dark:text-slate-300"
                       >Front-End Developer</strong
                     >
 
