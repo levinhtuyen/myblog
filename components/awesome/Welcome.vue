@@ -14,6 +14,37 @@ const showAlert = ref(
     : props.withAlert
 )
 
+const titlesText = computed<string[]>(() =>
+  (
+    awesome?.layout?.welcome?.title ||
+    awesome?.name ||
+    'Nuxt&nbsp;3 Awesome Starter'
+  )
+    .replaceAll('&nbsp;', '[space]')
+    .split(' ')
+    .map((item) => item.replaceAll('[space]', ' '))
+)
+const leadingsText = computed(() => [
+  {
+    text: titlesText.value[0],
+    startColor: '#007CF0',
+    endColor: '#00DFD8',
+    delay: 0,
+  },
+  {
+    text: titlesText.value[1],
+    startColor: '#7928CA',
+    endColor: '#FF0080',
+    delay: 2,
+  },
+  {
+    text: titlesText.value[2],
+    startColor: '#FF4D4D',
+    endColor: '#F9CB28',
+    delay: 4,
+  },
+])
+
 onMounted(() => {
   try {
     console.log('aweawe', parseMenuTitle('aweawe'), this)
@@ -26,7 +57,86 @@ onMounted(() => {
 <template>
   <LayoutPageWrapper class="flex-1 flex">
     <LayoutPageSection class="flex-1 flex">
-      <div class="flex-1 flex flex-col items-center justify-center"></div>
+      <div class="flex-1 flex flex-col items-center justify-center">
+        <h1 class="text-center mt-4">
+          <span
+            v-for="(item, i) in leadingsText"
+            :key="i"
+            :style="`--content: '${item.text}'; --start-color: ${
+              item.startColor
+            }; --end-color: ${item.endColor}; --animation-name: anim-fg-${
+              i + 1
+            }`"
+            class="animated-text-bg drop-shadow-xl text-6xl sm:text-8xl md:text-8xl lg:text-8xl 2xl:text-8xl block font-black uppercase"
+          >
+            <span class="animated-text-fg">{{ item.text }}</span>
+          </span>
+        </h1>
+        <div class="px-4 mt-6 text-center max-w-[500px] md:max-w-[600px]">
+          {{
+            awesome?.description ||
+            'a starter template for Nuxt 3 with minimalist themes design, built in components, drawer & menus, and more.'
+          }}
+        </div>
+        <div
+          v-if="showAlert"
+          class="mt-4 w-auto text-center text-white bg-gray-800 rounded px-4 py-1 text-sm"
+        >
+          create file "~/pages/index.vue" to replace this page
+        </div>
+        <div class="flex space-x-4 ml-2 mt-8 justify-center md:justify-start">
+          <AwesomeButton
+            size="lg"
+            :text="
+              parseMenuTitle(
+                awesome?.layout?.welcome?.primaryActionButton?.title || 'Nuxt 3'
+              )
+            "
+            :to="
+              parseMenuRoute(
+                awesome?.layout?.welcome?.primaryActionButton?.to ||
+                  'https://nuxt.com'
+              )
+            "
+            class="font-extrabold"
+          />
+          <AwesomeButton
+            v-if="
+              parseMenuRoute(
+                awesome?.layout?.welcome?.secondaryActionButton?.to ||
+                  awesome?.project?.links?.github
+              )
+            "
+            :text="
+              parseMenuTitle(
+                awesome?.layout?.welcome?.secondaryActionButton?.title ||
+                  'Github'
+              )
+            "
+            :to="
+              parseMenuRoute(
+                awesome?.layout?.welcome?.secondaryActionButton?.to ||
+                  awesome?.project?.links?.github
+              )
+            "
+            size="lg"
+            class="font-extrabold"
+            type="secondary"
+          />
+        </div>
+      </div>
+      <div class="top-0 left-0 absolute w-screen">
+        <div class="absolute right-0 top-0 w-1/4 h-screen py-10 pt-12 z-0 flex">
+          <div
+            class="flex-1 rounded-l-9xl bg-gradient-to-l from-blue-600/10"
+          ></div>
+        </div>
+        <div class="absolute left-0 top-0 w-1/4 h-screen py-10 pt-12 z-0 flex">
+          <div
+            class="flex-1 rounded-r-9xl bg-gradient-to-r from-green-600/10"
+          ></div>
+        </div>
+      </div>
     </LayoutPageSection>
   </LayoutPageWrapper>
 </template>

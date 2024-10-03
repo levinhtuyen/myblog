@@ -2,7 +2,7 @@
 import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 // compiler micro
 definePageMeta({ layout: 'page' })
-useHead({ title: 'Posts' })
+useHead({ title: 'Blog' })
 // query
 // const query: QueryBuilderParams = { path: '/post' }
 </script>
@@ -10,7 +10,7 @@ useHead({ title: 'Posts' })
 <template>
   <LayoutPageWrapper>
     <LayoutPageHeader>
-      <LayoutPageTitle text="Posts" class="capitalize" />
+      <LayoutPageTitle text="Blog" class="capitalize" />
     </LayoutPageHeader>
     <LayoutPageSection>
       <ContentList path="/post">
