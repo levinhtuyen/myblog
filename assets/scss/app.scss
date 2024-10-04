@@ -289,5 +289,30 @@ html.dark {
   transform: translate3d(0, 0, 120px);
 }
 
+.from-accent-400\/20 {
+  --tw-gradient-from: rgb(var(167 139 250) / 0.2);
+  --tw-gradient-to: rgb(var(167 139 250) / 0);
+  --tw-gradient-stops: color(srgb 0.65 0.55 0.98 / 0.2), rgb(167 139 250 / 0%);
+}
+
+.stroke-accent-500 {
+  stroke: rgb(var(--tw-ta-accent-500));
+}
+.via-accent-400\/0 {
+  --tw-gradient-to: rgb(var(167 139 250) / 0);
+  --tw-gradient-stops: color(srgb 0.65 0.55 0.98 / 0.2), rgb(var(167 139 250) / 0), rgb(167 139 250 / 0%);
+}
+
+.bg-\[length\:180\%_180\%\] {
+  background-size: 180% 180%;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.max-w-none {
+  max-width: none;
+}
 // components
 @import 'animations/transitions';

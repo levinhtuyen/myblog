@@ -20,7 +20,7 @@ export default defineAppConfig({
       },
     },
     author: {
-      name: 'viandwi24',
+      name: 'LeTuyen',
       links: {
         github: 'https://github.com/levinhtuyen/myblog',
         website: 'https://viandwi24.site',
