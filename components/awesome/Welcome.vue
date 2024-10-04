@@ -907,7 +907,7 @@
                   disable-zoom
                   tone-mapping="aces"
                   animation-name="Running"
-                  scale="0.39 0.39 0.39"
+                  scale="0.52 0.52 0.52"
                   shadow-intensity="1"
                   alt="avatar me"
                 >
