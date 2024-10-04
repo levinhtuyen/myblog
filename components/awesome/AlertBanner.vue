@@ -108,3 +108,7 @@ const close = () => {
     </TransitionChild>
   </TransitionRoot>
 </template>
+
+function defineProps(arg0: { title: { type: StringConstructor; default: undefined }; text: { type: StringConstructor; default: undefined }; type: { type: StringConstructor; default: string } }) {
+  throw new Error('Function not implemented.')
+}

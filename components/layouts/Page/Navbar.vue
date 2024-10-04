@@ -97,7 +97,6 @@ const isOpenMenu = () => {
           <div class="menu-col ml-auto flex items-center">
             <div class="desk-menu hidden md:block items-center">
               <ul class="flex items-center">
-                <!--[-->
                 <li class="ml-8">
                   <NuxtLink
                     aria-current="page"
@@ -118,7 +117,6 @@ const isOpenMenu = () => {
                     <slot>Blog</slot>
                   </NuxtLink>
                 </li>
-                <!--]-->
               </ul>
             </div>
             <div

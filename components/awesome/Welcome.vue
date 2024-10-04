@@ -894,24 +894,23 @@
                     </div>
                   </div>
                 </div>
-                <model-viewer
-                  class="col-span-1 custome-model-me"
-                  src="/images/model.glb"
-                  loading="eager"
-                  camera-controls
-                  autoplay
-                  touch-action="pan-y"
-                  auto-rotate
-                  ar
-                  style="width: 250px; height: 340px"
-                  disable-zoom
-                  tone-mapping="aces"
-                  animation-name="Running"
-                  scale="0.52 0.52 0.52"
-                  shadow-intensity="1"
-                  alt="avatar me"
-                >
-                </model-viewer>
+                <ClientOnly>
+                  <model-viewer
+                    class="col-span-1 custome-model-me"
+                    src="/images/model.glb"
+                    loading="eager"
+                    camera-controls
+                    autoplay
+                    touch-action=""
+                    style="height: 340px"
+                    disable-zoom
+                    interaction-prompt="none"
+                    animation-name="Running"
+                    scale="0.52 0.52 0.52"
+                    alt="avatar me"
+                  >
+                  </model-viewer>
+                </ClientOnly>
               </div>
             </div>
 
