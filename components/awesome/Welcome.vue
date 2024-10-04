@@ -903,6 +903,7 @@
                   touch-action="pan-y"
                   auto-rotate
                   ar
+                  style="width: 250px; height: 340px"
                   disable-zoom
                   tone-mapping="aces"
                   animation-name="Running"
