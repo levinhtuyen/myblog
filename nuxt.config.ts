@@ -3,17 +3,30 @@ const { resolve } = createResolver(import.meta.url)
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      script: [
+        {
+          type: 'module',
+          src: 'https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js',
+        },
+        {
+          src: 'https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js',
+        },
+      ],
+    },
+  },
   // exp
   experimental: {
     localLayerAliases: true,
   },
 
   // app config
-  app: {
-    // global transition
-    // pageTransition: { name: 'page', mode: 'out-in' },
-    // layoutTransition: { name: 'layout', mode: 'out-in' },
-  },
+  // app: {
+  // global transition
+  // pageTransition: { name: 'page', mode: 'out-in' },
+  // layoutTransition: { name: 'layout', mode: 'out-in' },
+  // },
 
   // typescripts
   // todo: feat/strict-type-check

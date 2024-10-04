@@ -314,5 +314,12 @@ html.dark {
 .max-w-none {
   max-width: none;
 }
+.custome-model-me {
+  height: 340px;
+  canvas {
+    width: 250px;
+    height: 340px;
+  }
+}
 // components
 @import 'animations/transitions';
