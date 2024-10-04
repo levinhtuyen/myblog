@@ -2,14 +2,14 @@
   "name": "@nuxt-awesome/theme",
   "version": "2.0.12",
   "description": "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
-  "author": "viandwi24",
+  "author": "TuyenLe",
   "private": false,
   "license": "MIT",
   "type": "module",
   "main": "./nuxt.config.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/viandwi24/nuxt3-awesome-starter"
+    "url": "https://github.com/levinhtuyen/myblog"
   },
   "files": [
     "assets",
@@ -39,7 +39,6 @@
     "release": "release-it"
   },
   "dependencies": {
-    "@google/model-viewer": "^3.5.0",
     "@nuxt/content": "^2.9.0",
     "@nuxt/devtools": "^1.0.0",
     "@nuxtjs/color-mode": "^3.3.0",

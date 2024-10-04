@@ -1,10 +1,9 @@
 <script lang="ts" setup>
+import { useMetaSeoIndex } from '@/util/meta.ts'
 const { awesome } = useAppConfig()
 definePageMeta({ layout: 'page' })
-useHead({
-  titleTemplate: '',
-  title: awesome?.name || `Lê Vĩnh Tuyến - Blog's của tôi`,
-})
+
+useMetaSeoIndex()
 </script>
 
 <template>

@@ -58,20 +58,14 @@ const isOpenMenu = () => {
             >
               <slot>
                 <div class="mr-2 -mb-1">
-                  <span class="dark:hidden">
+                  <span class="hidden dark:inline rounded-full">
                     <NuxtImg
-                      width="24"
-                      height="24"
-                      alt="logo-icon"
-                      class=""
-                      src="/images/logo-icon.svg" /></span
-                  ><span class="hidden dark:inline">
-                    <NuxtImg
+                      format="webp"
                       width="24"
                       height="24"
                       alt="logo-icon-dark-mode"
-                      class=""
-                      src="/images/logo-icon-dark-mode.svg"
+                      class="rounded-full"
+                      src="/images/logo.png"
                   /></span>
                 </div>
               </slot>

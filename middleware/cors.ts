@@ -9,11 +9,6 @@ export default defineEventHandler((event) => {
     'X-Content-Type-Options': 'nosniff',
     'X-Frame-Options': 'ALLOWALL',
     'Cache-Control': 'no-cache',
-    'Accept-Encoding': 'gzip,deflate'
+    'Accept-Encoding': 'gzip,deflate',
   })
-  if (getMethod(event) === 'OPTIONS') {
-    event.res.statusCode = 204
-    event.res.statusMessage = 'No Content.'
-    return 'OK'
-  }
 })

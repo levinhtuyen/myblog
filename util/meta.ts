@@ -10,12 +10,12 @@ export const useMetaSeoIndex = () => {
     ogTitle: "Lê Vĩnh Tuyến - Blog's của tôi",
     ogDescription:
       "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
-    ogImage: 'https://qrcode-custom.com/logo.png',
+    ogImage: 'https://levinhtuyen.blog/logo.png',
     ogType: 'article',
-    ogLink: 'https://qrcode-custom.com/',
+    ogLink: 'https://levinhtuyen.blog/',
     robots: 'index, follow',
     ogImageWidth: '1200',
-    ogSideName: 'qrcode-custom.com',
+    ogSideName: 'levinhtuyen.blog',
     ogImageHeight: '628',
   })
 
@@ -48,7 +48,7 @@ export const useMetaSeoIndex = () => {
 
       {
         property: 'og:image',
-        content: 'https://qrcode-custom.com/logo.png',
+        content: 'https://levinhtuyen.blog/logo.png',
       },
       {
         name: 'robots',
@@ -73,7 +73,7 @@ export const useMetaSeoIndex = () => {
     ],
 
     link: [
-      { rel: 'canonical', href: 'https://qrcode-custom.com', id: 'canonical' },
+      { rel: 'canonical', href: 'https://levinhtuyen.blog', id: 'canonical' },
     ],
   })
   return useHead

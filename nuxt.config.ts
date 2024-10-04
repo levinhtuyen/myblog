@@ -5,6 +5,9 @@ const { resolve } = createResolver(import.meta.url)
 export default defineNuxtConfig({
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
       script: [
         {
           type: 'module',

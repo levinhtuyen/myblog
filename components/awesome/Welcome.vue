@@ -23,6 +23,7 @@
                   >
                     <NuxtImg
                       alt="me"
+                      format="webp"
                       src="/images/hi.png"
                       class="w-7 md:w-10"
                       style="color: transparent"
@@ -895,7 +896,7 @@
                 </div>
                 <model-viewer
                   class="col-span-1 custome-model-me"
-                  src="/images/model1.glb"
+                  src="/images/model.glb"
                   loading="eager"
                   camera-controls
                   autoplay
@@ -947,6 +948,7 @@
                     </div>
                     <div class="" style="opacity: 1">
                       <NuxtImg
+                        format="webp"
                         width="457"
                         height="526"
                         alt="me"
