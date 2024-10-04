@@ -58,7 +58,7 @@ const isOpenMenu = () => {
             >
               <slot>
                 <div class="mr-2 -mb-1">
-                  <span class="hidden dark:inline rounded-full">
+                  <span class="rounded-full">
                     <NuxtImg
                       format="webp"
                       width="24"
@@ -86,7 +86,7 @@ const isOpenMenu = () => {
                   >
                     <span class="animated-text-fg">{{ item.text }}</span> </span
                   ><span
-                    class="group-hover:text-amber-500 flex text-slate-300 text-sm transition-all duration-200 dark:text-slate-600"
+                    class="group-hover:text-amber-500 flex text-slate-700 text-sm transition-all duration-200 dark:text-slate-600"
                   >
                     's&nbsp;Blog</span
                   ></span

@@ -952,7 +952,7 @@
                         width="457"
                         height="526"
                         alt="me"
-                        src="/images/me.png"
+                        src="/images/me.webp"
                         class="hidden max-w-none lg:block dark:brightness-[.82] rounded-full"
                         style="color: transparent"
                       />
