@@ -15,7 +15,13 @@ const props = defineProps({
         <LayoutPageTitle :text="doc.title" />
       </LayoutPageHeader>
       <div class="max-w-3xl px-4 mx-auto my-10">
-        <NuxtImg format="webp" fit="cover" :alt="doc.title" :src="doc.image" />
+        <NuxtImg
+          style="width: 100%"
+          format="webp"
+          fit="cover"
+          :alt="doc.title"
+          :src="doc.image"
+        />
       </div>
       <LayoutPageSection
         class="max-w-3xl px-4 mx-auto custom-content-blog pb-5"
@@ -24,6 +30,9 @@ const props = defineProps({
           <i class="text-[18px] font-[500]">"{{ doc.description }}"</i>
         </p>
         <ContentRenderer :value="doc" />
+        <div>
+          <p class="font-bold text-right">{{  doc.author }}</p>
+        </div>
       </LayoutPageSection>
     </template>
     <template #empty>

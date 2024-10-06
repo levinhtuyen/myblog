@@ -16,39 +16,48 @@ useHead({ title: 'Blog' })
       <ContentList path="/post">
         <template #default="{ list }">
           <div
-            v-for="article in list"
-            :key="article._path"
-            class="hover:no-underline p-6 flex space-x-6 rounded border border-gray-900/10 dark:border-gray-50/[0.2] mb-4"
+            class="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16"
           >
-            <div class="mt-1 text-gray-600 dark:text-gray-400 text-right">
-              <div>{{ article.date }}</div>
+            <article
+              v-for="article in list"
+              :key="article._path"
+              class="flex flex-col items-center gap-4 md:flex-row lg:gap-6 shadow-xl rounded-lg"
+            >
               <AwesomeLink
-                class="text-sm flex items-center justify-end space-x-1"
-                :href="`https://www.github.com/${article.author}`"
+                :to="article._path"
+                class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40"
               >
-                <Icon name="mdi:github-face" class="text-xs" />
-                <span>{{ article.author }}</span>
+                <NuxtImg
+                  width="400"
+                  height="300"
+                  class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                  :alt="article.title"
+                  :src="article.image"
+                />
               </AwesomeLink>
-            </div>
-            <div class="flex flex-col">
-              <div
-                class="text-xl font-semibold text-gray-800 dark:text-gray-50"
-              >
-                {{ article.title }}
+
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">{{ article.date }}</span>
+
+                <h2 class="text-xl font-bold text-gray-800">
+                  <AwesomeLink
+                    :to="article._path"
+                    class="transition duration-100 hover:text-rose-500 active:text-rose-600 line-clamp-1"
+                    >{{ article.title }}</AwesomeLink
+                  >
+                </h2>
+
+                <p class="text-gray-500 line-clamp-2">{{ article.description }}</p>
+
+                <div>
+                  <AwesomeLink
+                    :to="article._path"
+                    class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700"
+                    >Read more</AwesomeLink
+                  >
+                </div>
               </div>
-              <div class="text-gray-700 dark:text-gray-300 mb-1">
-                {{ article.description }}
-              </div>
-              <div class="flex">
-                <AwesomeLink
-                  class="text-sm flex space-x-1 items-center text-primary-500"
-                  :to="article._path"
-                >
-                  <span>learn more</span>
-                  <Icon name="ic:baseline-arrow-right-alt" class="text-sm" />
-                </AwesomeLink>
-              </div>
-            </div>
+            </article>
           </div>
         </template>
         <template #not-found>
