@@ -1,4 +1,44 @@
 <script lang="ts" setup>
+import { ref } from 'vue'
+
+const phrases = [`I'm Lê Vĩnh Tuyến`, `I learn, I develop, I write, I tutor...`]
+
+const currentPhraseIndex = ref(0)
+const currentCharacterIndex = ref(0)
+const currentPhrase = ref<string>('')
+const isDeleting = ref(false)
+
+function loop() {
+  const currentPhraseText = phrases[currentPhraseIndex.value]
+
+  if (!isDeleting.value) {
+    currentPhrase.value += currentPhraseText[currentCharacterIndex.value]
+    currentCharacterIndex.value++
+  } else {
+    currentPhrase.value = currentPhrase.value.slice(0, -1)
+    currentCharacterIndex.value--
+  }
+
+  if (currentCharacterIndex.value === currentPhraseText.length) {
+    isDeleting.value = true
+  }
+
+  if (currentCharacterIndex.value === 0) {
+    currentPhrase.value = ''
+    isDeleting.value = false
+    currentPhraseIndex.value++
+    if (currentPhraseIndex.value === phrases.length) {
+      currentPhraseIndex.value = 0
+    }
+  }
+
+  const spedUp = Math.random() * (80 - 50) + 50
+  const normalSpeed = Math.random() * (300 - 200) + 200
+  const time = isDeleting.value ? spedUp : normalSpeed
+  setTimeout(loop, time)
+}
+
+loop()
 </script>
 
 <template>
@@ -8,7 +48,7 @@
         <div class="content-wrapper pt-2">
           <div class="relative">
             <div class="relative z-10">
-              <div>
+              <div class="w-full md:w-3/5">
                 <div
                   class="mb-1 flex items-center gap-1 text-2xl text-slate-600 md:mb-0 md:gap-2 md:text-4xl dark:text-slate-400"
                   style="opacity: 1; transform: none"
@@ -34,13 +74,14 @@
                   ><span
                     class="mb-1 block text-[2.5rem] font-[1000] leading-none md:text-7xl"
                     style="opacity: 1; transform: none"
-                    >I'm
+                  >
                     <!-- -->
-                    <strong class="text-accent-600 dark:text-accent-500">
+                    <!-- <strong class="text-accent-600 dark:text-accent-500">
                       Lê</strong
                     >
                     Vĩnh <br />
-                    Tuyến
+                    Tuyến -->
+                    {{ currentPhrase }}&nbsp;
                   </span>
                 </span>
               </div>
