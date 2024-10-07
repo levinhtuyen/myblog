@@ -182,6 +182,7 @@ const isOpenMenu = () => {
             <a
               href="/feel"
               alt="Lê Vĩnh Tuyến - Blog's của tôi"
+              name="Lê Vĩnh Tuyến - Blog's của tôi"
               class="block py-3 text-sm"
               >Chuyện của tôi 2</a
             >
@@ -190,6 +191,7 @@ const isOpenMenu = () => {
             <a
               href="/blog"
               alt="Lê Vĩnh Tuyến - Blog's của tôi"
+              name="Lê Vĩnh Tuyến - Blog's của tôi"
               class="block py-3 text-sm"
               >Blog</a
             >
