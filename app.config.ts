@@ -78,8 +78,7 @@ declare module '@nuxt/schema' {
 export default defineAppConfig({
   awesome: {
     name: `Lê Vĩnh Tuyến - Blog's của tôi`,
-    description:
-      'Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...',
+    description: `Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
     project: {
       links: {
         github: 'https://github.com/levinhtuyen/myblog',

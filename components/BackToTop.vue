@@ -4,9 +4,7 @@
       id="pagetop"
       class="fixed hidden cursor-pointer bottom-8 right-12"
       @click="toTop"
-    >
-      <!-- <img style="" src="@/assets/svg/backtotop.svg" alt="Free QR Code Generator - Create QR codes custom with logo"/> -->
-    </div>
+    ></div>
   </div>
 </template>
 <script setup lang="ts">
@@ -18,14 +16,14 @@ const toTop = () => {
     behavior: 'smooth',
   })
 
-  let mybutton = document.getElementById('pagetop')
+  const mybutton = document.getElementById('pagetop')
   mybutton.style.display = 'none'
 }
 onMounted(() => {
   document.addEventListener('wheel', (event) => {
-    let mybutton = document.getElementById('pagetop')
+    const mybutton = document.getElementById('pagetop')
 
-    var prev = event.pageY
+    const prev = event.pageY
     if (prev > 300) {
       mybutton.style.display = 'block'
     } else {
@@ -44,6 +42,5 @@ onMounted(() => {
 }
 </style>
 
-function onMounted(arg0: () => void) {
-  throw new Error("Function not implemented.")
-}
+function onMounted(arg0: () => void) { throw new Error("Function not
+implemented.") }

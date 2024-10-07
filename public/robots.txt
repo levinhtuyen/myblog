@@ -230,4 +230,4 @@ Allow: /*.js$
 Allow: /*.css$
 
 
-sitemap:https://qrcode-custom.com/sitemap.xml
+sitemap:https://tuyenleblog.tech/sitemap.xml
