@@ -15,7 +15,7 @@ const props = defineProps({
         <LayoutPageTitle :text="doc.title" />
       </LayoutPageHeader>
       <div class="max-w-3xl px-4 mx-auto my-10">
-        <NuxtImg
+        <img
           style="width: 100%"
           format="png"
           fit="cover"

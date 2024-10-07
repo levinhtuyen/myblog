@@ -28,9 +28,10 @@ const query: QueryBuilderParams = { path: '/feel' }
                 :to="feel._path"
                 class="group block relative rounded-lg bg-white border border-gray-200 overflow-hidden dark:bg-slate-800 dark:border-slate-800"
               >
-                <NuxtImg
+                <img
                   width="600"
                   height="300"
+                  style="max-height: 265px"
                   :alt="feel.title"
                   :src="feel.image" />
                 <div

@@ -59,7 +59,7 @@ const isOpenMenu = () => {
               <slot>
                 <div class="mr-2 -mb-1">
                   <span class="rounded-full">
-                    <NuxtImg
+                    <img
                       format="png"
                       width="24"
                       height="24"

@@ -61,7 +61,7 @@ loop()
                       transform: none;
                     "
                   >
-                    <NuxtImg
+                    <img
                       alt="me"
                       format="png"
                       src="/images/hi.png"
@@ -986,7 +986,7 @@ loop()
                       </svg>
                     </div>
                     <div class="" style="opacity: 1">
-                      <NuxtImg
+                      <img
                         format="png"
                         width="457"
                         height="526"
