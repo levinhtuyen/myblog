@@ -61,7 +61,7 @@ const isOpenMenu = () => {
                 <div class="mr-2 -mb-1">
                   <span class="rounded-full">
                     <img
-                      format="png"
+                      format="webp"
                       width="24"
                       height="24"
                       alt="logo-icon-dark-mode"

@@ -17,7 +17,7 @@ const props = defineProps({
       <div class="max-w-3xl px-4 mx-auto my-10">
         <img
           style="width: 100%"
-          format="png"
+          format="webp"
           fit="cover"
           :alt="doc.title"
           :src="doc.image"

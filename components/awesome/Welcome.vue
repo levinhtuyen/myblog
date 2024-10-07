@@ -63,7 +63,7 @@ loop()
                   >
                     <img
                       alt="me"
-                      format="png"
+                      format="webp"
                       src="/images/hi.png"
                       class="w-7 md:w-10"
                       style="color: transparent"
@@ -993,7 +993,7 @@ loop()
                     </div>
                     <div class="" style="opacity: 1">
                       <img
-                        format="png"
+                        format="webp"
                         width="457"
                         height="526"
                         alt="me"
