@@ -47,7 +47,7 @@ npm install -g pm2
 npm install -g yarn
 
 # go to www root
-cd /var/www
+cd /var/www/tuyenleblog
 
 # create app or clone project
 cd  tuyenleblog

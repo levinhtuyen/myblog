@@ -17,7 +17,7 @@ const props = defineProps({
       <div class="max-w-3xl px-4 mx-auto my-10">
         <NuxtImg
           style="width: 100%"
-          format="webp"
+          format="png"
           fit="cover"
           :alt="doc.title"
           :src="doc.image"
@@ -31,7 +31,7 @@ const props = defineProps({
         </p>
         <ContentRenderer :value="doc" />
         <div>
-          <p class="font-bold text-right">{{  doc.author }}</p>
+          <p class="font-bold text-right">{{ doc.author }}</p>
         </div>
       </LayoutPageSection>
     </template>

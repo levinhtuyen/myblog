@@ -63,7 +63,7 @@ loop()
                   >
                     <NuxtImg
                       alt="me"
-                      format="webp"
+                      format="png"
                       src="/images/hi.png"
                       class="w-7 md:w-10"
                       style="color: transparent"
@@ -987,7 +987,7 @@ loop()
                     </div>
                     <div class="" style="opacity: 1">
                       <NuxtImg
-                        format="webp"
+                        format="png"
                         width="457"
                         height="526"
                         alt="me"

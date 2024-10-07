@@ -60,7 +60,7 @@ const isOpenMenu = () => {
                 <div class="mr-2 -mb-1">
                   <span class="rounded-full">
                     <NuxtImg
-                      format="webp"
+                      format="png"
                       width="24"
                       height="24"
                       alt="logo-icon-dark-mode"
