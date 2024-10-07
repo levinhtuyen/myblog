@@ -1044,12 +1044,17 @@ loop()
                 >06/2020 - Now</time
               >
               <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Collaborated with product and project managers, designers, and
-                fellow engineers to develop and deploy features within an agile,
-                From Client site, web tool, SSG, SSR to SPAs, I have extensive
-                experience optimising for all rendering methods, Create
-                structure project, create features and maintain an event website
-                using VueJS, NuxtJS.
+                <span>Collaborated with product and project managers, </span
+                ><span>
+                  designers, and fellow engineers to develop and deploy features
+                  within an agile,
+                </span>
+                <span>From Client site, web tool, SSG, SSR to SPAs, </span> I
+                have extensive experience optimising for all rendering methods,
+                <span
+                  >Create structure project, create features and maintain an
+                  event website using VueJS, NuxtJS.</span
+                >
               </p>
               <div class="mt-2 flex flex-wrap">
                 <!-- TypeScript SVG -->
