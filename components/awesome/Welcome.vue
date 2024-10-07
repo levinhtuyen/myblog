@@ -48,7 +48,7 @@ loop()
         <div class="content-wrapper pt-2">
           <div class="relative">
             <div class="relative z-10">
-              <div class="w-full md:w-3/5">
+              <div class="w-full lg:w-3/5">
                 <div
                   class="mb-1 flex items-center gap-1 text-2xl text-slate-600 md:mb-0 md:gap-2 md:text-4xl dark:text-slate-400"
                   style="opacity: 1; transform: none"
@@ -85,9 +85,9 @@ loop()
                   </span>
                 </span>
               </div>
-              <div class="grid-cols-2 flex">
+              <div class="lg:grid-cols-1 flex grid-cols-2">
                 <div
-                  class="w-1/3 text-base text-slate-600 md:text-xl pt-5 dark:text-slate-400 col-span-1"
+                  class="lg:w-1/3 w-full text-base text-slate-600 md:text-xl pt-5 dark:text-slate-400 col-span-1"
                   style="opacity: 1; transform: none"
                 >
                   <!-- Front-End -->
@@ -97,7 +97,10 @@ loop()
                       >Front-End Developer</strong
                     >
 
-                    <span class="block">Clean and modern UI design.</span>
+                    <span class="block">
+                      I'm always eager to expand my skill set and stay current
+                      with the latest technology trends.
+                    </span>
                   </div>
                   <!-- Contract -->
                   <div class="mt-3 md:mt-5">
@@ -291,11 +294,6 @@ loop()
                               />
                             </svg>
                           </div>
-                        </li>
-                        <li style="opacity: 1; transform: none">
-                          <div
-                            class="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"
-                          ></div>
                         </li>
                         <li style="opacity: 1; transform: none">
                           <div
@@ -1005,6 +1003,570 @@ loop()
           </div>
         </div>
       </div>
+    </LayoutPageSection>
+    <!-- Journey -->
+    <LayoutPageSestion>
+      <section>
+        <div class="pb-20">
+          <h2
+            class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
+          >
+            Journey
+          </h2>
+        </div>
+        <div
+          class="mx-auto flex w-8/12 flex-col items-start justify-center max-sm:flex-row"
+        >
+          <ol class="relative border-s border-gray-200 dark:border-gray-700">
+            <li class="mb-10 ms-6">
+              <span
+                class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+                ><svg
+                  class="size-2.5 text-blue-800 dark:text-blue-300"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+                  ></path></svg
+              ></span>
+              <h3
+                class="mb-1 flex items-center text-lg font-semibold text-gray-900 dark:text-white"
+              >
+                Frontend Developer in Go2Joy (Startup, Product)
+              </h3>
+              <time
+                class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
+                >06/2020 - Now</time
+              >
+              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                Collaborated with product and project managers, designers, and
+                fellow engineers to develop and deploy features within an agile,
+                From Client site, web tool, SSG, SSR to SPAs, I have extensive
+                experience optimising for all rendering methods, Create
+                structure project, create features and maintain an event website
+                using VueJS, NuxtJS.
+              </p>
+              <div class="mt-2 flex">
+                <!-- TypeScript SVG -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    data-state="closed"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://www.typescriptlang.org/"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                      >
+                        <path fill="#fff" d="M22.67 47h99.67v73.67H22.67z" />
+                        <path
+                          data-name="original"
+                          fill="#007acc"
+                          d="M1.5 63.91v62.5h125v-125H1.5zm100.73-5a15.56 15.56 0 017.82 4.5 20.58 20.58 0 013 4c0 .16-5.4 3.81-8.69 5.85-.12.08-.6-.44-1.13-1.23a7.09 7.09 0 00-5.87-3.53c-3.79-.26-6.23 1.73-6.21 5a4.58 4.58 0 00.54 2.34c.83 1.73 2.38 2.76 7.24 4.86 8.95 3.85 12.78 6.39 15.16 10 2.66 4 3.25 10.46 1.45 15.24-2 5.2-6.9 8.73-13.83 9.9a38.32 38.32 0 01-9.52-.1 23 23 0 01-12.72-6.63c-1.15-1.27-3.39-4.58-3.25-4.82a9.34 9.34 0 011.15-.73L82 101l3.59-2.08.75 1.11a16.78 16.78 0 004.74 4.54c4 2.1 9.46 1.81 12.16-.62a5.43 5.43 0 00.69-6.92c-1-1.39-3-2.56-8.59-5-6.45-2.78-9.23-4.5-11.77-7.24a16.48 16.48 0 01-3.43-6.25 25 25 0 01-.22-8c1.33-6.23 6-10.58 12.82-11.87a31.66 31.66 0 019.49.26zm-29.34 5.24v5.12H56.66v46.23H45.15V69.26H28.88v-5a49.19 49.19 0 01.12-5.17C29.08 59 39 59 51 59h21.83z"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+                <!-- Nuxt JS SVG -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    data-state="closed"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://nextjs.org/"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        viewBox="0 0 128 128"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M39.267 108.97l-.284-.567c-.567-1.135-.567-2.27-.283-3.689H8.059L53.454 24.14l19.009 34.33 6.241-4.54L59.695 19.6c-.283-.567-2.553-3.971-6.241-3.971-1.703 0-4.256.567-6.242 4.255L1.25 101.31c-.284.852-2.27 4.54-.568 7.66 1.135 1.703 2.838 3.405 6.81 3.405h38.585c-3.972 0-5.958-1.702-6.81-3.404z"
+                          fill="#00c58e"
+                        />
+                        <path
+                          d="M126.65 101.59L89.767 35.201c-.567-.567-2.553-4.256-6.242-4.256-1.702 0-4.255.851-6.241 4.256l-4.823 7.944v15.321l11.065-19.009 36.599 65.254h-13.902a6.525 6.525 0 01-.568 3.972l-.284.284c-1.702 3.12-5.958 3.404-6.525 3.404h21.562c.851 0 4.823-.283 6.809-3.404.851-1.419 1.419-3.972-.567-7.377z"
+                          fill="#108775"
+                        />
+                        <path
+                          d="M106.51 108.97v-.284l.284-.567c.283-1.135.567-2.27.283-3.405l-1.134-3.404-28.938-50.501-4.256-7.66h-.284l-4.256 7.66-28.938 50.5-1.134 3.405a6.81 6.81 0 00.567 4.256c1.135 1.702 2.837 3.405 6.809 3.405h53.906c.851 0 5.107-.284 7.093-3.405zM72.464 58.469l26.386 46.245H46.079z"
+                          fill="#2f495e"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+                <!-- Vue.js SVG -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://nodejs.org"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                      >
+                        <path
+                          d="M0 8.934l49.854.158 14.167 24.47 14.432-24.47L128 8.935l-63.834 110.14zm126.98.637l-24.36.02-38.476 66.053L25.691 9.592.942 9.572l63.211 107.89zm-25.149-.008l-22.745.168-15.053 24.647L49.216 9.73l-22.794-.168 37.731 64.476zm-75.834-.17l23.002.009m-23.002-.01l23.002.01"
+                          fill="none"
+                        />
+                        <path
+                          d="M25.997 9.393l23.002.009L64.035 34.36 79.018 9.404 102 9.398 64.15 75.053z"
+                          fill="#35495e"
+                        />
+                        <path
+                          d="M.91 9.569l25.067-.172 38.15 65.659L101.98 9.401l25.11.026-62.966 108.06z"
+                          fill="#41b883"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+                <!-- Taiwin icon -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    data-state="closed"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://www.mongodb.com/"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                        class="size-8 object-contain"
+                      >
+                        <path
+                          d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.215-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64zm0 0"
+                          fill="#38bdf8"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+                <!-- JavaScript SVG -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    data-state="closed"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://tailwindcss.com/"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                      >
+                        <path
+                          fill="#F0DB4F"
+                          d="M1.408 1.408h125.184v125.185H1.408z"
+                        />
+                        <path
+                          fill="#323330"
+                          d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+                <!-- Jira SVG -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    data-state="closed"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://git-scm.com/"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                      >
+                        <defs>
+                          <linearGradient
+                            id="jira-original-a"
+                            gradientUnits="userSpaceOnUse"
+                            x1="22.034"
+                            y1="9.773"
+                            x2="17.118"
+                            y2="14.842"
+                            gradientTransform="scale(4)"
+                          >
+                            <stop offset=".176" stop-color="#0052cc" />
+                            <stop offset="1" stop-color="#2684ff" />
+                          </linearGradient>
+                          <linearGradient
+                            id="jira-original-b"
+                            gradientUnits="userSpaceOnUse"
+                            x1="16.641"
+                            y1="15.564"
+                            x2="10.957"
+                            y2="21.094"
+                            gradientTransform="scale(4)"
+                          >
+                            <stop offset=".176" stop-color="#0052cc" />
+                            <stop offset="1" stop-color="#2684ff" />
+                          </linearGradient>
+                        </defs>
+                        <path
+                          d="M108.023 16H61.805c0 11.52 9.324 20.848 20.847 20.848h8.5v8.226c0 11.52 9.328 20.848 20.848 20.848V19.977A3.98 3.98 0 00108.023 16zm0 0"
+                          fill="#2684ff"
+                        />
+                        <path
+                          d="M85.121 39.04H38.902c0 11.519 9.325 20.847 20.844 20.847h8.504v8.226c0 11.52 9.328 20.848 20.848 20.848V43.016a3.983 3.983 0 00-3.977-3.977zm0 0"
+                          fill="url(#jira-original-a)"
+                        />
+                        <path
+                          d="M62.219 62.078H16c0 11.524 9.324 20.848 20.848 20.848h8.5v8.23c0 11.52 9.328 20.844 20.847 20.844V66.059a3.984 3.984 0 00-3.976-3.98zm0 0"
+                          fill="url(#jira-original-b)"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+                <!-- Quasar SVG -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    data-state="closed"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://git-scm.com/"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                      >
+                        <path
+                          d="M73.273 64a9.274 9.274 0 1 1-18.548-.001A9.274 9.274 0 0 1 73.273 64Zm31.891-23.773a46.986 46.986 0 0 0-7.289-9.528l-10.727 6.188a35.917 35.917 0 0 0-11.187-6.489 43.994 43.994 0 0 0-8.66 12.364C79.238 41.949 91.562 46.273 103 55.21l6.75-3.898a47.262 47.262 0 0 0-4.586-11.086ZM64 111.523a47.644 47.644 0 0 0 11.887-1.546V97.602a35.648 35.648 0 0 0 11.215-6.454 44.205 44.205 0 0 0-6.375-13.687c-5.266 10.738-15.165 19.25-28.625 24.687v7.79A46.172 46.172 0 0 0 64 111.522ZM22.836 40.238a47.212 47.212 0 0 0-4.598 11.075L28.961 57.5c-.793 4.273-.8 8.66-.023 12.938a44.053 44.053 0 0 0 15.039 1.324C37.3 61.836 34.887 49 36.898 34.625l-6.75-3.898a47.141 47.141 0 0 0-7.312 9.511Zm0 0"
+                        />
+                        <path
+                          fill="#00b4ff"
+                          d="M64 .125C28.723.125.125 28.723.125 64S28.723 127.875 64 127.875 127.875 99.277 127.875 64 99.277.125 64 .125Zm0 8.176c30.71 0 55.7 24.988 55.7 55.699 0 30.71-24.99 55.7-55.7 55.7-30.71 0-55.7-24.99-55.7-55.7C8.3 33.29 33.29 8.3 64 8.3Zm0 8.16a47.83 47.83 0 0 0-11.887 1.55v12.376a35.638 35.638 0 0 0-11.215 6.449 44.122 44.122 0 0 0 6.375 13.687c5.266-10.734 15.164-19.25 28.625-24.687V18.05A47.24 47.24 0 0 0 64 16.46ZM89.09 56.1a44.487 44.487 0 0 0-5.05.137c6.67 9.926 9.085 22.762 7.073 37.137l6.75 3.898a47.849 47.849 0 0 0 7.301-9.511c2-3.473 3.535-7.2 4.598-11.075L99.05 70.5c.8-4.324.8-8.7.023-12.938a43.998 43.998 0 0 0-9.984-1.46ZM25 72.774l-6.75 3.903a48.179 48.179 0 0 0 4.586 11.086 47.094 47.094 0 0 0 7.289 9.527l10.727-6.187a35.83 35.83 0 0 0 11.187 6.484 43.975 43.975 0 0 0 8.66-12.36C48.762 86.04 36.438 81.712 25 72.774Zm0 0"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+              </div>
+            </li>
+            <li class="mb-10 ms-6">
+              <span
+                class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+                ><svg
+                  class="size-2.5 text-blue-800 dark:text-blue-300"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+                  ></path></svg
+              ></span>
+              <h3
+                class="mb-1 flex items-center text-lg font-semibold text-gray-900 dark:text-white"
+              >
+                Frontend Developer in VINAAS (Product, Outsource, Freelancer)
+              </h3>
+              <time
+                class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
+                >06/2017 - 06/2020</time
+              >
+              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                Development web app, landingpage, websites, tool... (• Full-time
+                permanent)
+              </p>
+              <div class="mt-2 flex">
+                <!-- JavaScript SVG -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    data-state="closed"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://tailwindcss.com/"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                      >
+                        <path
+                          fill="#F0DB4F"
+                          d="M1.408 1.408h125.184v125.185H1.408z"
+                        />
+                        <path
+                          fill="#323330"
+                          d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+                <!-- Vue.js SVG -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://nodejs.org"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                      >
+                        <path
+                          d="M0 8.934l49.854.158 14.167 24.47 14.432-24.47L128 8.935l-63.834 110.14zm126.98.637l-24.36.02-38.476 66.053L25.691 9.592.942 9.572l63.211 107.89zm-25.149-.008l-22.745.168-15.053 24.647L49.216 9.73l-22.794-.168 37.731 64.476zm-75.834-.17l23.002.009m-23.002-.01l23.002.01"
+                          fill="none"
+                        />
+                        <path
+                          d="M25.997 9.393l23.002.009L64.035 34.36 79.018 9.404 102 9.398 64.15 75.053z"
+                          fill="#35495e"
+                        />
+                        <path
+                          d="M.91 9.569l25.067-.172 38.15 65.659L101.98 9.401l25.11.026-62.966 108.06z"
+                          fill="#41b883"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+                <!-- HTML5 SVG -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    data-state="closed"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://www.typescriptlang.org/"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                      >
+                        <path
+                          fill="#E44D26"
+                          d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"
+                        />
+                        <path
+                          fill="#F16529"
+                          d="M64 116.8l36.378-10.086 8.559-95.878H64z"
+                        />
+                        <path
+                          fill="#EBEBEB"
+                          d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"
+                        />
+                        <path
+                          fill="#fff"
+                          d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+                <!-- Slack SVG -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    data-state="closed"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://nextjs.org/"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                      >
+                        <path
+                          d="M27.255 80.719c0 7.33-5.978 13.317-13.309 13.317C6.616 94.036.63 88.049.63 80.719s5.987-13.317 13.317-13.317h13.309zm6.709 0c0-7.33 5.987-13.317 13.317-13.317s13.317 5.986 13.317 13.317v33.335c0 7.33-5.986 13.317-13.317 13.317-7.33 0-13.317-5.987-13.317-13.317zm0 0"
+                          fill="#de1c59"
+                        />
+                        <path
+                          d="M47.281 27.255c-7.33 0-13.317-5.978-13.317-13.309C33.964 6.616 39.951.63 47.281.63s13.317 5.987 13.317 13.317v13.309zm0 6.709c7.33 0 13.317 5.987 13.317 13.317s-5.986 13.317-13.317 13.317H13.946C6.616 60.598.63 54.612.63 47.281c0-7.33 5.987-13.317 13.317-13.317zm0 0"
+                          fill="#35c5f0"
+                        />
+                        <path
+                          d="M100.745 47.281c0-7.33 5.978-13.317 13.309-13.317 7.33 0 13.317 5.987 13.317 13.317s-5.987 13.317-13.317 13.317h-13.309zm-6.709 0c0 7.33-5.987 13.317-13.317 13.317s-13.317-5.986-13.317-13.317V13.946C67.402 6.616 73.388.63 80.719.63c7.33 0 13.317 5.987 13.317 13.317zm0 0"
+                          fill="#2eb57d"
+                        />
+                        <path
+                          d="M80.719 100.745c7.33 0 13.317 5.978 13.317 13.309 0 7.33-5.987 13.317-13.317 13.317s-13.317-5.987-13.317-13.317v-13.309zm0-6.709c-7.33 0-13.317-5.987-13.317-13.317s5.986-13.317 13.317-13.317h33.335c7.33 0 13.317 5.986 13.317 13.317 0 7.33-5.987 13.317-13.317 13.317zm0 0"
+                          fill="#ebb02e"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+
+                <!-- Gitlab icon -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    data-state="closed"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://www.mongodb.com/"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                        xml:space="preserve"
+                      >
+                        <path
+                          fill="#E24329"
+                          d="m124.755 51.382-.177-.452L107.47 6.282a4.459 4.459 0 0 0-1.761-2.121 4.581 4.581 0 0 0-5.236.281 4.578 4.578 0 0 0-1.518 2.304L87.404 42.088H40.629L29.077 6.746a4.492 4.492 0 0 0-1.518-2.31 4.581 4.581 0 0 0-5.236-.281 4.502 4.502 0 0 0-1.761 2.121L3.422 50.904l-.17.452c-5.059 13.219-.763 28.192 10.537 36.716l.059.046.157.111 26.061 19.516 12.893 9.758 7.854 5.93a5.283 5.283 0 0 0 6.388 0l7.854-5.93 12.893-9.758 26.218-19.634.065-.052c11.273-8.526 15.562-23.472 10.524-36.677z"
+                        />
+                        <path
+                          fill="#FC6D26"
+                          d="m124.755 51.382-.177-.452a57.79 57.79 0 0 0-23.005 10.341L64 89.682c12.795 9.68 23.934 18.09 23.934 18.09l26.218-19.634.065-.052c11.291-8.527 15.586-23.488 10.538-36.704z"
+                        />
+                        <path
+                          fill="#FCA326"
+                          d="m40.066 107.771 12.893 9.758 7.854 5.93a5.283 5.283 0 0 0 6.388 0l7.854-5.93 12.893-9.758s-11.152-8.436-23.947-18.09a18379.202 18379.202 0 0 0-23.935 18.09z"
+                        />
+                        <path
+                          fill="#FC6D26"
+                          d="M26.42 61.271A57.73 57.73 0 0 0 3.422 50.904l-.17.452c-5.059 13.219-.763 28.192 10.537 36.716l.059.046.157.111 26.061 19.516L64 89.655 26.42 61.271z"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+
+                <!-- CSS3 SVG -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    data-state="closed"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://git-scm.com/"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                      >
+                        <path
+                          fill="#1572B6"
+                          d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"
+                        />
+                        <path
+                          fill="#33A9DC"
+                          d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"
+                        />
+                        <path
+                          fill="#fff"
+                          d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"
+                        />
+                        <path
+                          fill="#EBEBEB"
+                          d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"
+                        />
+                        <path
+                          fill="#fff"
+                          d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"
+                        />
+                        <path
+                          fill="#EBEBEB"
+                          d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+                <!-- Git SVG -->
+                <div class="mr-2 size-max transition-all hover:scale-105">
+                  <a
+                    data-state="closed"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    href="https://git-scm.com/"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <svg
+                        class="size-8 object-contain"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 128"
+                      >
+                        <path
+                          fill="#F34F29"
+                          d="M124.737 58.378L69.621 3.264c-3.172-3.174-8.32-3.174-11.497 0L46.68 14.71l14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314 2.703 2.706 3.461 6.607 2.294 9.993l13.992 13.993c3.385-1.167 7.292-.413 9.994 2.295 3.78 3.777 3.78 9.9 0 13.679a9.673 9.673 0 01-13.683 0 9.677 9.677 0 01-2.105-10.521L68.574 47.933l-.002 34.341a9.708 9.708 0 012.559 1.828c3.778 3.777 3.778 9.898 0 13.683-3.779 3.777-9.904 3.777-13.679 0-3.778-3.784-3.778-9.905 0-13.683a9.65 9.65 0 013.167-2.11V47.333a9.581 9.581 0 01-3.167-2.111c-2.862-2.86-3.551-7.06-2.083-10.576L41.056 20.333 3.264 58.123a8.133 8.133 0 000 11.5l55.117 55.114c3.174 3.174 8.32 3.174 11.499 0l54.858-54.858a8.135 8.135 0 00-.001-11.501z"
+                        />
+                      </svg></div
+                  ></a>
+                </div>
+              </div>
+            </li>
+            <li class="mb-10 ms-6">
+              <span
+                class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+                ><svg
+                  style="width: 16px"
+                  class="svg-inline--fa fa-graduation-cap"
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="graduation-cap"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 640 512"
+                  data-fa-i2svg=""
+                >
+                  <path
+                    fill="currentColor"
+                    d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9l0 28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5l0-24.6c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"
+                  ></path></svg
+              ></span>
+              <h3
+                class="mb-1 flex items-center text-lg font-semibold text-gray-900 dark:text-white"
+              >
+                University of Science - VNUHCM - Hồ Chí Minh
+              </h3>
+              <time
+                class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
+                >09/2014 - 05/2017</time
+              >
+              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                Learn, learn, and learn ...
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+    </LayoutPageSestion>
+    <!-- Projects -->
+    <LayoutPageSection>
+      <div class="pb-20">
+        <h2
+          class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
+        >
+          Projects
+        </h2>
+      </div>
+      <div
+        class="mx-auto grid grid-cols-1 gap- md:grid-cols-2 xl:grid-cols-2"
+      ></div>
     </LayoutPageSection>
   </LayoutPageWrapper>
 </template>
