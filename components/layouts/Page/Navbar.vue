@@ -53,6 +53,7 @@ const isOpenMenu = () => {
             <NuxtLink
               aria-current="page"
               tag="a"
+              alt="Lê Vĩnh Tuyến - Blog's của tôi"
               to="/"
               class="router-link-active router-link-exact-active group hover:text-slate-900 flex items-center transition-all duration-200 dark:hover:text-slate-100"
             >
@@ -102,6 +103,7 @@ const isOpenMenu = () => {
                     aria-current="page"
                     tag="a"
                     to="/feel"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300"
                   >
                     <slot> Chuyện của tôi</slot>
@@ -111,6 +113,7 @@ const isOpenMenu = () => {
                   <NuxtLink
                     aria-current="page"
                     tag="a"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     to="/post"
                     class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300"
                   >
@@ -176,10 +179,20 @@ const isOpenMenu = () => {
         <ul>
           <!--[-->
           <li class="border-t border-t-gray-100 dark:border-t-slate-800">
-            <a href="/feel" class="block py-3 text-sm">Chuyện của tôi 2</a>
+            <a
+              href="/feel"
+              alt="Lê Vĩnh Tuyến - Blog's của tôi"
+              class="block py-3 text-sm"
+              >Chuyện của tôi 2</a
+            >
           </li>
           <li class="border-t border-t-gray-100 dark:border-t-slate-800">
-            <a href="/blog" class="block py-3 text-sm">Blog</a>
+            <a
+              href="/blog"
+              alt="Lê Vĩnh Tuyến - Blog's của tôi"
+              class="block py-3 text-sm"
+              >Blog</a
+            >
           </li>
           <!--]-->
         </ul>

@@ -109,6 +109,7 @@ loop()
                         <a
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           target="_blank"
+                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
                           rel="noopener noreferrer"
                           href="mailto:levinhtuyen210@gmail.com"
                           ><span class="sr-only">mail</span
@@ -128,6 +129,7 @@ loop()
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           target="_blank"
                           rel="noopener noreferrer"
+                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
                           href="https://github.com/levinhtuyen"
                           ><span class="sr-only">github</span
                           ><svg
@@ -143,6 +145,7 @@ loop()
                         <a
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           rel="noopener noreferrer"
+                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
                           href="#"
                           ><span class="sr-only">x</span
                           ><svg
@@ -158,6 +161,7 @@ loop()
                         <a
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           rel="noopener noreferrer"
+                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
                           href="#"
                           ><span class="sr-only">linkedin</span
                           ><svg
@@ -172,6 +176,7 @@ loop()
                         ><a
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           target="_blank"
+                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
                           rel="noopener noreferrer"
                           href="https://www.facebook.com/profile.php?id=100007906847424"
                           ><span class="sr-only">facebook</span
@@ -188,6 +193,7 @@ loop()
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           target="_blank"
                           rel="noopener noreferrer"
+                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
                           href="https://www.youtube.com/@ngaodusonthuy3000"
                           ><span class="sr-only">youtube</span
                           ><svg
@@ -1053,6 +1059,7 @@ loop()
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     href="https://www.typescriptlang.org/"
                     target="_blank"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
@@ -1074,8 +1081,9 @@ loop()
                 <div class="mr-2 size-max transition-all hover:scale-105">
                   <a
                     data-state="closed"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://nextjs.org/"
+                    href="https://nuxt.com/"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1104,7 +1112,8 @@ loop()
                 <div class="mr-2 size-max transition-all hover:scale-105">
                   <a
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://nodejs.org"
+                    href="https://vuejs.org/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1134,7 +1143,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://www.mongodb.com/"
+                    href="https://tailwindcss.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1156,7 +1166,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://tailwindcss.com/"
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1182,7 +1193,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://git-scm.com/"
+                    href="https://www.atlassian.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1238,7 +1250,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://git-scm.com/"
+                    href="https://quasar.dev/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1263,7 +1276,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://git-scm.com/"
+                    href="https://github.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1291,7 +1305,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://git-scm.com/"
+                    href="https://www.adobe.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1315,7 +1330,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://git-scm.com/"
+                    href="https://www.postman.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1345,7 +1361,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://git-scm.com/"
+                    href="https://firebase.google.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1367,7 +1384,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://git-scm.com/"
+                    href="https://firebase.google.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1419,7 +1437,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://tailwindcss.com/"
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1444,7 +1463,8 @@ loop()
                 <div class="mr-2 size-max transition-all hover:scale-105">
                   <a
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://nodejs.org"
+                    href="https://vuejs.org/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1474,7 +1494,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://www.typescriptlang.org/"
+                    href="https://www.w3schools.com/html/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1508,7 +1529,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://nextjs.org/"
+                    href="https://slack.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1543,7 +1565,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://www.mongodb.com/"
+                    href="https://about.gitlab.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1579,7 +1602,8 @@ loop()
                   <a
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    href="https://git-scm.com/"
+                    href="https://www.w3schools.com/css/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1622,6 +1646,7 @@ loop()
                     data-state="closed"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     href="https://git-scm.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
