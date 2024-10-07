@@ -1004,7 +1004,7 @@ loop()
         </div>
       </div>
       <!-- Journey -->
-      <section class="content-wrapper pt-2">
+      <section class="content-wrapper pt-16">
         <div class="pb-20">
           <h2
             class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
@@ -1045,7 +1045,7 @@ loop()
                 structure project, create features and maintain an event website
                 using VueJS, NuxtJS.
               </p>
-              <div class="mt-2 flex">
+              <div class="mt-2 flex flex-wrap">
                 <!-- TypeScript SVG -->
                 <div class="mr-2 size-max transition-all hover:scale-105">
                   <a
@@ -1413,7 +1413,7 @@ loop()
                 Development web app, landingpage, websites, tool... (• Full-time
                 permanent)
               </p>
-              <div class="mt-2 flex">
+              <div class="mt-2 flex flex-wrap">
                 <!-- JavaScript SVG -->
                 <div class="mr-2 size-max transition-all hover:scale-105">
                   <a
