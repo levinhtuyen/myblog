@@ -667,7 +667,6 @@ loop()
                     </div>
                     <div class="" style="opacity: 1s">
                       <img
-                        loading="lazy"
                         format="webp"
                         width="457"
                         height="526"
