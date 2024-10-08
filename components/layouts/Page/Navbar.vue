@@ -20,13 +20,13 @@ const leadingsText = computed(() => [
     text: titlesText.value[1],
     startColor: '#7928CA',
     endColor: '#FF0080',
-    delay: 1,
+    delay: 0.5,
   },
   {
     text: titlesText.value[2],
     startColor: '#FF4D4D',
     endColor: '#F9CB28',
-    delay: 3,
+    delay: 1,
   },
 ])
 // drawer
@@ -65,7 +65,6 @@ watch(route.name, () => {
                 <div class="mr-2 -mb-1">
                   <span class="rounded-full">
                     <img
-                      format="webp"
                       width="24"
                       height="24"
                       alt="logo-icon-dark-mode"

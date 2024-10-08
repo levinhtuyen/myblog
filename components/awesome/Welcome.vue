@@ -473,7 +473,7 @@ loop()
                             <!-- TypeScript SVG -->
                             <img
                               class="h-6 w-6"
-                              src="/svg/typeScript.svg"
+                              src="/svg/typescript.svg"
                               alt="TypeScript"
                             />
                           </div>

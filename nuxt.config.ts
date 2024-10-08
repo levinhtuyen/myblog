@@ -11,6 +11,8 @@ export default defineNuxtConfig({
       script: [
         {
           type: 'module',
+          async: true,
+          crossorigin: 'anonymous',
           src: 'https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js',
         },
       ],
