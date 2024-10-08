@@ -82,8 +82,8 @@ useHead({
                 >
                   <img
                     width="400"
-                    height="300"
-                    style="max-height: 265px"
+                    height="400"
+                    style="max-height: 365px"
                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                     :alt="article.title"
                     :src="article.image"
