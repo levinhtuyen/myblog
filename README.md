@@ -18,7 +18,7 @@ Nuxt Awesome Starter v2 brings many changes, separating core component apps and 
 
 ## Preview
 
-<img src="public/images/imageseo.png" alt="Preview" title="Desktop Preview">
+<img src="public/imageseo.png" alt="Preview" title="Desktop Preview">
 
 ## Performance
 
