@@ -10,12 +10,12 @@ export const useMetaSeoIndex = () => {
     ogTitle: "Lê Vĩnh Tuyến - Blog's của tôi",
     ogDescription:
       "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
-    ogImage: 'https://levinhtuyen.blog/logo.png',
+    ogImage: 'https://tuyenleblog.tech/logo.png',
     ogType: 'article',
-    ogLink: 'https://levinhtuyen.blog/',
+    ogLink: 'https://tuyenleblog.tech/',
     robots: 'index, follow',
     ogImageWidth: '1200',
-    ogSideName: 'levinhtuyen.blog',
+    ogSideName: 'tuyenleblog.tech',
     ogImageHeight: '628',
   })
 
@@ -48,7 +48,7 @@ export const useMetaSeoIndex = () => {
 
       {
         property: 'og:image',
-        content: 'https://levinhtuyen.blog/logo.png',
+        content: 'https://tuyenleblog.tech/logo.png',
       },
       {
         name: 'robots',
@@ -73,7 +73,7 @@ export const useMetaSeoIndex = () => {
     ],
 
     link: [
-      { rel: 'canonical', href: 'https://levinhtuyen.blog', id: 'canonical' },
+      { rel: 'canonical', href: 'https://tuyenleblog.tech', id: 'canonical' },
     ],
   })
   return useHead

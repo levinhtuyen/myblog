@@ -2,7 +2,59 @@
 import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 // compiler micro
 definePageMeta({ layout: 'page' })
-useHead({ title: 'Feel' })
+useHead({
+  title: `Lê Vĩnh Tuyến - Chuyện của tôi`,
+  meta: [
+    {
+      name: 'description',
+      content: `Lê Vĩnh Tuyến - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+    },
+    {
+      property: 'og:title',
+      content: `Lê Vĩnh Tuyến - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+    },
+    {
+      property: 'og:url',
+      content: computed(() => 'https://tuyenleblog.tech/post'),
+    },
+    {
+      property: 'og:type',
+      content: computed(() => 'website'),
+    },
+    {
+      property: 'og:description',
+      content: `Lê Vĩnh Tuyến - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+    },
+    {
+      property: 'og:image',
+      content: 'https://tuyenleblog.tech/logo.png',
+    },
+    {
+      name: 'robots',
+      content: computed(() => 'index, follow'),
+    },
+    {
+      property: 'og:image:width',
+      content: '1200',
+    },
+    {
+      property: 'og:site_name',
+      content: 'website',
+    },
+    {
+      property: 'og:image:height',
+      content: '628',
+    },
+    {
+      property: 'msvalidate.01',
+      content: computed(() => '11B70B71EB4BE19284312ADFF0011957'),
+    },
+  ],
+
+  link: [
+    { rel: 'canonical', href: 'https://tuyenleblog.tech', id: 'canonical' },
+  ],
+})
 // query
 const query: QueryBuilderParams = { path: '/feel' }
 </script>

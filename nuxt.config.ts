@@ -13,9 +13,6 @@ export default defineNuxtConfig({
           type: 'module',
           src: 'https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js',
         },
-        {
-          src: 'https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js',
-        },
       ],
     },
   },

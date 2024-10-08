@@ -23,7 +23,7 @@ export default defineAppConfig({
       name: 'LeTuyen',
       links: {
         github: 'https://github.com/levinhtuyen/myblog',
-        website: 'https://viandwi24.site',
+        website: 'https://tuyenleblog.tech',
       },
     },
   },

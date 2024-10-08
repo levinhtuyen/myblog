@@ -29,7 +29,7 @@ export default defineNuxtSchema({
         name: 'TuyenLe',
         links: {
           github: 'https://github.com/levinhtuyen/myblog',
-          website: 'https://viandwi24.site',
+          website: 'https://tuyenleblog.tech',
         },
       },
     } as NuxtAwesomeAppConfig,
