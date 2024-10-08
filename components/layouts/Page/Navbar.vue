@@ -24,8 +24,8 @@ const leadingsText = computed(() => [
   },
   {
     text: titlesText.value[2],
-    startColor: '#FF4D4D',
-    endColor: '#F9CB28',
+    startColor: '#4dff6a',
+    endColor: '#0a5c00',
     delay: 1,
   },
 ])
@@ -78,7 +78,7 @@ watch(route.name, () => {
               <div
                 class="drop-shadow-sm group-hover:drop-shadow-md transition-all duration-200"
               >
-                <span class="flex items-center">
+                <div class="flex items-center">
                   <span
                     v-for="(item, i) in leadingsText"
                     :key="i"
@@ -94,8 +94,7 @@ watch(route.name, () => {
                     class="group-hover:text-amber-500 flex text-slate-700 text-sm transition-all duration-200 dark:text-slate-600"
                   >
                     's&nbsp;Blog</span
-                  ></span
-                >
+                  ></div>
               </div></NuxtLink
             >
           </div>
