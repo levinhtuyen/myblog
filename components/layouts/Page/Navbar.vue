@@ -7,26 +7,26 @@ const titlesText = computed<string[]>(() =>
   'Lê Vĩnh Tuyến'
     .replaceAll('&nbsp;', '[space]')
     .split(' ')
-    .map((item: any) => item.replaceAll('[space]', ' '))
+    .map((item: any) => item.replaceAll('[space]', ' ')),
 )
 const leadingsText = computed(() => [
   {
     text: titlesText.value[0],
     startColor: '#007CF0',
     endColor: '#00DFD8',
-    delay: 0,
+    delay: 2,
   },
   {
     text: titlesText.value[1],
     startColor: '#7928CA',
     endColor: '#FF0080',
-    delay: 0.5,
+    delay: 4,
   },
   {
     text: titlesText.value[2],
     startColor: '#4dff6a',
     endColor: '#4dff6a',
-    delay: 1,
+    delay: 6,
   },
 ])
 // drawer
@@ -36,7 +36,7 @@ const isActive = computed(() => route.name)
 const menus = computed(
   () =>
     (awesome?.layout?.page?.navbar?.menus ||
-      []) as AwesomeLayoutPageNavbarMenu[]
+      []) as AwesomeLayoutPageNavbarMenu[],
 )
 const isOpenMenu = () => {
   isOpen.value = !isOpen.value
@@ -78,23 +78,28 @@ watch(route.name, () => {
               <div
                 class="drop-shadow-sm group-hover:drop-shadow-md transition-all duration-200"
               >
-                <div class="flex items-center">
-                  <span
-                    v-for="(item, i) in leadingsText"
-                    :key="i"
-                    :style="`--content: '${item.text}'; --start-color: ${
-                      item.startColor
-                    }; --end-color: ${
-                      item.endColor
-                    }; --animation-name: anim-fg-${i + 1}`"
-                    class="animated-text-bg drop-shadow-xl text-md sm:text-md md:text-md lg:text-md 2xl:text-md flex font-black uppercase"
-                  >
-                    <span class="animated-text-fg">{{ item.text }}</span> </span
-                  ><span
-                    class="group-hover:text-amber-500 flex text-slate-700 text-sm transition-all duration-200 dark:text-slate-600"
-                  >
-                    's&nbsp;Blog</span
-                  ></div>
+                <ClientOnly>
+                  <div class="flex items-center">
+                    <span
+                      v-for="(item, i) in leadingsText"
+                      :key="i"
+                      :style="`--content: '${item.text}'; --start-color: ${
+                        item.startColor
+                      }; --end-color: ${
+                        item.endColor
+                      }; --animation-name: anim-fg-${i + 1}`"
+                      class="animated-text-bg drop-shadow-xl text-md sm:text-md md:text-md lg:text-md 2xl:text-md flex font-black uppercase"
+                    >
+                      <span class="animated-text-fg">{{
+                        item.text
+                      }}</span> </span
+                    ><span
+                      class="group-hover:text-amber-500 flex text-slate-700 text-sm transition-all duration-200 dark:text-slate-600"
+                    >
+                      's&nbsp;Blog</span
+                    >
+                  </div>
+                </ClientOnly>
               </div></NuxtLink
             >
           </div>
@@ -215,4 +220,3 @@ watch(route.name, () => {
     </div>
   </header>
 </template>
-
