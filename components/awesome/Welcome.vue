@@ -44,7 +44,8 @@ loop()
 <template>
   <LayoutPageWrapper class="max-w-6xl m-auto">
     <LayoutPageSection>
-      <div>
+      <!-- About me -->
+      <section>
         <div class="content-wrapper pt-2">
           <div class="relative">
             <div class="relative z-10">
@@ -1034,10 +1035,10 @@ loop()
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- Journey -->
       <section class="content-wrapper pt-16">
-        <div class="pb-20">
+        <div class="pb-12">
           <h2
             class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
           >
@@ -1792,7 +1793,7 @@ loop()
         </div>
       </section>
       <!-- Projects -->
-      <div class="pb-20">
+      <div class="pb-12">
         <h2
           class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
         >

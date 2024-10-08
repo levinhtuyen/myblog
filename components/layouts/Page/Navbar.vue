@@ -3,7 +3,6 @@ const { awesome } = useAppConfig()
 const $screen = useAwesomeScreen()
 const nuxtApp = useNuxtApp()
 const route = useRoute()
-console.log('route :>> ', route)
 const titlesText = computed<string[]>(() =>
   'Lê Vĩnh Tuyến'
     .replaceAll('&nbsp;', '[space]')
