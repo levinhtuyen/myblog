@@ -25,7 +25,7 @@ const leadingsText = computed(() => [
   {
     text: titlesText.value[2],
     startColor: '#4dff6a',
-    endColor: '#3eb230',
+    endColor: '#4dff6a',
     delay: 1,
   },
 ])
@@ -70,7 +70,7 @@ watch(route.name, () => {
                       loading="lazy"
                       alt="logo-icon-dark-mode"
                       class="rounded-full"
-                      src="/images/logo.png"
+                      src="/images/logo.webp"
                   /></span>
                 </div>
               </slot>
