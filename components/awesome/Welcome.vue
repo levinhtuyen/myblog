@@ -60,14 +60,14 @@ loop()
                       transform-origin: right center;
                       transform: none;
                     "
+                    class="w-8 md:w-16"
                   >
-                    <NuxtImg
-                      alt="me"
-                      width="50"
-                      height="50"
+                    <img
+                      alt="hi"
+                      width="64"
+                      height="64"
                       format="webp"
-                      src="/images/hi.png"
-                      class="w-8 md:w-16"
+                      src="/images/hi.webp"
                       style="color: transparent"
                     />
                   </div>
@@ -1018,7 +1018,7 @@ loop()
                       </svg>
                     </div>
                     <div class="" style="opacity: 1s">
-                      <NuxtImg
+                      <img
                         format="webp"
                         width="457"
                         height="526"
@@ -1799,9 +1799,118 @@ loop()
           Projects
         </h2>
       </div>
-      <div class="mx-auto grid grid-cols-1 gap- md:grid-cols-2 xl:grid-cols-2">
-        Comming soon...
-      </div>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/3">
+              <div
+                class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden"
+              >
+                <img
+                  class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                  src="https://images.unsplash.com/photo-1618172193622-ae2d025f4032?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2
+                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                  >
+                    Web App
+                  </h2>
+                  <h1
+                    class="title-font text-lg font-medium text-gray-600 mb-3 line-clamp-1"
+                  >
+                    Web Tool
+                  </h1>
+                  <p class="leading-relaxed mb-3 line-clamp-3">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Tempora expedita dicta totam aspernatur doloremque.
+                    Excepturi iste iusto eos enim reprehenderit nisi, accusamus
+                    delectus nihil quis facere in modi ratione libero!
+                  </p>
+                  <div class="flex items-center flex-wrap">
+                    <button
+                      class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
+                    >
+                      Learn more
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div
+                class="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-pink-50 to-red-50 overflow-hidden"
+              >
+                <img
+                  class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                  src="https://images.unsplash.com/photo-1624628639856-100bf817fd35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2
+                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                  >
+                    WebAdmin
+                  </h2>
+                  <h1
+                    class="title-font text-lg font-medium text-gray-600 mb-3 line-clamp-1"
+                  >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </h1>
+                  <p class="leading-relaxed mb-3 line-clamp-3">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Tempora expedita dicta totam aspernatur doloremque.
+                    Excepturi iste iusto eos enim reprehenderit nisi, accusamus
+                    delectus nihil quis facere in modi ratione libero!
+                  </p>
+                  <div class="flex items-center flex-wrap">
+                    <button
+                      class="bg-gradient-to-r from-orange-300 to-amber-400 hover:scale-105 drop-shadow-md shadow-cla-violate px-4 py-1 rounded-lg"
+                    >
+                      Learn more
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div
+                class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden"
+              >
+                <img
+                  class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                  src="https://images.unsplash.com/photo-1631700611307-37dbcb89ef7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2
+                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                  >
+                    Website
+                  </h2>
+                  <h1
+                    class="title-font text-lg font-medium text-gray-600 mb-3 line-clamp-1"
+                  >
+                    My portfolio and blog
+                  </h1>
+                  <p class="leading-relaxed mb-3 line-clamp-3">
+                    Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào
+                    trong gió, để chút buồn gửi vào trong tim...
+                  </p>
+                  <div class="flex items-center flex-wrap">
+                    <button
+                      class="bg-gradient-to-r from-fuchsia-300 to-pink-400 hover:scale-105 shadow-cla-blue px-4 py-1 rounded-lg"
+                    >
+                      see more
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </LayoutPageSection>
   </LayoutPageWrapper>
 </template>
