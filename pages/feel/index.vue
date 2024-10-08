@@ -27,7 +27,7 @@ useHead({
     },
     {
       property: 'og:image',
-      content: 'https://tuyenleblog.tech/logo.png',
+      content: 'https://tuyenleblog.tech/imageseo.png',
     },
     {
       name: 'robots',

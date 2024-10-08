@@ -27,7 +27,7 @@ useHead({
     },
     {
       property: 'og:image',
-      content: 'https://tuyenleblog.tech/logo.png',
+      content: 'https://tuyenleblog.tech/imageseo.png',
     },
     {
       name: 'robots',
@@ -39,11 +39,11 @@ useHead({
     },
     {
       property: 'og:site_name',
-      content: computed(() => 'website'),
+      content: 'website',
     },
     {
       property: 'og:image:height',
-      content: computed(() => '628'),
+      content: '628',
     },
     {
       property: 'msvalidate.01',
