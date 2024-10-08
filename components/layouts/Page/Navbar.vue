@@ -25,7 +25,7 @@ const leadingsText = computed(() => [
   {
     text: titlesText.value[2],
     startColor: '#4dff6a',
-    endColor: '#0a5c00',
+    endColor: '#3eb230',
     delay: 1,
   },
 ])
