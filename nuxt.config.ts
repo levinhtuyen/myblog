@@ -11,10 +11,9 @@ export default defineNuxtConfig({
       script: [
         {
           type: 'module',
+          async: true,
+          crossorigin: 'anonymous',
           src: 'https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js',
-        },
-        {
-          src: 'https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js',
         },
       ],
     },
@@ -60,7 +59,19 @@ export default defineNuxtConfig({
     // todo: feat/localization
     // '@nuxtjs/i18n'
   ],
-
+  image: {
+    // The screen sizes predefined by `@nuxt/image`:
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536,
+      '2xl': 1536,
+    },
+    format: ['webp'],
+  },
   css: [
     resolve('./assets/scss/_variables.scss'),
     resolve('./assets/scss/app.scss'),

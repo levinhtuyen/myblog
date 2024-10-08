@@ -1,10 +1,4 @@
 <script lang="ts" setup>
-const { awesome } = useAppConfig()
-
-useHead({
-  title: awesome.name,
-  titleTemplate: `Lê Vĩnh Tuyến - Blog's của tôi`,
-})
 </script>
 
 <template>

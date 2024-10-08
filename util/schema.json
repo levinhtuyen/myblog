@@ -2,10 +2,10 @@
   "schema1": {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": "https://levinhtuyen.blog/",
+    "url": "https://tuyenleblog.tech/",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://levinhtuyen.blog/searchresults?q=${search_term_string}",
+      "target": "https://tuyenleblog.tech/searchresults?q=${search_term_string}",
       "query-input": "required name=search_term_string"
     }
   },
@@ -13,7 +13,7 @@
     "@context": "http://schema.org",
     "@type": "Organization",
     "@id": "kg:/g/11vcl7mn3f",
-    "url": "https://levinhtuyen.blog/",
+    "url": "https://tuyenleblog.tech/",
     "mainentityofpage": "https://www.google.com/search?q=levinhtuyen&kponly=&kgmid=/g/11vcl7mn3f",
     "alternatename": [
       "levinhtuyen",
@@ -28,7 +28,7 @@
       "tuyen portfolio",
       "tuyenle portfolio"
     ],
-    "actionableFeedbackPolicy": "https://levinhtuyen.blog/dieu-khoan-su-dung",
+    "actionableFeedbackPolicy": "https://tuyenleblog.tech/dieu-khoan-su-dung",
     "award": "Lê Vĩnh Tuyến - Blog's của tôi",
     "disambiguatingdescription": "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
     "slogan": "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
@@ -49,7 +49,7 @@
       "https://en.wikipedia.org/wiki/Real_estate",
       "https://en.wikipedia.org/wiki/Boarding_house"
     ],
-    "logo": "https://levinhtuyen.blog/logo.png",
+    "logo": "https://tuyenleblog.tech/imageseo.png",
     "email": "tuyenleblog@gmail.com",
     "address": {
       "@type": "PostalAddress",
@@ -66,7 +66,7 @@
       "@type": "SubscribeAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://levinhtuyen.blog/about",
+        "urlTemplate": "https://tuyenleblog.tech/about",
         "inLanguage": "vn",
         "actionPlatform": [
           "http://schema.org/DesktopWebPlatform",

@@ -110,7 +110,7 @@ export default defineAppConfig({
       name: 'TuyenLew',
       links: {
         github: 'https://github.com/levinhtuyen/myblog',
-        website: 'https://viandwi24.site',
+        website: 'https://tuyenleblog.tech',
       },
     },
     disableInfoReplaceIndexInWelcomePage: false,

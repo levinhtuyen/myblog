@@ -8,7 +8,7 @@ export default defineAppConfig({
       name: 'viandwi24',
       links: {
         github: 'https://github.com/levinhtuyen/myblog',
-        website: 'https://viandwi24.site',
+        website: 'https://tuyenleblog.tech',
       },
     },
     layout: {
