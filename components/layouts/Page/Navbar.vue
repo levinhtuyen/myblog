@@ -2,7 +2,8 @@
 const { awesome } = useAppConfig()
 const $screen = useAwesomeScreen()
 const nuxtApp = useNuxtApp()
-
+const route = useRoute()
+console.log('route :>> ', route)
 const titlesText = computed<string[]>(() =>
   'Lê Vĩnh Tuyến'
     .replaceAll('&nbsp;', '[space]')
@@ -32,6 +33,7 @@ const leadingsText = computed(() => [
 // drawer
 const showDrawer = ref(false)
 const isOpen = ref(false)
+const isActive = computed(() => route.name)
 const menus = computed(
   () =>
     (awesome?.layout?.page?.navbar?.menus ||
@@ -40,6 +42,9 @@ const menus = computed(
 const isOpenMenu = () => {
   isOpen.value = !isOpen.value
 }
+watch(route.name, () => {
+  isActive.value = route.name
+})
 </script>
 
 <template>
@@ -104,7 +109,12 @@ const isOpenMenu = () => {
                     tag="a"
                     to="/feel"
                     alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300"
+                    class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300 font-semibold"
+                    :class="
+                      isActive === 'feel' || isActive === 'feel-slug'
+                        ? 'text-sky-600'
+                        : ''
+                    "
                   >
                     <slot> Chuyện của tôi</slot>
                   </NuxtLink>
@@ -115,7 +125,12 @@ const isOpenMenu = () => {
                     tag="a"
                     alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     to="/post"
-                    class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300"
+                    class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300 font-semibold"
+                    :class="
+                      isActive === 'post' || isActive === 'post-slug'
+                        ? 'text-sky-600'
+                        : ''
+                    "
                   >
                     <slot>Blog</slot>
                   </NuxtLink>
