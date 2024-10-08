@@ -67,6 +67,7 @@ watch(route.name, () => {
                     <img
                       width="24"
                       height="24"
+                      loading="lazy"
                       alt="logo-icon-dark-mode"
                       class="rounded-full"
                       src="/images/logo.png"
@@ -215,3 +216,4 @@ watch(route.name, () => {
     </div>
   </header>
 </template>
+

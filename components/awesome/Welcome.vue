@@ -64,6 +64,7 @@ loop()
                     class="w-8 md:w-16"
                   >
                     <img
+                      loading="lazy"
                       alt="hi"
                       width="64"
                       height="64"
@@ -254,6 +255,7 @@ loop()
                           >
                             <!-- Vue.js SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/vuejs.svg"
                               alt="vuejs"
@@ -272,6 +274,7 @@ loop()
                           >
                             <!-- Nuxt JS SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/nuxtjs.svg"
                               alt="nuxtjs"
@@ -290,6 +293,7 @@ loop()
                             <!-- Taiwin icon -->
 
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/tailwindcss.svg"
                               alt="tailwindcss"
@@ -306,7 +310,12 @@ loop()
                             class="transition duration-200 hover:text-[#61DAFB]"
                           >
                             <!-- Npm icon -->
-                            <img class="h-6 w-6" src="/svg/npm.svg" alt="Npm" />
+                            <img
+                              loading="lazy"
+                              class="h-6 w-6"
+                              src="/svg/npm.svg"
+                              alt="Npm"
+                            />
                           </div>
                         </li>
                         <li style="opacity: 1; transform: none">
@@ -320,6 +329,7 @@ loop()
                           >
                             <!-- Figma SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/figma.svg"
                               alt="Figma"
@@ -338,6 +348,7 @@ loop()
                             <!-- Firebase SVG -->
 
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/firebase.svg"
                               alt="firebase"
@@ -354,7 +365,12 @@ loop()
                             class="transition duration-200 hover:text-[#000000] dark:hover:text-[#FFFFFF]"
                           >
                             <!-- Git SVG -->
-                            <img class="h-6 w-6" src="/svg/git.svg" alt="GIT" />
+                            <img
+                              loading="lazy"
+                              class="h-6 w-6"
+                              src="/svg/git.svg"
+                              alt="GIT"
+                            />
                           </div>
                         </li>
                         <li style="opacity: 1; transform: none">
@@ -368,6 +384,7 @@ loop()
                           >
                             <!-- JavaScript SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/javascript.svg"
                               alt="JavaScript"
@@ -385,6 +402,7 @@ loop()
                           >
                             <!-- Jira SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/jira.svg"
                               alt="jira"
@@ -402,6 +420,7 @@ loop()
                           >
                             <!-- Laravel SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/laravel.svg"
                               alt="Laravel"
@@ -419,6 +438,7 @@ loop()
                           >
                             <!-- Node.js SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/nodejs.svg"
                               alt="Nodejs"
@@ -437,6 +457,7 @@ loop()
                           >
                             <!-- Postman SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/postman.svg"
                               alt="Postman"
@@ -455,6 +476,7 @@ loop()
                           >
                             <!-- Slack SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/slack.svg"
                               alt="Slack"
@@ -472,6 +494,7 @@ loop()
                           >
                             <!-- TypeScript SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/typescript.svg"
                               alt="TypeScript"
@@ -489,6 +512,7 @@ loop()
                           >
                             <!-- Vite.js SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/vitejs.svg"
                               alt="Vitejs"
@@ -506,6 +530,7 @@ loop()
                           >
                             <!-- Visual Studio Code -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/vscode.svg"
                               alt="vscode"
@@ -523,6 +548,7 @@ loop()
                           >
                             <!-- Yarn-->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/yarn.svg"
                               alt="yarn"
@@ -540,6 +566,7 @@ loop()
                           >
                             <!-- Quasar SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/quasar.svg"
                               alt="Quasar"
@@ -557,6 +584,7 @@ loop()
                           >
                             <!-- HTML5 SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/html5.svg"
                               alt="html5"
@@ -574,6 +602,7 @@ loop()
                           >
                             <!-- Adobe Potoshop SVG -->
                             <img
+                              loading="lazy"
                               class="h-6 w-6"
                               src="/svg/adobephotoshop.svg"
                               alt="adobephotoshop"
@@ -638,6 +667,7 @@ loop()
                     </div>
                     <div class="" style="opacity: 1s">
                       <img
+                        loading="lazy"
                         format="webp"
                         width="457"
                         height="526"
@@ -721,8 +751,9 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
-                        src="/svg/typeScript.svg"
+                        src="/svg/typescript.svg"
                         alt="typescript"
                       /></div
                   ></NuxtLink>
@@ -742,6 +773,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/nuxtjs.svg"
                         alt="nuxtjs"
@@ -763,6 +795,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/vuejs.svg"
                         alt="vuejs"
@@ -784,6 +817,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/tailwindcss.svg"
                         alt="tailwindcss"
@@ -805,6 +839,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/javascript.svg"
                         alt="javascript"
@@ -826,6 +861,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/jira.svg"
                         alt="jira"
@@ -847,6 +883,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/quasar.svg"
                         alt="quasar"
@@ -868,6 +905,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/github.svg"
                         alt="github"
@@ -889,6 +927,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/adobephotoshop.svg"
                         alt="Adobe Photoshop"
@@ -910,6 +949,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/postman.svg"
                         alt="Postman"
@@ -931,6 +971,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/firebase.svg"
                         alt="firebase"
@@ -952,6 +993,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/git.svg"
                         alt="git"
@@ -1002,6 +1044,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/javascript.svg"
                         alt="javascript"
@@ -1023,6 +1066,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/vuejs.svg"
                         alt="vuejs"
@@ -1044,6 +1088,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/html5.svg"
                         alt="html5"
@@ -1065,6 +1110,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/slack.svg"
                         alt="slack"
@@ -1087,6 +1133,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/gitlab.svg"
                         alt="gitlab"
@@ -1109,6 +1156,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/css3.svg"
                         alt="css3"
@@ -1130,6 +1178,7 @@ loop()
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
+                        loading="lazy"
                         class="size-8 object-contain"
                         src="/svg/git.svg"
                         alt="git"
@@ -1190,6 +1239,7 @@ loop()
                 class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden"
               >
                 <img
+                  loading="lazy"
                   class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="https://images.unsplash.com/photo-1618172193622-ae2d025f4032?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
                   alt="blog"
@@ -1226,6 +1276,7 @@ loop()
                 class="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-pink-50 to-red-50 overflow-hidden"
               >
                 <img
+                  loading="lazy"
                   class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="https://images.unsplash.com/photo-1624628639856-100bf817fd35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
                   alt="blog"
@@ -1262,6 +1313,7 @@ loop()
                 class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden"
               >
                 <img
+                  loading="lazy"
                   class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="https://images.unsplash.com/photo-1631700611307-37dbcb89ef7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
                   alt="blog"
@@ -1298,108 +1350,4 @@ loop()
   </LayoutPageWrapper>
 </template>
 
-<style lang="scss">
-:root {
-  --padding: 0.05em;
-}
 
-@keyframes anim-fg-1 {
-  0%,
-  16.667%,
-  100% {
-    opacity: 1;
-  }
-
-  33.333%,
-  83.333% {
-    opacity: 0;
-  }
-}
-
-@keyframes anim-fg-2 {
-  0%,
-  16.667%,
-  66.667%,
-  100% {
-    opacity: 0;
-  }
-
-  33.333%,
-  50% {
-    opacity: 1;
-  }
-}
-
-@keyframes anim-fg-3 {
-  0%,
-  50%,
-  100% {
-    opacity: 0;
-  }
-
-  66.667%,
-  83.333% {
-    opacity: 1;
-  }
-}
-
-.animated-text-bg {
-  position: relative;
-  display: block;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  content: var(--content);
-  display: block;
-  width: 100%;
-  color: theme('colors.slate.800');
-  top: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-  padding-left: var(--padding);
-  padding-right: var(--padding);
-
-  &:before {
-    content: var(--content);
-    position: absolute;
-    display: block;
-    width: 100%;
-    color: theme('colors.slate.800');
-    top: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 0;
-    padding-left: var(--padding);
-    padding-right: var(--padding);
-  }
-}
-
-.animated-text-fg {
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding-left: var(--padding);
-  padding-right: var(--padding);
-  background-image: linear-gradient(
-    90deg,
-    var(--start-color),
-    var(--end-color)
-  );
-  position: relative;
-  opacity: 0;
-  z-index: 1;
-  animation: var(--animation-name) 8s infinite;
-}
-
-html.dark {
-  .animated-text-bg {
-    color: theme('colors.gray.100');
-
-    &:before {
-      color: theme('colors.gray.100');
-    }
-  }
-}
-</style>
