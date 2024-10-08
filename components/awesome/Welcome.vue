@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
-const phrases = [`I'm Lê Vĩnh Tuyến`, `I learn, I develop, I write, I tutor...`]
+const phrases = [`I'm Lê Vĩnh Tuyến`, `I learn, I develop...`]
 
 const currentPhraseIndex = ref(0)
 const currentCharacterIndex = ref(0)
@@ -74,7 +74,7 @@ loop()
                 </div>
                 <span class="text-slate-700 dark:text-slate-300"
                   ><span
-                    class="mb-1 block text-[2.5rem] font-[1000] leading-none md:text-7xl"
+                    class="mb-1 block text-[2.3rem] font-[1000] leading-none md:text-6xl"
                     style="opacity: 1; transform: none"
                   >
                     <!-- -->
@@ -967,7 +967,7 @@ loop()
                 </div>
                 <ClientOnly>
                   <model-viewer
-                    class="col-span-1 custome-model-me"
+                    class="col-span-1 md:block hidden custome-model-me"
                     src="/images/model.glb"
                     loading="eager"
                     camera-controls

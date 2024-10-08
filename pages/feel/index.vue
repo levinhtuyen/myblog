@@ -113,7 +113,7 @@ const query: QueryBuilderParams = { path: '/feel' }
           </div>
         </template>
         <template #not-found>
-          <p>Bạn chưa có bài viết nào.</p>
+          <p>No articles found.</p>
         </template>
       </ContentList>
     </LayoutPageSection>
