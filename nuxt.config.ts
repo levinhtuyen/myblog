@@ -71,6 +71,9 @@ export default defineNuxtConfig({
       '2xl': 1536,
     },
     format: ['webp'],
+    cloudflare: {
+      baseURL: 'https://tuyenleblog.tech/',
+    },
   },
   css: [
     resolve('./assets/scss/_variables.scss'),

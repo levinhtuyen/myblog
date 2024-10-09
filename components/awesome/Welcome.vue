@@ -63,7 +63,8 @@ loop()
                     "
                     class="w-8 md:w-16"
                   >
-                    <img
+                    <NuxtImg
+                      provider="cloudflare"
                       loading="lazy"
                       alt="hi"
                       width="64"
@@ -721,18 +722,14 @@ loop()
                 class="text-sm md:text-lg font-normal text-gray-500 dark:text-gray-400"
               >
                 <span>Collaborated with product and project managers, </span
-                ><span>
-                  designers, and fellow engineers to develop and deploy features
-                  within an agile,
-                </span>
+                ><span> designers, and fellow engineers to </span>
+                <span> develop and deploy features within an agile,</span>
               </p>
               <p
                 class="text-sm md:text-lg font-normal text-gray-500 dark:text-gray-400"
               >
-                <span
-                  >Create structure project, create features and maintain an
-                  event website using VueJS, NuxtJS.</span
-                >
+                <span>Create structure project, create features</span>
+                <span> and maintain an event website using VueJS, NuxtJS.</span>
               </p>
               <div class="mt-2 flex flex-wrap">
                 <!-- TypeScript SVG -->
@@ -1238,8 +1235,9 @@ loop()
                 class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden"
               >
                 <img
-                  loading="lazy"  width="372"
-                        height="211"
+                  loading="lazy"
+                  width="372"
+                  height="211"
                   class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="/images/project-1.webp"
                   alt="blog"
@@ -1276,8 +1274,9 @@ loop()
                 class="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-pink-50 to-red-50 overflow-hidden"
               >
                 <img
-                  loading="lazy"  width="372"
-                        height="211"
+                  loading="lazy"
+                  width="372"
+                  height="211"
                   class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="/images/project-2.webp"
                   alt="blog"
@@ -1314,8 +1313,9 @@ loop()
                 class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden"
               >
                 <img
-                  loading="lazy"  width="372"
-                        height="211"
+                  loading="lazy"
+                  width="372"
+                  height="211"
                   class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="/images/project-3.webp"
                   alt="blog"
