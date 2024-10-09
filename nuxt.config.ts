@@ -36,7 +36,7 @@ export default defineNuxtConfig({
   //   strict: true,
   //   typeCheck: true,
   // },
-
+  ssr: true,
   // modules
   modules: [
     // chore
