@@ -685,7 +685,7 @@ loop()
       </section>
       <!-- Journey -->
       <section class="content-wrapper pt-16">
-        <div class="pb-12">
+        <div class="pb-4 md:pb-12">
           <h2
             class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
           >
@@ -1216,7 +1216,7 @@ loop()
         </div>
       </section>
       <!-- Projects -->
-      <div class="pb-12">
+      <div class="pb-4 md:pb-12">
         <h2
           class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
         >
