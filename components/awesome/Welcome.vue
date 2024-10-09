@@ -665,14 +665,13 @@ loop()
                         ></path>
                       </svg>
                     </div>
-                    <div class="" style="opacity: 1s">
+                    <div style="opacity: 1s">
                       <img
                         format="webp"
                         width="457"
                         height="526"
                         alt="me"
                         src="/images/me.webp"
-                        loading="lazy"
                         class="hidden max-w-none lg:block dark:brightness-[.82] rounded-full"
                         style="color: transparent"
                       />
@@ -707,9 +706,11 @@ loop()
               /></span>
               <p
                 class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
+                style="font-display: swap"
               >
-                Frontend Developer in Go2Joy (Startup, Product)
-                <span>• Full-time permanent</span>
+                <span>Frontend Developer in Go2Joy</span>
+                <span>(Startup, Product)</span>
+                <!-- <span>• Full-time permanent</span> -->
               </p>
               <p
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
@@ -1001,9 +1002,11 @@ loop()
               /></span>
               <p
                 class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
+                style="font-display: swap"
               >
-                Frontend Developer in VINAAS (Product, Outsource, Freelancer)
-                <span>• Full-time permanent</span>
+                <span>Frontend Developer in VINAAS</span>
+                <span>(Product, Outsource, Freelancer)</span>
+                <!-- <span>• Full-time permanent</span> -->
               </p>
               <p
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
