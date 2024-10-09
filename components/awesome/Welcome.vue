@@ -730,8 +730,10 @@ onMounted(() => {
                 <p
                   class="text-sm md:text-lg font-normal text-gray-900 dark:text-gray-400"
                 >
-                  Collaborated with product and project managers, designers, and<br />
-                  fellow engineers to develop and deploy features within an agile,
+                  Collaborated with product and project managers, designers,
+                  and<br />
+                  fellow engineers to develop and deploy features within an
+                  agile,
                 </p>
                 <p
                   class="text-sm md:text-lg font-normal text-gray-900 dark:text-gray-400"
@@ -1196,24 +1198,24 @@ onMounted(() => {
             <li class="mb-10 ms-6">
               <div>
                 <span
-                class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
-                ><img
-                  class="size-3.5 text-blue-800 dark:text-blue-300"
-                  loading="lazy"
-                  src="/svg/graduation.svg"
-                  alt="adobephotoshop"
-              /></span>
-              <p
-                class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
-              >
-                University of Science - VNUHCM - Hồ Chí Minh
-              </p>
-              <p class="mb-2 text-sm text-gray-900 dark:text-gray-400">
-                09/2014 - 05/2017
-              </p>
-              <p class="mb-3 md:text-base text-sm">
-                Learn, learn, and learn ...
-              </p>
+                  class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+                  ><img
+                    class="size-3.5 text-blue-800 dark:text-blue-300"
+                    loading="lazy"
+                    src="/svg/graduation.svg"
+                    alt="adobephotoshop"
+                /></span>
+                <p
+                  class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
+                >
+                  University of Science - VNUHCM - Hồ Chí Minh
+                </p>
+                <p class="mb-2 text-sm text-gray-900 dark:text-gray-400">
+                  09/2014 - 05/2017
+                </p>
+                <p class="mb-3 md:text-base text-sm">
+                  Learn, learn, and learn ...
+                </p>
               </div>
             </li>
           </ul>
