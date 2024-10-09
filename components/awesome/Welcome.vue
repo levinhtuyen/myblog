@@ -104,9 +104,8 @@ loop()
                     <p
                       class="text-base md:text-lg font-medium text-gray-900 dark:text-white"
                     >
-                      <span
-                        >I'm always eager to expand my skill set and stay</span
-                      >
+                      <span>I'm always eager to expand</span>
+                      <span> my skill set and stay</span>
                       <span> current with the latest technology trends.</span>
                     </p>
                   </div>
