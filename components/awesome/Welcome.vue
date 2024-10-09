@@ -103,6 +103,15 @@ loop()
                     <p
                       class="text-base md:text-lg font-normal text-gray-700 dark:text-white"
                     >
+                      <span
+                        >I'm always eager to expand my skill set and stay
+                        current</span
+                      >
+                      <span>with the latest technology trends.</span>
+                    </p>
+                    <p
+                      class="text-base md:text-lg font-normal text-gray-700 dark:text-white"
+                    >
                       <i>"- With Small Steps, I Will Go Very Far_"</i>
                     </p>
                   </div>
@@ -709,7 +718,7 @@ loop()
                 style="font-display: swap"
               >
                 <span>Frontend Developer in Go2Joy</span>
-                <span>(Startup, Product)</span>
+                <span> (Startup, Product)</span>
                 <!-- <span>• Full-time permanent</span> -->
               </p>
               <p
@@ -718,8 +727,15 @@ loop()
                 06/2020 - Now
               </p>
               <p class="mb-3 md:text-base text-sm">
-                Create structure project, develop and deploy features within an
-                agile using VueJS, NuxtJS.
+                <span>Collaborated with product and project managers, </span
+                ><span>
+                  designers, and fellow engineers to develop and deploy features
+                  within an agile,
+                </span>
+                <span
+                  >Create structure project, develop and deploy features within
+                  an agile using VueJS, NuxtJS.</span
+                >
               </p>
               <div class="mt-2 flex flex-wrap">
                 <!-- TypeScript SVG -->
