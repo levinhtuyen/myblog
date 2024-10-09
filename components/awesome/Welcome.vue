@@ -1351,5 +1351,3 @@ loop()
     </LayoutPageSection>
   </LayoutPageWrapper>
 </template>
-
-
