@@ -717,12 +717,8 @@ loop()
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
                 >06/2020 - Now</time
               >
-              <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-                <span>Collaborated with product and project managers, </span
-                ><span> designers, and fellow engineers to </span>
-                <span> develop and deploy features within an agile,</span>
-              </p>
-              <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
+              <p class="text-base font-normal text-gray-700 dark:text-gray-400">
+                <span>Develop and deploy features within an agile,</span>
                 <span>Create structure project, create features</span>
                 <span> and maintain an event website using VueJS, NuxtJS.</span>
               </p>
@@ -1016,7 +1012,7 @@ loop()
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
                 >06/2017 - 06/2020</time
               >
-              <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
+              <p class="text-base font-normal text-gray-700 dark:text-gray-400">
                 Development web app, landingpage, websites, tool...
               </p>
               <div class="mt-2 flex flex-wrap">
@@ -1207,7 +1203,7 @@ loop()
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
                 >09/2014 - 05/2017</time
               >
-              <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
+              <p class="text-base font-normal text-gray-700 dark:text-gray-400">
                 Learn, learn, and learn ...
               </p>
             </li>
