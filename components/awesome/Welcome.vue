@@ -104,9 +104,7 @@ loop()
                     <p
                       class="text-base md:text-lg font-normal text-gray-700 dark:text-white"
                     >
-                      <span>I'm always eager to expand</span>
-                      <span> my skill set and stay</span>
-                      <span> current with the latest technology trends.</span>
+                      <i>"- With Small Steps, I Will Go Very Far_"</i>
                     </p>
                   </div>
                   <!-- Contract -->
