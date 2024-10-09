@@ -718,10 +718,8 @@ loop()
                 06/2020 - Now
               </p>
               <p class="mb-3 md:text-base text-sm">
-                <span
-                  >Create structure project, develop and deploy features
-                  within</span
-                >
+                <span>Create structure project, develop </span>
+                <span>and deploy features within</span>
                 <span>an agile using VueJS, NuxtJS.</span>
               </p>
               <div class="mt-2 flex flex-wrap">
