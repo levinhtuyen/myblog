@@ -695,7 +695,7 @@ loop()
           </h2>
         </div>
         <div>
-          <ol class="relative border-s border-gray-200 dark:border-gray-700">
+          <ul class="relative border-s border-gray-200 dark:border-gray-700">
             <li class="mb-10 ms-6">
               <span
                 class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
@@ -711,21 +711,21 @@ loop()
                   ></path></svg
               ></span>
               <p
-                class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-900 dark:text-white"
+                class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
               >
-                Frontend Developer in Go2Joy (Startup, Product)
+                Frontend Developer in Go2Joy <span>(Startup, Product)</span>
               </p>
               <time
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
                 >06/2020 - Now</time
               >
               <p
-                class="leading-relaxed mb-3 line-clamp-3 text-gray-700 dark:text-gray-400"
+                class="mb-6 mt-1 text-sm font-medium text-zinc-500 dark:text-zinc-400 md:mt-4 md:text-base"
               >
-                <span
-                  >Create structure project, develop and deploy features
-                </span>
-                <span> within an agile using VueJS, NuxtJS.</span>
+                Create structure project, develop and
+                <span>
+                  deploy features within an agile using VueJS, NuxtJS.</span
+                >
               </p>
               <div class="mt-2 flex flex-wrap">
                 <!-- TypeScript SVG -->
@@ -1009,16 +1009,17 @@ loop()
                   ></path></svg
               ></span>
               <p
-                class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-900 dark:text-white"
+                class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
               >
-                Frontend Developer in VINAAS (Product, Outsource, Freelancer)
+                Frontend Developer in VINAAS
+                <span>(Product, Outsource, Freelancer)</span>
               </p>
               <time
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
                 >06/2017 - 06/2020</time
               >
               <p
-                class="leading-relaxed mb-3 line-clamp-3 text-gray-700 dark:text-gray-400"
+                class="mb-6 mt-1 text-sm font-medium text-zinc-500 dark:text-zinc-400 md:mt-4 md:text-base"
               >
                 Development web app, landingpage, websites, tool...
               </p>
@@ -1202,7 +1203,7 @@ loop()
                   ></path></svg
               ></span>
               <p
-                class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-900 dark:text-white"
+                class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
               >
                 University of Science - VNUHCM - Hồ Chí Minh
               </p>
@@ -1211,12 +1212,12 @@ loop()
                 >09/2014 - 05/2017</time
               >
               <p
-                class="leading-relaxed mb-3 line-clamp-3 text-gray-700 dark:text-gray-400"
+                class="mb-6 mt-1 text-sm font-medium text-zinc-500 dark:text-zinc-400 md:mt-4 md:text-base"
               >
                 Learn, learn, and learn ...
               </p>
             </li>
-          </ol>
+          </ul>
         </div>
       </section>
       <!-- Projects -->
@@ -1348,6 +1349,21 @@ loop()
             </div>
           </div>
         </div>
+      </section>
+      <section class="content-wrapper pt-16">
+        <ClientOnly fallbackTag="div">
+          <a
+            class="w-full flex items-center pt-4 justify-center"
+            target="_blank"
+            href="https://www.buymeacoffee.com/qrcodecustom"
+            ><img
+              class="style-button-donate"
+              width="235"
+              height="50"
+              alt="Free QR Code Generator - Create QR codes custom with logo"
+              src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=qrcodecustom&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"
+          /></a>
+        </ClientOnly>
       </section>
     </LayoutPageSection>
   </LayoutPageWrapper>
