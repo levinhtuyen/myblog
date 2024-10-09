@@ -100,11 +100,6 @@ loop()
                     <strong class="font-bold text-slate-700 dark:text-slate-300"
                       >Front-End Developer</strong
                     >
-                    <p>
-                      I build websites, web apps, apps, tools and things that
-                      solve problems. I am convinced UX and web performance
-                      really matter.
-                    </p>
                     <p
                       class="text-base md:text-lg font-normal text-gray-700 dark:text-white"
                     >
@@ -711,22 +706,26 @@ loop()
                   alt="adobephotoshop"
               /></span>
               <p
-                class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
+                class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
               >
                 Frontend Developer in Go2Joy (Startup, Product)
                 <span>• Full-time permanent</span>
               </p>
-              <time
+              <p
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
-                >06/2020 - Now</time
               >
-              <p class="leading-relaxed mb-3 line-clamp-3">
-                Create structure project, develop and deploy features within an
-                agile using VueJS, NuxtJS.
+                06/2020 - Now
+              </p>
+              <p class="mb-3 md:text-base text-sm">
+                <span
+                  >Create structure project, develop and deploy features
+                  within</span
+                >
+                <span>an agile using VueJS, NuxtJS.</span>
               </p>
               <div class="mt-2 flex flex-wrap">
                 <!-- TypeScript SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -748,7 +747,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!-- Nuxt JS SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -770,7 +769,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!-- Vue.js SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -792,7 +791,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!-- Taiwin icon -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -814,7 +813,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!-- JavaScript SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -836,7 +835,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!-- Jira SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -858,7 +857,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!-- Quasar SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -880,7 +879,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!-- Github SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -902,7 +901,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!--Adobe Photoshop SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -924,7 +923,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!--Postman SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -946,7 +945,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!--Firebase SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -968,7 +967,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!--GIT SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -1001,21 +1000,22 @@ loop()
                   alt="adobephotoshop"
               /></span>
               <p
-                class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
+                class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
               >
                 Frontend Developer in VINAAS (Product, Outsource, Freelancer)
                 <span>• Full-time permanent</span>
               </p>
-              <time
+              <p
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
-                >06/2017 - 06/2020</time
               >
-              <p class="leading-relaxed mb-3 line-clamp-3">
+                06/2017 - 06/2020
+              </p>
+              <p class="mb-3 md:text-base text-sm">
                 Development web app, landingpage, websites, tool...
               </p>
               <div class="mt-2 flex flex-wrap">
                 <!-- JavaScript SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -1037,7 +1037,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!-- Vue.js SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -1059,7 +1059,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!-- HTML5 SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -1081,7 +1081,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!-- Slack SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -1104,7 +1104,7 @@ loop()
                 </div>
 
                 <!-- Gitlab icon -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -1127,7 +1127,7 @@ loop()
                 </div>
 
                 <!-- CSS3 SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -1149,7 +1149,7 @@ loop()
                   ></NuxtLink>
                 </div>
                 <!-- Git SVG -->
-                <div class="mr-2 size-max transition-all hover:scale-105">
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
@@ -1186,11 +1186,12 @@ loop()
               >
                 University of Science - VNUHCM - Hồ Chí Minh
               </p>
-              <time
+              <p
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
-                >09/2014 - 05/2017</time
               >
-              <p class="leading-relaxed mb-3 line-clamp-3">
+                09/2014 - 05/2017
+              </p>
+              <p class="mb-3 md:text-base text-sm">
                 Learn, learn, and learn ...
               </p>
             </li>
