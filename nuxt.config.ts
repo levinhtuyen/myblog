@@ -13,7 +13,7 @@ export default defineNuxtConfig({
           type: 'module',
           async: true,
           crossorigin: 'anonymous',
-          src: 'https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js',
+          src: 'https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js',
         },
       ],
     },

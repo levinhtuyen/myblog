@@ -717,16 +717,12 @@ loop()
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
                 >06/2020 - Now</time
               >
-              <p
-                class="text-sm md:text-lg font-normal text-gray-500 dark:text-gray-400"
-              >
+              <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
                 <span>Collaborated with product and project managers, </span
                 ><span> designers, and fellow engineers to </span>
                 <span> develop and deploy features within an agile,</span>
               </p>
-              <p
-                class="text-sm md:text-lg font-normal text-gray-500 dark:text-gray-400"
-              >
+              <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
                 <span>Create structure project, create features</span>
                 <span> and maintain an event website using VueJS, NuxtJS.</span>
               </p>
