@@ -719,16 +719,14 @@ loop()
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
                 >06/2020 - Now</time
               >
-              <div>
-                <p
-                  class="leading-relaxed mb-3 line-clamp-3 text-gray-700 dark:text-gray-400"
-                >
-                  <span
-                    >Create structure project, develop and deploy features
-                  </span>
-                  <span> within an agile using VueJS, NuxtJS.</span>
-                </p>
-              </div>
+              <p
+                class="leading-relaxed mb-3 line-clamp-3 text-gray-700 dark:text-gray-400"
+              >
+                <span
+                  >Create structure project, develop and deploy features
+                </span>
+                <span> within an agile using VueJS, NuxtJS.</span>
+              </p>
               <div class="mt-2 flex flex-wrap">
                 <!-- TypeScript SVG -->
                 <div class="mr-2 size-max transition-all hover:scale-105">

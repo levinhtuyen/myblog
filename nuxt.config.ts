@@ -76,15 +76,7 @@ export default defineNuxtConfig({
     resolve('./assets/scss/_variables.scss'),
     resolve('./assets/scss/app.scss'),
   ],
-  vite: {
-    css: {
-      preprocessorOptions: {
-        sass: {
-          api: 'modern',
-        },
-      },
-    },
-  },
+
   components: [
     {
       prefix: 'Layout',
@@ -128,6 +120,15 @@ export default defineNuxtConfig({
   },
   gtag: {
     id: 'G-J9F2P3LH80',
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        sass: {
+          api: 'modern',
+        },
+      },
+    },
   },
   // todo: feat/localization
   // module::i18n
