@@ -63,8 +63,7 @@ loop()
                     "
                     class="w-8 md:w-16"
                   >
-                    <NuxtImg
-                      provider="cloudflare"
+                    <img
                       loading="lazy"
                       alt="hi"
                       width="64"
