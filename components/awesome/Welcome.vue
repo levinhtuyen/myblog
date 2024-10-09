@@ -102,7 +102,7 @@ loop()
                     >
 
                     <p
-                      class="text-base md:text-lg font-normal text-gray-900 dark:text-white"
+                      class="text-base md:text-lg font-normal text-gray-700 dark:text-white"
                     >
                       <span>I'm always eager to expand</span>
                       <span> my skill set and stay</span>
