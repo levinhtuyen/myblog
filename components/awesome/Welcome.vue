@@ -721,20 +721,25 @@ loop()
                 <span> (Startup, Product)</span>
                 <!-- <span>• Full-time permanent</span> -->
               </p>
-              <p
+              <time
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
+                >06/2020 - Now</time
               >
-                06/2020 - Now
-              </p>
-              <p class="mb-3 md:text-base text-sm">
+              <p
+                class="text-sm md:text-lg font-normal text-gray-500 dark:text-gray-400"
+              >
                 <span>Collaborated with product and project managers, </span
                 ><span>
                   designers, and fellow engineers to develop and deploy features
                   within an agile,
                 </span>
+              </p>
+              <p
+                class="text-sm md:text-lg font-normal text-gray-500 dark:text-gray-400"
+              >
                 <span
-                  >Create structure project, develop and deploy features within
-                  an agile using VueJS, NuxtJS.</span
+                  >Create structure project, create features and maintain an
+                  event website using VueJS, NuxtJS.</span
                 >
               </p>
               <div class="mt-2 flex flex-wrap">
