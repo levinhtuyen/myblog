@@ -101,10 +101,12 @@ loop()
                       >Front-End Developer</strong
                     >
 
-                    <span class="block">
-                      I'm always eager to expand my skill set and stay current
-                      with the latest technology trends.
-                    </span>
+                    <p
+                      class="text-base md:text-lg font-semibold text-gray-900 dark:text-white"
+                    >
+                      I'm always eager to expand my skill set and stay
+                      <span> current with the latest technology trends.</span>
+                    </p>
                   </div>
                   <!-- Contract -->
                   <div class="mt-3 md:mt-5">
