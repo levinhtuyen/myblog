@@ -87,7 +87,8 @@ server {
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
 }
-# Syslink the file in sites-enabled
+
+# Syslink the file in sites-enabled 123
 sudo ln -s /etc/nginx/sites-available/tuyenleblog /etc/nginx/sites-enabled/tuyenleblog
 
 
