@@ -88,7 +88,7 @@ server {
 
 }
 
-# Syslink the file in sites-enabled 123
+# Syslink the file in sites-enabled
 sudo ln -s /etc/nginx/sites-available/tuyenleblog /etc/nginx/sites-enabled/tuyenleblog
 
 
