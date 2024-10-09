@@ -48,7 +48,7 @@ onMounted(() => {
     <LayoutPageSection>
       <!-- About me -->
       <section>
-        <div class="content-wrapper pt-2">
+        <div class=" pt-2">
           <div class="relative">
             <div class="relative z-10">
               <div class="w-full lg:w-3/5">
@@ -695,7 +695,7 @@ onMounted(() => {
         </div>
       </section>
       <!-- Journey -->
-      <section class="content-wrapper pt-16">
+      <section class=" pt-16">
         <div class="pb-4 md:pb-12">
           <h2
             class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
@@ -730,18 +730,17 @@ onMounted(() => {
                 <p
                   class="text-sm md:text-lg font-normal text-gray-900 dark:text-gray-400"
                 >
-                  Collaborated with product and project managers, designers,
-                  and<br />
-                  fellow engineers to develop and deploy features within an
-                  agile,
+                  <span> Collaborated with product and</span>
+                  <span>and project managers, designers,</span>
+                  <span>fellow engineers to develop </span>
+                  <span>and deploy features within an agile</span>
                 </p>
                 <p
                   class="text-sm md:text-lg font-normal text-gray-900 dark:text-gray-400"
                 >
-                  <span
-                    >Create structure project, create features and maintain an
-                    event website using VueJS, NuxtJS.</span
-                  >
+                  <span>Create structure project,</span>
+                  <span> create features and maintain an </span>
+                  <span> event website using VueJS, NuxtJS.</span>
                 </p>
               </div>
               <div class="mt-2 flex flex-wrap">
@@ -1029,9 +1028,9 @@ onMounted(() => {
                   <span>(Product, Outsource, Freelancer)</span>
                   <!-- <span>• Full-time permanent</span> -->
                 </p>
-                <p class="mb-2 block text-s text-gray-900 dark:text-gray-400">
+                <time class="mb-2 block text-s text-gray-900 dark:text-gray-400">
                   06/2017 - 06/2020
-                </p>
+                </time>
                 <p class="mb-3 md:text-base text-sm">
                   Development web app, landingpage, websites, tool...
                 </p>
@@ -1210,9 +1209,9 @@ onMounted(() => {
                 >
                   University of Science - VNUHCM - Hồ Chí Minh
                 </p>
-                <p class="mb-2 text-sm text-gray-900 dark:text-gray-400">
+                <time class="mb-2 text-sm text-gray-900 dark:text-gray-400">
                   09/2014 - 05/2017
-                </p>
+                </time>
                 <p class="mb-3 md:text-base text-sm">
                   Learn, learn, and learn ...
                 </p>
