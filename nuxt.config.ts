@@ -76,7 +76,15 @@ export default defineNuxtConfig({
     resolve('./assets/scss/_variables.scss'),
     resolve('./assets/scss/app.scss'),
   ],
-
+  vite: {
+    css: {
+      preprocessorOptions: {
+        sass: {
+          api: 'modern',
+        },
+      },
+    },
+  },
   components: [
     {
       prefix: 'Layout',

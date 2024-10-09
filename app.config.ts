@@ -120,4 +120,11 @@ export default defineAppConfig({
     class: '',
     size: '1em',
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler', // or "modern"
+      },
+    },
+  },
 })
