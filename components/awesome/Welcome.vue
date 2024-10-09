@@ -64,11 +64,11 @@ loop()
                     class="w-8 md:w-16"
                   >
                     <img
-                      loading="lazy"
                       alt="hi"
                       width="64"
                       height="64"
                       format="webp"
+                      loading="lazy"
                       src="/images/hi.webp"
                       style="color: transparent"
                     />
@@ -674,6 +674,7 @@ loop()
                         height="526"
                         alt="me"
                         src="/images/me.webp"
+                        loading="lazy"
                         class="hidden max-w-none lg:block dark:brightness-[.82] rounded-full"
                         style="color: transparent"
                       />
@@ -1233,9 +1234,9 @@ loop()
                 class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden"
               >
                 <img
-                  loading="lazy"
                   width="372"
                   height="211"
+                  loading="lazy"
                   class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="/images/project-1.webp"
                   alt="blog"
