@@ -102,9 +102,11 @@ loop()
                     >
 
                     <p
-                      class="text-base md:text-lg font-semibold text-gray-900 dark:text-white"
+                      class="text-base md:text-lg font-medium text-gray-900 dark:text-white"
                     >
-                      I'm always eager to expand my skill set and stay
+                      <span
+                        >I'm always eager to expand my skill set and stay</span
+                      >
                       <span> current with the latest technology trends.</span>
                     </p>
                   </div>
