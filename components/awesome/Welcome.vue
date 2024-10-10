@@ -4,7 +4,7 @@ import { ref } from 'vue'
 const { current } = useAwesomeScreen()
 
 const phrases = [`I'm Lê Vĩnh Tuyến`, `I learn, I develop...`]
-
+const router = useRouter()
 const currentPhraseIndex = ref(0)
 const currentCharacterIndex = ref(0)
 const currentPhrase = ref<string>(`I'm Lê Vĩnh Tuyến`)
@@ -35,7 +35,7 @@ function loop() {
   }
 
   const spedUp = Math.random() * (80 - 50) + 150
-  const normalSpeed = Math.random() * (300 - 200) + 110
+  const normalSpeed = Math.random() * (300 - 250) + 50
   const time = isDeleting.value ? spedUp : normalSpeed
   setTimeout(loop, time)
 }
@@ -43,6 +43,16 @@ setTimeout(() => {
   currentPhrase.value = ''
   loop()
 }, 3000)
+const redirectUrl = (url: string, isOutApp: boolean) => {
+  if (!url) {
+    return
+  }
+  if (!isOutApp) {
+    router.push({ path: url })
+  } else {
+    window.open(url)
+  }
+}
 </script>
 
 <template>
@@ -91,10 +101,12 @@ setTimeout(() => {
                 >
                   <!-- Front-End -->
                   <div>
-                    <span>A </span>
-                    <strong class="font-bold text-slate-700 dark:text-slate-300"
-                      >Front-End Developer</strong
-                    >
+                    <p>
+                      A
+                      <strong class="text-slate-700 dark:text-slate-300"
+                        >Front-End Developer</strong
+                      >
+                    </p>
                     <p
                       class="text-base md:text-lg font-normal text-gray-700 dark:text-white"
                     >
@@ -1197,26 +1209,15 @@ setTimeout(() => {
               <div
                 class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden"
               >
-                <NuxtLink
-                  aria-label="blog-cua-toi"
-                  aria-current="page"
-                  tag="a"
-                  class="text-sm text-gray-500 transition hover:text-gray-600"
-                  target="_blank"
-                  alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                  name="Lê Vĩnh Tuyến - Blog's của tôi"
-                  rel="noopener noreferrer"
-                  to="https://downtik.app"
-                >
-                  <img
-                    width="372"
-                    height="211"
-                    loading="lazy"
-                    class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                    src="/images/project-1.webp"
-                    alt="blog"
-                  />
-                </NuxtLink>
+                <img
+                  width="372"
+                  height="211"
+                  loading="lazy"
+                  class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                  src="/images/project-1.webp"
+                  alt="blog"
+                  @click="redirectUrl('https://downtik.app', true)"
+                />
                 <div class="p-6">
                   <h2
                     class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
@@ -1237,18 +1238,12 @@ setTimeout(() => {
                     experience.
                   </p>
                   <div class="flex items-center flex-wrap">
-                    <div
-                      class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
+                    <button
+                      class="bg-gradient-to-r from-cyan-400 text-white to-blue-400 hover:scale-105 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
+                      @click="redirectUrl('https://downtik.app', true)"
                     >
-                      <a
-                        alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                        name="Lê Vĩnh Tuyến - Blog's của tôi"
-                        href="https://downtik.app"
-                        class="text-white"
-                      >
-                        Learn more
-                      </a>
-                    </div>
+                      learn more
+                    </button>
                   </div>
                 </div>
               </div>
@@ -1257,20 +1252,15 @@ setTimeout(() => {
               <div
                 class="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-pink-50 to-red-50 overflow-hidden"
               >
-                <a
-                  alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                  name="Lê Vĩnh Tuyến - Blog's của tôi"
-                  href="https://go2joy.vn"
-                >
-                  <img
-                    loading="lazy"
-                    width="372"
-                    height="211"
-                    class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                    src="/images/project-2.webp"
-                    alt="blog"
-                  />
-                </a>
+                <img
+                  loading="lazy"
+                  width="372"
+                  height="211"
+                  class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                  src="/images/project-2.webp"
+                  alt="blog"
+                  @click="redirectUrl('https://go2joy.vn', true)"
+                />
                 <div class="p-6">
                   <h2
                     class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
@@ -1287,18 +1277,12 @@ setTimeout(() => {
                     10,000 good-priced hotels are waiting for you to discover.
                   </p>
                   <div class="flex items-center flex-wrap">
-                    <div
-                      class="bg-gradient-to-r from-orange-300 to-amber-400 hover:scale-105 drop-shadow-md shadow-cla-violate px-4 py-1 rounded-lg"
+                    <button
+                      class="bg-gradient-to-r from-orange-300 to-amber-400 text-white hover:scale-105 drop-shadow-md shadow-cla-violate px-4 py-1 rounded-lg"
+                      @click="redirectUrl('https://go2joy.vn', true)"
                     >
-                      <a
-                        alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                        name="Lê Vĩnh Tuyến - Blog's của tôi"
-                        href="https://go2joy.vn"
-                        class="text-white"
-                      >
-                        Learn more
-                      </a>
-                    </div>
+                      learn more
+                    </button>
                   </div>
                 </div>
               </div>
@@ -1307,20 +1291,15 @@ setTimeout(() => {
               <div
                 class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden"
               >
-                <a
-                  alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                  name="Lê Vĩnh Tuyến - Blog's của tôi"
-                  href="/project/my-portfolio-and-blog"
-                >
-                  <img
-                    loading="lazy"
-                    width="372"
-                    height="211"
-                    class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                    src="/images/project-3.webp"
-                    alt="blog"
-                  />
-                </a>
+                <img
+                  loading="lazy"
+                  width="372"
+                  height="211"
+                  class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                  src="/images/project-3.webp"
+                  alt="blog"
+                  @click="redirectUrl('/project/my-portfolio-and-blog', false)"
+                />
                 <div class="p-6">
                   <h2
                     class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
@@ -1337,18 +1316,14 @@ setTimeout(() => {
                     trong gió, để chút buồn gửi vào trong tim...
                   </p>
                   <div class="flex items-center flex-wrap">
-                    <div
-                      class="bg-gradient-to-r from-fuchsia-300 to-pink-400 hover:scale-105 shadow-cla-blue px-4 py-1 rounded-lg"
+                    <button
+                      class="bg-gradient-to-r from-fuchsia-300 to-pink-400 text-white hover:scale-105 shadow-cla-blue px-4 py-1 rounded-lg"
+                      @click="
+                        redirectUrl('/project/my-portfolio-and-blog', false)
+                      "
                     >
-                      <a
-                        alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                        name="Lê Vĩnh Tuyến - Blog's của tôi"
-                        href="/project/my-portfolio-and-blog"
-                        class="text-white"
-                      >
-                        Learn more
-                      </a>
-                    </div>
+                      learn more
+                    </button>
                   </div>
                 </div>
               </div>
