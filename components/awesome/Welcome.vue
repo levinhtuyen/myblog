@@ -33,14 +33,12 @@ function loop() {
   }
 
   const spedUp = Math.random() * (80 - 50) + 50
-  const normalSpeed = Math.random() * (300 - 200) + 200
+  const normalSpeed = Math.random() * (300 - 200) + 110
   const time = isDeleting.value ? spedUp : normalSpeed
   setTimeout(loop, time)
 }
 
-onMounted(() => {
-  loop()
-})
+loop()
 </script>
 
 <template>
@@ -48,7 +46,7 @@ onMounted(() => {
     <LayoutPageSection>
       <!-- About me -->
       <section>
-        <div class=" pt-2">
+        <div class="content-wrapper pt-2">
           <div class="relative">
             <div class="relative z-10">
               <div class="w-full lg:w-3/5">
@@ -78,15 +76,9 @@ onMounted(() => {
                 </div>
                 <span class="text-slate-700 dark:text-slate-300"
                   ><span
-                    class="mb-1 block text-[2.3rem] font-[1000] leading-none md:text-6xl"
+                    class="mb-1 block text-[2.1rem] font-[1000] leading-none md:text-6xl"
                     style="opacity: 1; transform: none"
                   >
-                    <!-- -->
-                    <!-- <strong class="text-accent-600 dark:text-accent-500">
-                      Lê</strong
-                    >
-                    Vĩnh <br />
-                    Tuyến -->
                     {{ currentPhrase }}&nbsp;
                   </span>
                 </span>
@@ -695,7 +687,7 @@ onMounted(() => {
         </div>
       </section>
       <!-- Journey -->
-      <section class=" pt-16">
+      <section class="content-wrapper pt-16">
         <div class="pb-4 md:pb-12">
           <h2
             class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
@@ -706,43 +698,39 @@ onMounted(() => {
         <div>
           <ul class="relative border-s border-gray-200 dark:border-gray-700">
             <li class="mb-10 ms-6">
-              <div>
+              <span
+                class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+              >
+                <img
+                  class="size-3.5 text-blue-800 dark:text-blue-300"
+                  loading="lazy"
+                  src="/svg/suitcase.svg"
+                  alt="adobephotoshop"
+              /></span>
+              <p
+                class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
+                style="font-display: swap"
+              >
+                <span>Frontend Developer in Go2Joy</span>
+                <span> (Startup, Product)</span>
+                <!-- <span>• Full-time permanent</span> -->
+              </p>
+              <p
+                class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
+              >
+                06/2020 - Now
+              </p>
+              <p class="mb-3 text-base">
+                <span>Collaborated with product and project managers, </span
+                ><span>
+                  designers, and fellow engineers to develop and deploy features
+                  within an agile,
+                </span>
                 <span
-                  class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+                  >Create structure project, develop and deploy features within
+                  an agile using VueJS, NuxtJS.</span
                 >
-                  <img
-                    class="size-3.5 text-blue-800 dark:text-blue-300"
-                    loading="lazy"
-                    src="/svg/suitcase.svg"
-                    alt="adobephotoshop"
-                /></span>
-                <p
-                  class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-900 dark:text-white"
-                  style="font-display: swap"
-                >
-                  <span>Frontend Developer in Go2Joy</span>
-                  <span> (Startup, Product)</span>
-                  <!-- <span>• Full-time permanent</span> -->
-                </p>
-                <time class="mb-2 text-sm text-gray-700 dark:text-gray-400"
-                  >06/2020 - Now</time
-                >
-                <p
-                  class="text-sm md:text-lg font-normal text-gray-900 dark:text-gray-400"
-                >
-                  <span> Collaborated with product and</span>
-                  <span>and project managers, designers,</span>
-                  <span>fellow engineers to develop </span>
-                  <span>and deploy features within an agile</span>
-                </p>
-                <p
-                  class="text-sm md:text-lg font-normal text-gray-900 dark:text-gray-400"
-                >
-                  <span>Create structure project,</span>
-                  <span> create features and maintain an </span>
-                  <span> event website using VueJS, NuxtJS.</span>
-                </p>
-              </div>
+              </p>
               <div class="mt-2 flex flex-wrap">
                 <!-- TypeScript SVG -->
                 <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
@@ -1011,30 +999,30 @@ onMounted(() => {
               </div>
             </li>
             <li class="mb-10 ms-6">
-              <div>
-                <span
-                  class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
-                  ><img
-                    class="size-3.5 text-blue-800 dark:text-blue-300"
-                    loading="lazy"
-                    src="/svg/suitcase.svg"
-                    alt="adobephotoshop"
-                /></span>
-                <p
-                  class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-900 dark:text-white"
-                  style="font-display: swap"
-                >
-                  <span>Frontend Developer in VINAAS</span>
-                  <span>(Product, Outsource, Freelancer)</span>
-                  <!-- <span>• Full-time permanent</span> -->
-                </p>
-                <time class="mb-2 block text-s text-gray-900 dark:text-gray-400">
-                  06/2017 - 06/2020
-                </time>
-                <p class="mb-3 md:text-base text-sm">
-                  Development web app, landingpage, websites, tool...
-                </p>
-              </div>
+              <span
+                class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+                ><img
+                  class="size-3.5 text-blue-800 dark:text-blue-300"
+                  loading="lazy"
+                  src="/svg/suitcase.svg"
+                  alt="adobephotoshop"
+              /></span>
+              <p
+                class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
+                style="font-display: swap"
+              >
+                <span>Frontend Developer in VINAAS</span>
+                <span>(Product, Outsource, Freelancer)</span>
+                <!-- <span>• Full-time permanent</span> -->
+              </p>
+              <p
+                class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
+              >
+                06/2017 - 06/2020
+              </p>
+              <p class="mb-3 text-sm">
+                Development web app, landingpage, websites, tool...
+              </p>
               <div class="mt-2 flex flex-wrap">
                 <!-- JavaScript SVG -->
                 <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
@@ -1195,27 +1183,25 @@ onMounted(() => {
               </div>
             </li>
             <li class="mb-10 ms-6">
-              <div>
-                <span
-                  class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
-                  ><img
-                    class="size-3.5 text-blue-800 dark:text-blue-300"
-                    loading="lazy"
-                    src="/svg/graduation.svg"
-                    alt="adobephotoshop"
-                /></span>
-                <p
-                  class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
-                >
-                  University of Science - VNUHCM - Hồ Chí Minh
-                </p>
-                <time class="mb-2 text-sm text-gray-900 dark:text-gray-400">
-                  09/2014 - 05/2017
-                </time>
-                <p class="mb-3 md:text-base text-sm">
-                  Learn, learn, and learn ...
-                </p>
-              </div>
+              <span
+                class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+                ><img
+                  class="size-3.5 text-blue-800 dark:text-blue-300"
+                  loading="lazy"
+                  src="/svg/graduation.svg"
+                  alt="adobephotoshop"
+              /></span>
+              <p
+                class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
+              >
+                University of Science - VNUHCM - Hồ Chí Minh
+              </p>
+              <p
+                class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
+              >
+                09/2014 - 05/2017
+              </p>
+              <p class="mb-3 text-sm">Learn, learn, and learn ...</p>
             </li>
           </ul>
         </div>
