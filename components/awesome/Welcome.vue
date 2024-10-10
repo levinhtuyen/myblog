@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
+const { current } = useAwesomeScreen()
+
 const phrases = [`I'm Lê Vĩnh Tuyến`, `I learn, I develop...`]
 
 const currentPhraseIndex = ref(0)
@@ -636,9 +638,12 @@ setTimeout(() => {
             <div
               class="pointer-events-none absolute -top-36 right-0 z-0 hidden select-none lg:block"
             >
-              <div class="relative h-[590px] w-[603px]">
+              <div
+                v-if="current === 'lg' || current === 'xl'"
+                class="relative h-[590px] w-[603px]"
+              >
                 <div
-                  class="from-accent-400/20 via-accent-400/0 absolute top-20 right-0 h-[526px] w-[457px] rounded-full bg-gradient-to-t dark:from-accent-600/10 dark:via-accent-600/0"
+                  class="from-accent-400/20 via-accent-400/0 absolute top-20 right-0 h-[520px] w-[416px] rounded-full bg-gradient-to-t dark:from-accent-600/10 dark:via-accent-600/0"
                 >
                   <div
                     class="absolute right-0 bottom-0 overflow-hidden hidden lg:block"
@@ -646,9 +651,14 @@ setTimeout(() => {
                     <div style="opacity: 1s">
                       <img
                         format="webp"
-                        width="457"
-                        height="526"
+                        width="416"
+                        height="520"
                         alt="me"
+                        :loading="
+                          current === 'lg' || current === 'xl'
+                            ? 'lazy'
+                            : 'eager'
+                        "
                         src="/images/me.webp"
                         class="hidden lg:block dark:brightness-[.82] rounded-full"
                         style="color: transparent"
