@@ -639,7 +639,7 @@ setTimeout(() => {
               class="pointer-events-none absolute -top-36 right-0 z-0 hidden select-none lg:block"
             >
               <div
-                v-if="current === 'lg' || current === 'xl'"
+
                 class="relative h-[590px] w-[603px]"
               >
                 <div
