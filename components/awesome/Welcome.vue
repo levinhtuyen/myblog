@@ -1206,7 +1206,7 @@ setTimeout(() => {
                   alt="Lê Vĩnh Tuyến - Blog's của tôi"
                   name="Lê Vĩnh Tuyến - Blog's của tôi"
                   rel="noopener noreferrer"
-                  to="https://downtik.app/"
+                  to="https://downtik.app"
                 >
                   <img
                     width="372"
@@ -1237,23 +1237,18 @@ setTimeout(() => {
                     experience.
                   </p>
                   <div class="flex items-center flex-wrap">
-                    <button
+                    <div
                       class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
                     >
-                      <NuxtLink
-                        aria-label="blog-cua-toi"
-                        aria-current="page"
-                        tag="a"
-                        class="text-sm text-gray-500 transition hover:text-gray-600"
-                        target="_blank"
+                      <a
                         alt="Lê Vĩnh Tuyến - Blog's của tôi"
                         name="Lê Vĩnh Tuyến - Blog's của tôi"
-                        rel="noopener noreferrer"
-                        to="https://downtik.app/"
+                        href="https://downtik.app"
+                        class="text-white"
                       >
                         Learn more
-                      </NuxtLink>
-                    </button>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1262,16 +1257,10 @@ setTimeout(() => {
               <div
                 class="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-pink-50 to-red-50 overflow-hidden"
               >
-                <NuxtLink
-                  aria-label="blog-cua-toi"
-                  aria-current="page"
-                  tag="a"
-                  class="text-sm text-gray-500 transition hover:text-gray-600"
-                  target="_blank"
+                <a
                   alt="Lê Vĩnh Tuyến - Blog's của tôi"
                   name="Lê Vĩnh Tuyến - Blog's của tôi"
-                  rel="noopener noreferrer"
-                  to="https://go2joy.vn/en-vn"
+                  href="https://go2joy.vn"
                 >
                   <img
                     loading="lazy"
@@ -1281,7 +1270,7 @@ setTimeout(() => {
                     src="/images/project-2.webp"
                     alt="blog"
                   />
-                </NuxtLink>
+                </a>
                 <div class="p-6">
                   <h2
                     class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
@@ -1298,23 +1287,18 @@ setTimeout(() => {
                     10,000 good-priced hotels are waiting for you to discover.
                   </p>
                   <div class="flex items-center flex-wrap">
-                    <button
+                    <div
                       class="bg-gradient-to-r from-orange-300 to-amber-400 hover:scale-105 drop-shadow-md shadow-cla-violate px-4 py-1 rounded-lg"
                     >
-                      <NuxtLink
-                        aria-label="blog-cua-toi"
-                        aria-current="page"
-                        tag="a"
-                        class="text-sm text-gray-500 transition hover:text-gray-600"
-                        target="_blank"
+                      <a
                         alt="Lê Vĩnh Tuyến - Blog's của tôi"
                         name="Lê Vĩnh Tuyến - Blog's của tôi"
-                        rel="noopener noreferrer"
-                        to="https://go2joy.vn/en-vn"
+                        href="https://go2joy.vn"
+                        class="text-white"
                       >
                         Learn more
-                      </NuxtLink>
-                    </button>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1323,15 +1307,10 @@ setTimeout(() => {
               <div
                 class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden"
               >
-                <NuxtLink
-                  aria-label="blog-cua-toi"
-                  aria-current="page"
-                  tag="a"
-                  class="text-sm text-gray-500 transition hover:text-gray-600"
+                <a
                   alt="Lê Vĩnh Tuyến - Blog's của tôi"
                   name="Lê Vĩnh Tuyến - Blog's của tôi"
-                  rel="noopener noreferrer"
-                  to="/project/my-portfolio-and-blog"
+                  href="/project/my-portfolio-and-blog"
                 >
                   <img
                     loading="lazy"
@@ -1341,7 +1320,7 @@ setTimeout(() => {
                     src="/images/project-3.webp"
                     alt="blog"
                   />
-                </NuxtLink>
+                </a>
                 <div class="p-6">
                   <h2
                     class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
@@ -1358,22 +1337,18 @@ setTimeout(() => {
                     trong gió, để chút buồn gửi vào trong tim...
                   </p>
                   <div class="flex items-center flex-wrap">
-                    <button
+                    <div
                       class="bg-gradient-to-r from-fuchsia-300 to-pink-400 hover:scale-105 shadow-cla-blue px-4 py-1 rounded-lg"
                     >
-                      <NuxtLink
-                        aria-label="blog-cua-toi"
-                        aria-current="page"
-                        tag="a"
-                        class="text-sm text-gray-500 transition hover:text-gray-600"
+                      <a
                         alt="Lê Vĩnh Tuyến - Blog's của tôi"
                         name="Lê Vĩnh Tuyến - Blog's của tôi"
-                        rel="noopener noreferrer"
-                        to="/project/my-portfolio-and-blog"
+                        href="/project/my-portfolio-and-blog"
+                        class="text-white"
                       >
-                        see more
-                      </NuxtLink>
-                    </button>
+                        Learn more
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
