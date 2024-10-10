@@ -83,7 +83,7 @@ setTimeout(() => {
                   </span>
                 </span>
               </div>
-              <div class="lg:grid-cols-1 flex grid-cols-2">
+              <div class="grid-cols-1 md:grid-cols-2 grid md:flex">
                 <div
                   class="lg:w-1/3 w-full text-base text-slate-600 md:text-xl pt-5 dark:text-slate-400 col-span-1"
                 >
@@ -615,7 +615,7 @@ setTimeout(() => {
                 </div>
                 <ClientOnly>
                   <model-viewer
-                    class="col-span-1 md:block hidden custome-model-me"
+                    class="col-span-1 custome-model-me"
                     src="/images/model.glb"
                     loading="eager"
                     camera-controls
@@ -638,14 +638,16 @@ setTimeout(() => {
             >
               <div class="relative h-[590px] w-[603px]">
                 <div
-                  class="from-accent-400/20 via-accent-400/0 absolute top-40 right-0 h-[490px] w-[515px] rounded-full bg-gradient-to-t dark:from-accent-600/10 dark:via-accent-600/0"
+                  class="from-accent-400/20 via-accent-400/0 absolute top-20 right-0 h-[526px] w-[457px] rounded-full bg-gradient-to-t dark:from-accent-600/10 dark:via-accent-600/0"
                 >
-                  <div class="absolute right-0 bottom-0 overflow-hidden">
+                  <div
+                    class="absolute right-0 bottom-0 overflow-hidden hidden lg:block"
+                  >
                     <div style="opacity: 1s">
                       <img
                         format="webp"
-                        width="517"
-                        height="490px"
+                        width="457"
+                        height="526"
                         alt="me"
                         src="/images/me.webp"
                         class="hidden lg:block dark:brightness-[.82] rounded-full"
@@ -694,10 +696,8 @@ setTimeout(() => {
                 06/2020 - Now
               </p>
               <p class="mb-3 text-base">
-                <span
-                  >Create structure project, develop and deploy features within
-                  an agile using VueJS, NuxtJS.</span
-                >
+                <span>Create structure project, develop and deploy</span>
+                <span> features within an agile using VueJS, NuxtJS.</span>
               </p>
               <div class="mt-2 flex flex-wrap">
                 <!-- TypeScript SVG -->

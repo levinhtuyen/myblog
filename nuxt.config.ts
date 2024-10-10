@@ -137,6 +137,9 @@ export default defineNuxtConfig({
       },
     },
   },
+  nitro: {
+    compressPublicAssets: true,
+  },
   // todo: feat/localization
   // module::i18n
   // i18n: {
