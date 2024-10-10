@@ -638,10 +638,7 @@ setTimeout(() => {
             <div
               class="pointer-events-none absolute -top-36 right-0 z-0 hidden select-none lg:block"
             >
-              <div
-
-                class="relative h-[590px] w-[603px]"
-              >
+              <div class="relative h-[590px] w-[603px]">
                 <div
                   class="from-accent-400/20 via-accent-400/0 absolute top-20 right-0 h-[520px] w-[416px] rounded-full bg-gradient-to-t dark:from-accent-600/10 dark:via-accent-600/0"
                 >
@@ -1200,36 +1197,62 @@ setTimeout(() => {
               <div
                 class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden"
               >
-                <img
-                  width="372"
-                  height="211"
-                  loading="lazy"
-                  class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                  src="/images/project-1.webp"
-                  alt="blog"
-                />
+                <NuxtLink
+                  aria-label="blog-cua-toi"
+                  aria-current="page"
+                  tag="a"
+                  class="text-sm text-gray-500 transition hover:text-gray-600"
+                  target="_blank"
+                  alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                  name="Lê Vĩnh Tuyến - Blog's của tôi"
+                  rel="noopener noreferrer"
+                  to="https://downtik.app/"
+                >
+                  <img
+                    width="372"
+                    height="211"
+                    loading="lazy"
+                    class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                    src="/images/project-1.webp"
+                    alt="blog"
+                  />
+                </NuxtLink>
                 <div class="p-6">
                   <h2
                     class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                   >
-                    Web App
+                    Web Tool
                   </h2>
                   <h1
                     class="title-font text-lg font-medium text-gray-600 mb-3 line-clamp-1"
                   >
-                    Web Tool
+                    Tiktok Video Download
                   </h1>
                   <p class="leading-relaxed mb-3 line-clamp-3">
-                    span amet consectetur adipisicing elit. Tempora expedita
-                    dicta totam aspernatur doloremque. Excepturi iste iusto eos
-                    enim reprehenderit nisi, accusamus delectus nihil quis
-                    facere in modi ratione libero!
+                    MusicallyDown, a widely-used online tool, enables you to
+                    easily download TikTok videos without any watermarks.
+                    Recognized as one of the top TikTok video downloaders, it
+                    allows you to save your favorite videos in high-quality MP4
+                    format with HD resolution, ensuring a premium viewing
+                    experience.
                   </p>
                   <div class="flex items-center flex-wrap">
                     <button
                       class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
                     >
-                      Learn more
+                      <NuxtLink
+                        aria-label="blog-cua-toi"
+                        aria-current="page"
+                        tag="a"
+                        class="text-sm text-gray-500 transition hover:text-gray-600"
+                        target="_blank"
+                        alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                        name="Lê Vĩnh Tuyến - Blog's của tôi"
+                        rel="noopener noreferrer"
+                        to="https://downtik.app/"
+                      >
+                        Learn more
+                      </NuxtLink>
                     </button>
                   </div>
                 </div>
@@ -1239,36 +1262,58 @@ setTimeout(() => {
               <div
                 class="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-pink-50 to-red-50 overflow-hidden"
               >
-                <img
-                  loading="lazy"
-                  width="372"
-                  height="211"
-                  class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                  src="/images/project-2.webp"
-                  alt="blog"
-                />
+                <NuxtLink
+                  aria-label="blog-cua-toi"
+                  aria-current="page"
+                  tag="a"
+                  class="text-sm text-gray-500 transition hover:text-gray-600"
+                  target="_blank"
+                  alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                  name="Lê Vĩnh Tuyến - Blog's của tôi"
+                  rel="noopener noreferrer"
+                  to="https://go2joy.vn/en-vn"
+                >
+                  <img
+                    loading="lazy"
+                    width="372"
+                    height="211"
+                    class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                    src="/images/project-2.webp"
+                    alt="blog"
+                  />
+                </NuxtLink>
                 <div class="p-6">
                   <h2
                     class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                   >
-                    WebAdmin
+                    Website
                   </h2>
                   <h1
                     class="title-font text-lg font-medium text-gray-600 mb-3 line-clamp-1"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Go2Joy - Hourly booking platform
                   </h1>
                   <p class="leading-relaxed mb-3 line-clamp-3">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Tempora expedita dicta totam aspernatur doloremque.
-                    Excepturi iste iusto eos enim reprehenderit nisi, accusamus
-                    delectus nihil quis facere in modi ratione libero!
+                    Flexible and simple hotel booking with Go2Joy. More than
+                    10,000 good-priced hotels are waiting for you to discover.
                   </p>
                   <div class="flex items-center flex-wrap">
                     <button
                       class="bg-gradient-to-r from-orange-300 to-amber-400 hover:scale-105 drop-shadow-md shadow-cla-violate px-4 py-1 rounded-lg"
                     >
-                      Learn more
+                      <NuxtLink
+                        aria-label="blog-cua-toi"
+                        aria-current="page"
+                        tag="a"
+                        class="text-sm text-gray-500 transition hover:text-gray-600"
+                        target="_blank"
+                        alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                        name="Lê Vĩnh Tuyến - Blog's của tôi"
+                        rel="noopener noreferrer"
+                        to="https://go2joy.vn/en-vn"
+                      >
+                        Learn more
+                      </NuxtLink>
                     </button>
                   </div>
                 </div>
@@ -1278,14 +1323,25 @@ setTimeout(() => {
               <div
                 class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden"
               >
-                <img
-                  loading="lazy"
-                  width="372"
-                  height="211"
-                  class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                  src="/images/project-3.webp"
-                  alt="blog"
-                />
+                <NuxtLink
+                  aria-label="blog-cua-toi"
+                  aria-current="page"
+                  tag="a"
+                  class="text-sm text-gray-500 transition hover:text-gray-600"
+                  alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                  name="Lê Vĩnh Tuyến - Blog's của tôi"
+                  rel="noopener noreferrer"
+                  to="/project/my-portfolio-and-blog"
+                >
+                  <img
+                    loading="lazy"
+                    width="372"
+                    height="211"
+                    class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                    src="/images/project-3.webp"
+                    alt="blog"
+                  />
+                </NuxtLink>
                 <div class="p-6">
                   <h2
                     class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
@@ -1305,7 +1361,18 @@ setTimeout(() => {
                     <button
                       class="bg-gradient-to-r from-fuchsia-300 to-pink-400 hover:scale-105 shadow-cla-blue px-4 py-1 rounded-lg"
                     >
-                      see more
+                      <NuxtLink
+                        aria-label="blog-cua-toi"
+                        aria-current="page"
+                        tag="a"
+                        class="text-sm text-gray-500 transition hover:text-gray-600"
+                        alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                        name="Lê Vĩnh Tuyến - Blog's của tôi"
+                        rel="noopener noreferrer"
+                        to="/project/my-portfolio-and-blog"
+                      >
+                        see more
+                      </NuxtLink>
                     </button>
                   </div>
                 </div>
