@@ -48,7 +48,7 @@ export const useMetaSeoIndex = () => {
 
       {
         property: 'og:image',
-        content: 'https://tuyenleblog.tech/imageseo.png',
+        content: 'https://tuyenleblog.tech/logo.png',
       },
       {
         name: 'robots',
