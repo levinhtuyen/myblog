@@ -76,12 +76,13 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     "
                     class="w-8 md:w-16"
                   >
-                    <img
+                    <NuxtImg
                       alt="hi"
                       width="64"
                       height="64"
                       format="webp"
                       loading="lazy"
+                      densities="x1 x2"
                       src="/images/hi.webp"
                       style="color: transparent"
                     />
@@ -658,16 +659,13 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     class="absolute right-0 bottom-0 overflow-hidden hidden lg:block"
                   >
                     <div style="opacity: 1s">
-                      <img
+                      <NuxtImg
                         format="webp"
                         width="416"
                         height="520"
                         alt="me"
-                        :loading="
-                          current === 'lg' || current === 'xl'
-                            ? 'lazy'
-                            : 'eager'
-                        "
+                        densities="x1 x2"
+                        loading="lazy"
                         src="/images/me.webp"
                         class="hidden lg:block dark:brightness-[.82] rounded-full"
                         style="color: transparent"
@@ -1209,10 +1207,11 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
               <div
                 class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden"
               >
-                <img
+                <NuxtImg
                   width="372"
                   height="211"
                   loading="lazy"
+                  densities="x1 x2"
                   class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="/images/project-1.webp"
                   alt="blog"
@@ -1252,10 +1251,11 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
               <div
                 class="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-pink-50 to-red-50 overflow-hidden"
               >
-                <img
+                <NuxtImg
                   loading="lazy"
                   width="372"
                   height="211"
+                  densities="x1 x2"
                   class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="/images/project-2.webp"
                   alt="blog"
@@ -1291,10 +1291,11 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
               <div
                 class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden"
               >
-                <img
+                <NuxtImg
                   loading="lazy"
                   width="372"
                   height="211"
+                  densities="x1 x2"
                   class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="/images/project-3.webp"
                   alt="blog"
