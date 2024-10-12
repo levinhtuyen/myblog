@@ -138,7 +138,28 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
-    compressPublicAssets: true,
+    compressPublicAssets: {
+      gzip: true,
+      brotli: false,
+    },
+    publicAssets: [
+      {
+        baseURL: 'public',
+        dir: 'public',
+        maxAge: 60 * 60 * 24 * 30, // 30 days
+      },
+      {
+        baseURL: 'images',
+        dir: 'public/images',
+        maxAge: 60 * 60 * 24 * 30, // 30 days
+      },
+      {
+        baseURL: 'fonts',
+        dir: 'public/fonts',
+        maxAge: 60 * 60 * 24 * 30, // 30 days
+      },
+    ],
+    minify: true,
   },
   // todo: feat/localization
   // module::i18n
