@@ -17,7 +17,6 @@ export default defineNuxtConfig({
       script: [
         {
           type: 'module',
-          async: true,
           defer: true,
           crossorigin: 'anonymous',
           src: 'https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js',
@@ -32,9 +31,9 @@ export default defineNuxtConfig({
 
   // app config
   // app: {
-  // global transition
-  // pageTransition: { name: 'page', mode: 'out-in' },
-  // layoutTransition: { name: 'layout', mode: 'out-in' },
+  //   // global transition
+  //   pageTransition: { name: 'page', mode: 'out-in' },
+  //   layoutTransition: { name: 'layout', mode: 'out-in' },
   // },
 
   // typescripts
@@ -140,7 +139,7 @@ export default defineNuxtConfig({
   nitro: {
     compressPublicAssets: {
       gzip: true,
-      brotli: false,
+      brotli: true,
     },
     publicAssets: [
       {

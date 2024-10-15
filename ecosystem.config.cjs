@@ -5,7 +5,7 @@ exports = {
       name: `Lê Vĩnh Tuyến - Blog's của tôi`,
       exec_mode: 'cluster',
       einstances: '1',
-      script: './.output/server/index.mjs',
+      script: '/var/www/tuyneleblog/app/.output/server/index.mjs',
       env: {
         PORT: 4301,
       },
