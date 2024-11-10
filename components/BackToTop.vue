@@ -42,5 +42,3 @@ onMounted(() => {
 }
 </style>
 
-function onMounted(arg0: () => void) { throw new Error("Function not
-implemented.") }

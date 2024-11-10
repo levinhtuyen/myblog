@@ -17,6 +17,7 @@ export default defineNuxtConfig({
       script: [
         {
           type: 'module',
+          async: true,
           defer: true,
           crossorigin: 'anonymous',
           src: 'https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js',
@@ -31,9 +32,9 @@ export default defineNuxtConfig({
 
   // app config
   // app: {
-  //   // global transition
-  //   pageTransition: { name: 'page', mode: 'out-in' },
-  //   layoutTransition: { name: 'layout', mode: 'out-in' },
+  // global transition
+  // pageTransition: { name: 'page', mode: 'out-in' },
+  // layoutTransition: { name: 'layout', mode: 'out-in' },
   // },
 
   // typescripts
@@ -63,7 +64,7 @@ export default defineNuxtConfig({
     '@nuxtjs/web-vitals',
     '@nuxt/image',
     // todo: feat/localization
-    // '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
   ],
   image: {
     // The screen sizes predefined by `@nuxt/image`:
@@ -77,6 +78,9 @@ export default defineNuxtConfig({
       '2xl': 1536,
     },
     format: ['webp'],
+  },
+  i18n: {
+    vueI18n: './i18n.config.ts', // if you are using custom path, default
   },
   css: [
     resolve('./assets/scss/_variables.scss'),
@@ -127,6 +131,7 @@ export default defineNuxtConfig({
   gtag: {
     id: 'G-J9F2P3LH80',
   },
+
   vite: {
     css: {
       preprocessorOptions: {
@@ -137,28 +142,7 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
-    compressPublicAssets: {
-      gzip: true,
-      brotli: true,
-    },
-    publicAssets: [
-      {
-        baseURL: 'public',
-        dir: 'public',
-        maxAge: 60 * 60 * 24 * 30, // 30 days
-      },
-      {
-        baseURL: 'images',
-        dir: 'public/images',
-        maxAge: 60 * 60 * 24 * 30, // 30 days
-      },
-      {
-        baseURL: 'fonts',
-        dir: 'public/fonts',
-        maxAge: 60 * 60 * 24 * 30, // 30 days
-      },
-    ],
-    minify: true,
+    compressPublicAssets: true,
   },
   // todo: feat/localization
   // module::i18n
