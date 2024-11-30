@@ -115,6 +115,22 @@ watch(route.name, () => {
                   <NuxtLink
                     aria-current="page"
                     tag="a"
+                    to="/mycv"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300 font-semibold"
+                    :class="
+                      isActive === 'mycv'
+                        ? 'text-sky-600'
+                        : ''
+                    "
+                  >
+                    <slot> {{ $t('myCV') }}</slot>
+                  </NuxtLink>
+                </li>
+                <li class="ml-8">
+                  <NuxtLink
+                    aria-current="page"
+                    tag="a"
                     to="/feel"
                     alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300 font-semibold"
