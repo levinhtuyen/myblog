@@ -1,5 +1,5 @@
 <template>
-  <div id="pageContainer" class="pb-24">
+  <div id="pageContainer" class="pb-24 hide-scrollbar">
     <div id="viewer" class="pdfViewer"></div>
   </div>
 </template>
@@ -30,8 +30,10 @@ onMounted(() => {
 #pageContainer {
   margin: auto;
   width: 100%;
+  overflow: scroll;
   .canvasWrapper {
     width: 100%;
+
   }
 }
 

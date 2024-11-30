@@ -52,7 +52,10 @@ html.dark {
   height: 300px;
   perspective: 1000px;
 }
-
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 .card {
   height: 100%;
   border-radius: 50px;
