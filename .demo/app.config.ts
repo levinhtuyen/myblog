@@ -11,9 +11,9 @@ export default defineAppConfig({
       },
     },
     layout: {
-      welcome: {
+      home: {
         // if false, in index page will show alert "create file "~/pages/index.vue" to replace this page"
-        disableInfoReplaceIndexInWelcomePage: false,
+        disableInfoReplaceIndexInHomePage: false,
         secondaryActionButton: {
           title: 'See Github',
         },
@@ -32,9 +32,9 @@ function defineAppConfig(arg0: {
     description: string
     author: { name: string; links: { github: string; website: string } }
     layout: {
-      welcome: {
+      home: {
         // if false, in index page will show alert "create file "~/pages/index.vue" to replace this page"
-        disableInfoReplaceIndexInWelcomePage: boolean
+        disableInfoReplaceIndexInHomePage: boolean
         secondaryActionButton: { title: string }
       }
     }

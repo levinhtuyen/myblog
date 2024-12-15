@@ -14,9 +14,9 @@ export default defineAppConfig({
       footer: {
         year: new Date().getFullYear(),
       },
-      welcome: {
+      home: {
         title: `Lê Vĩnh Tuyến - Blog's của tôi`,
-        disableInfoReplaceIndexInWelcomePage: true,
+        disableInfoReplaceIndexInHomePage: true,
       },
     },
     author: {
