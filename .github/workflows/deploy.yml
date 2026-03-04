@@ -1,0 +1,79 @@
+name: Deploy Nuxt 3 to DigitalOcean
+
+on:
+  push:
+    branches:
+      - main # Hoặc branch bạn muốn tự động deploy (ví dụ: production)
+  workflow_dispatch: # Cho phép chạy workflow thủ công từ GitHub UI
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest # Runner của GitHub Actions
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.12.0' # Phiên bản Node.js bạn đã cài trên Droplet
+          cache: 'yarn' # Sử dụng cache cho Yarn dependencies
+
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile --prefer-offline
+
+      - name: Prepare Nuxt
+        run: yarn nuxt prepare
+
+      - name: Build Nuxt.js Project
+        run: yarn build
+        env:
+          NODE_ENV: production
+
+      - name: Deploy to DigitalOcean Droplet
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.DROPLET_HOST }}
+          username: ${{ secrets.DROPLET_USERNAME }}
+          key: ${{ secrets.DROPLET_SSH_KEY }}
+          port: 22
+          source: '.output,.env,package.json,yarn.lock'
+          target: '/var/www/myblog'
+          rm: true
+          overwrite: true
+
+      - name: PM2 Restart Application
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.DROPLET_HOST }}
+          username: ${{ secrets.DROPLET_USERNAME }}
+          key: ${{ secrets.DROPLET_SSH_KEY }}
+          port: 22
+          script: |
+            cd /var/www/myblog
+
+            # Source bashrc để load NODE_PATH
+            [ -f ~/.bashrc ] && source ~/.bashrc
+            [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
+
+            # Export PATH
+            export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/.nvm/versions/node/*/bin:$PATH
+
+            # Tìm npm location
+            NPM_PATH=$(which npm || echo "/usr/local/bin/npm")
+            NODE_PATH=$(which node || echo "/usr/local/bin/node")
+
+            # Thử dùng pm2, nếu không có thì cài
+            if ! command -v pm2 &> /dev/null; then
+              $NPM_PATH install -g pm2
+            fi
+
+            if pm2 describe myblog > /dev/null 2>&1; then
+              pm2 reload myblog
+            else
+              pm2 start ./node_modules/nuxt/bin/nuxt.mjs --name="myblog" -- start
+              pm2 save
+            fi
+
+            pm2 status

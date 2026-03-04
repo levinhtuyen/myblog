@@ -130,7 +130,7 @@ sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-po
 
 # start pm2
 
-pm2 start ./node_modules/nuxt/bin/nuxt.js --name="myportfolify" -- start
+pm2 start ./node_modules/nuxt/bin/nuxt.mjs --name="myblog" -- start
 
 # Check pm2 is working
 
