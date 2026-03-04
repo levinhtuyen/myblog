@@ -38,7 +38,7 @@ jobs:
           username: ${{ secrets.DROPLET_USERNAME }}
           key: ${{ secrets.DROPLET_SSH_KEY }}
           port: 22
-          source: '.output,.env,package.json,yarn.lock'
+          source: 'app/.output,package.json,yarn.lock'
           target: '/var/www/myblog'
           rm: true
           overwrite: true
@@ -69,10 +69,15 @@ jobs:
               $NPM_PATH install -g pm2
             fi
 
+            if [ ! -f app/.output/server/index.mjs ]; then
+              echo "Build artifact not found: app/.output/server/index.mjs"
+              exit 1
+            fi
+
             if pm2 describe myblog > /dev/null 2>&1; then
-              pm2 reload myblog
+              pm2 restart myblog --update-env
             else
-              pm2 start ./node_modules/nuxt/bin/nuxt.mjs --name="myblog" -- start
+              pm2 start app/.output/server/index.mjs --name="myblog"
               pm2 save
             fi
 
