@@ -46,8 +46,6 @@ export default defineNuxtConfig({
   ssr: true,
   // modules
   modules: [
-    // chore
-    '@nuxtjs/eslint-module',
     // styling & ui
     '@nuxtjs/tailwindcss',
     'nuxt-headlessui',
@@ -119,6 +117,10 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
 
+  eslint: {
+    lintOnStart: false,
+  },
+
   // module::content
   content: {
     markdown: {
@@ -133,6 +135,12 @@ export default defineNuxtConfig({
   },
 
   vite: {
+    server: {
+      watch: {
+        usePolling: true,
+        interval: 100,
+      },
+    },
     css: {
       preprocessorOptions: {
         sass: {

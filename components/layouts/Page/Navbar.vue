@@ -70,12 +70,12 @@ watch(route.name, () => {
                 <div class="mr-2 -mb-1">
                   <span class="rounded-full">
                     <img
-                      width="24"
-                      height="24"
+                      width="32"
+                      height="32"
                       loading="lazy"
                       alt="logo-icon-dark-mode"
                       class="rounded-full"
-                      src="/images/logo.webp"
+                      src="/images/myprofile.jpg"
                   /></span>
                 </div>
               </slot>

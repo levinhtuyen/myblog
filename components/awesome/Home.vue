@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
-import awesome from '../../plugins/awesome'
 
 const { current } = useAwesomeScreen()
 
@@ -695,6 +694,462 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                 class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
                 style="font-display: swap"
               >
+                <span>Solo Founder</span>
+                <span> (Startup, Product)</span>
+                <!-- <span>• Full-time permanent</span> -->
+              </p>
+              <p
+                class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
+              >
+                04/2023 - Now
+              </p>
+              <p class="mb-3 text-base">
+                <span
+                  >With years of experience as a foundation, I’ve ventured out
+                  on my own to build MAPBDS, MyPortfolio, and
+                  Chiasedochoi.</span
+                >
+                <span>
+                  This isn't just a technical or marketing exercise—it's a
+                  journey dedicated to creating impactful solutions for the
+                  community through innovation...</span
+                >
+              </p>
+              <div class="mt-2 flex flex-wrap">
+                <!-- TypeScript SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://www.typescriptlang.org/"
+                    target="_blank"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="yypeScript"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/typescript.svg"
+                        alt="typescript"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Nuxt JS SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://nuxt.com/"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/nuxtjs.svg"
+                        alt="nuxtjs"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Vue.js SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://vuejs.org/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/vuejs.svg"
+                        alt="vuejs"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Taiwin icon -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://tailwindcss.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/tailwindcss.svg"
+                        alt="tailwindcss"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- JavaScript SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/javascript.svg"
+                        alt="javascript"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Jira SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://www.atlassian.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/jira.svg"
+                        alt="jira"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Quasar SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://quasar.dev/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/quasar.svg"
+                        alt="quasar"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Github SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://github.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/github.svg"
+                        alt="github"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!--Adobe Photoshop SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://www.adobe.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/adobephotoshop.svg"
+                        alt="Adobe Photoshop"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!--Postman SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://www.postman.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/postman.svg"
+                        alt="Postman"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!--Firebase SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://firebase.google.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/firebase.svg"
+                        alt="firebase"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!--GIT SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://firebase.google.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/git.svg"
+                        alt="git"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Ads -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://firebase.google.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/ads.png"
+                        alt="ads"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- CI/CD -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://firebase.google.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/cicd.webp"
+                        alt="cicd"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Digital Ocean -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://www.digitalocean.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/digital-ocean.svg"
+                        alt="digitalocean"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Google cloud -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://cloud.google.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/google-cloud.jpg"
+                        alt="google-cloud"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Marketing-->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/marketing.png"
+                        alt="marketing"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Nginx-->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://www.nginx.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/nginx.jpg"
+                        alt="nginx"
+                      /></div
+                  ></NuxtLink>
+                </div>
+                <!-- SSL-->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://www.ssl.com/"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    target="_blank"
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/ssl.png"
+                        alt="ssl"
+                      /></div
+                  ></NuxtLink>
+                </div>
+              </div>
+            </li>
+            <li class="mb-10 ms-6">
+              <span
+                class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+              >
+                <img
+                  class="size-3.5 text-blue-800 dark:text-blue-300"
+                  loading="lazy"
+                  src="/svg/suitcase.svg"
+                  alt="adobephotoshop"
+              /></span>
+              <p
+                class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
+                style="font-display: swap"
+              >
                 <span>Frontend Developer in Go2Joy</span>
                 <span> (Startup, Product)</span>
                 <!-- <span>• Full-time permanent</span> -->
@@ -1204,33 +1659,30 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                   height="211"
                   loading="lazy"
                   class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                  src="/images/project-1.webp"
-                  alt="blog"
-                  @click="redirectUrl('https://downtik.app', true)"
+                  src="/images/mymap.png"
+                  alt="MAPBDS"
+                  @click="redirectUrl('https://mapbds.com/en', true)"
                 />
                 <div class="p-6">
                   <h2
                     class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                   >
-                    Web Tool
+                    Flatform
                   </h2>
                   <h1
                     class="title-font text-lg font-medium text-gray-600 mb-3 line-clamp-1"
                   >
-                    Tiktok Video Download
+                    BUY, SELL & RENT FASTER Professional
                   </h1>
                   <p class="leading-relaxed mb-3 line-clamp-3">
-                    MusicallyDown, a widely-used online tool, enables you to
-                    easily download TikTok videos without any watermarks.
-                    Recognized as one of the top TikTok video downloaders, it
-                    allows you to save your favorite videos in high-quality MP4
-                    format with HD resolution, ensuring a premium viewing
-                    experience.
+                    Professional tools to manage, buy, sell and rent properties
+                    efficiently. Mark property boundaries precisely, visualize
+                    potential and create impressive shareable links
                   </p>
                   <div class="flex items-center flex-wrap">
                     <button
                       class="bg-gradient-to-r from-cyan-400 text-white to-blue-400 hover:scale-105 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
-                      @click="redirectUrl('https://downtik.app', true)"
+                      @click="redirectUrl('https://mapbds.com/en', true)"
                     >
                       learn more
                     </button>
@@ -1255,7 +1707,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                   <h2
                     class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                   >
-                    Website
+                    WebBooking
                   </h2>
                   <h1
                     class="title-font text-lg font-medium text-gray-600 mb-3 line-clamp-1"
