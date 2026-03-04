@@ -1,5 +1,7 @@
 <script lang="ts" setup>
-const LayoutPagePdfViewer = defineAsyncComponent(() => import('@/components/layouts/page/PdfViewer.vue'))
+const LayoutPagePdfViewer = defineAsyncComponent(
+  () => import('../components/layouts/Page/PdfViewer.vue'),
+)
 </script>
 <template>
   <LayoutPageWrapper>
@@ -7,8 +9,8 @@ const LayoutPagePdfViewer = defineAsyncComponent(() => import('@/components/layo
     <LayoutPageContent class="max-w-5xl m-auto">
       <LayoutPageSection>
         <client-only>
-              <LayoutPagePdfViewer />
-          </client-only>
+          <LayoutPagePdfViewer />
+        </client-only>
       </LayoutPageSection>
     </LayoutPageContent>
     <LayoutPageFooter class="h-[52px] md:h-[42px]" />
