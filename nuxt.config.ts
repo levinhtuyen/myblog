@@ -81,6 +81,8 @@ export default defineNuxtConfig({
     vueI18n: './i18n.config.ts', // if you are using custom path, default
   },
   css: [
+    'swiper/css',
+    'swiper/css/pagination',
     resolve('./assets/scss/_variables.scss'),
     resolve('./assets/scss/app.scss'),
   ],

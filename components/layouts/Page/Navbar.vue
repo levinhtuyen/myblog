@@ -13,7 +13,6 @@ const titlesText = computed<string[]>(() =>
     .map((item: any) => item.replaceAll('[space]', ' ')),
 )
 const { t, locale } = useI18n()
-console.log('locale.value :>> ', locale.value)
 const leadingsText = computed(() => [
   {
     text: titlesText.value[0],

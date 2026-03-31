@@ -9,12 +9,12 @@ author: 'TuyenLe'
 # Project Introduction: Developer Portfolio & Blog
 
 ## 1. Project Objective
+
 The Developer Portfolio and Blog project aims to create a personal online space where developers can showcase their skills, projects, and experiences while sharing knowledge and insights through a blog. It serves as a platform to promote personal branding and expertise in programming.
 
 ## 2. Technologies Used
 
 - **Nuxt 3**: Built on Vue.js, Nuxt 3 is a powerful framework that allows the creation of high-performance web applications. With its support for server-side rendering (SSR) and static site generation (SSG), the portfolio and blog load faster, are more SEO-friendly, and offer a smooth user experience.
-  
 - **TailwindCSS**: This utility-first CSS framework helps streamline the process of building a responsive and modern user interface. With Tailwind, you can quickly customize the design without writing extensive custom CSS, making the UI clean, modern, and highly responsive across devices.
 
 ## 3. Key Features
@@ -28,12 +28,6 @@ The Developer Portfolio and Blog project aims to create a personal online space 
 - **Responsive Design**: The design is fully responsive, optimized for both desktop and mobile devices, ensuring a seamless experience across all platforms.
 
 ## 4. Project Advantages
- 
-
-
-![imageseo](https://res.cloudinary.com/daily-now/image/upload/s--GXHb_9jp--/f_auto/v1728463010/ugc/content_4599e087-f1c7-4d91-a7b8-14f23d968614)
-
-
 
 - **SEO Optimization**: With Nuxt 3, the website benefits from advanced SEO features, increasing visibility on search engines and improving overall reach.
 
@@ -42,9 +36,8 @@ The Developer Portfolio and Blog project aims to create a personal online space 
 - **Easy Customization**: TailwindCSS offers flexible customization, allowing developers to personalize the design according to their preferences and style with ease.
 
 ## 5. Conclusion
-The Developer Portfolio and Blog project, built with Nuxt 3 and TailwindCSS, is a perfect solution for developers looking to create a professional, user-friendly, and easily maintainable personal website. It not only serves as a portfolio to showcase your work and skills but also as a platform to share knowledge and engage with the developer community.
 
-Link demo: https://tuyenleblog.tech/
+The Developer Portfolio and Blog project, built with Nuxt 3 and TailwindCSS, is a perfect solution for developers looking to create a professional, user-friendly, and easily maintainable personal website. It not only serves as a portfolio to showcase your work and skills but also as a platform to share knowledge and engage with the developer community.
 
 Github project: https://github.com/levinhtuyen/myblog
 
